@@ -1,0 +1,3 @@
+# Python dependencies for the vendored PPT Master skill.
+#   pip install -r requirements.txt
+-r skills/ppt-master/requirements.txt
