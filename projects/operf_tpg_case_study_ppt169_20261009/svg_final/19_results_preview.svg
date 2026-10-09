@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" data-pptx-page-role="content" font-family="Calibri, Arial, sans-serif" font-size="22">
+  <rect id="page-background" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FBF8F2" />
+
+  <g id="kicker" data-pptx-bounds="64 58 500 26">
+    <text x="64" y="72" font-size="16" font-weight="bold" letter-spacing="2" fill="#003657">FUND ECONOMICS</text>
+    <line x1="64" y1="82" x2="120" y2="82" stroke="#BC9E60" stroke-width="2" />
+  </g>
+
+  <g id="title" data-pptx-bounds="64 90 1152 96">
+    <text font-size="40" fill="#003657" font-family="Cambria, Georgia, serif" font-weight="bold" x="64" y="124">The fee cut adds value, but the return margin</text><text font-size="40" fill="#003657" font-family="Cambria, Georgia, serif" font-weight="bold" x="64" y="172">remains narrow</text></g>
+
+  <g id="hero-irr" data-pptx-bounds="64 260 580 200">
+    <text x="64" y="330" font-family="Cambria, Georgia, serif" font-size="72" font-weight="bold" fill="#003657">15.72%</text>
+    <text fill="#1E1E1E" x="64" y="372">Net LP IRR, against a 15.00%</text><text fill="#1E1E1E" x="64" y="402">assumed discount rate · Q3</text><line x1="640" y1="260" x2="640" y2="460" stroke="#D6CFC2" stroke-width="1" />
+  </g>
+
+  <g id="hero-npv" data-pptx-bounds="680 260 536 200">
+    <text x="680" y="330" font-family="Cambria, Georgia, serif" font-size="72" font-weight="bold" fill="#003657">+$6.55m</text>
+    <text fill="#1E1E1E" x="680" y="372">OPERF inception-model NPV gain</text><text fill="#1E1E1E" x="680" y="402">from the fee cut · Q4</text><text x="680" y="434" font-size="18" fill="#5C6670">+21.36 bps LP IRR</text>
+  </g>
+
+  <g id="implication" data-pptx-bounds="64 470 1152 44">
+    <text x="64" y="500" font-size="26" fill="#003657">Better fee terms help; growth and exit assumptions remain critical.</text>
+  </g>
+
+  <g id="path" data-pptx-bounds="64 540 1152 50">
+    <text x="64" y="570" font-weight="bold" fill="#003657">Baseline economics</text>
+    <line x1="410" y1="550" x2="410" y2="580" stroke="#D6CFC2" stroke-width="1" />
+    <text x="440" y="570" font-weight="bold" fill="#003657">Fee-cut value</text>
+    <line x1="770" y1="550" x2="770" y2="580" stroke="#D6CFC2" stroke-width="1" />
+    <text x="800" y="570" font-weight="bold" fill="#003657">Performance sensitivity</text>
+  </g>
+
+  <g id="caption" data-pptx-bounds="64 604 1152 30">
+    <text x="64" y="622" font-size="18" fill="#5C6670">NPV at model inception; 15% assumed discount rate. Ten-year model, 20% annual asset growth.</text>
+  </g>
+
+  <g id="footer" data-pptx-bounds="64 668 1152 36" fill="#5C6670" font-size="14">
+    <text x="64" y="688">Source: Q3 Base case!C50, C64; Q4 Analysis!C25, C28; Inputs!C8:C9, C18:C19. Model results under prescribed assumptions, not forecasts of actual returns.</text>
+    <text x="1216" y="697" text-anchor="end">19</text>
+  </g>
+</svg>

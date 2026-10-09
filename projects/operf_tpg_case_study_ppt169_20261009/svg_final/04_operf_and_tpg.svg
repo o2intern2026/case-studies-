@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" data-pptx-page-role="content" font-family="Calibri, Arial, sans-serif" font-size="22">
+  <rect id="page-background" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FBF8F2" />
+
+  <g id="kicker" data-pptx-bounds="64 58 500 26">
+    <text x="64" y="72" font-size="16" font-weight="bold" letter-spacing="2" fill="#003657">CASE BACKGROUND</text>
+    <line x1="64" y1="82" x2="120" y2="82" stroke="#BC9E60" stroke-width="2" />
+  </g>
+
+  <g id="title" data-pptx-bounds="64 90 1152 96">
+    <text font-size="40" fill="#003657" font-family="Cambria, Georgia, serif" font-weight="bold" x="64" y="124">OPERF committed long-term pension</text><text font-size="40" fill="#003657" font-family="Cambria, Georgia, serif" font-weight="bold" x="64" y="172">capital to TPG VI</text></g>
+
+  <g id="parties" data-pptx-bounds="64 220 500 420">
+    <text x="64" y="256" font-weight="bold" fill="#003657">OPERF</text>
+    <text fill="#1E1E1E" x="64" y="288">Oregon's public pension investor and a</text><text fill="#1E1E1E" x="64" y="318">limited partner (LP) in this case.</text><text x="64" y="380" font-weight="bold" fill="#003657">TPG</text>
+    <text fill="#1E1E1E" x="64" y="412">The private equity firm that manages</text><text fill="#1E1E1E" x="64" y="442">TPG Partners VI as general partner (GP).</text><line x1="64" y1="496" x2="160" y2="496" stroke="#D6CFC2" stroke-width="1" />
+    <text x="64" y="534" fill="#5C6670">Commitment made in February 2008.</text>
+    <line x1="560" y1="220" x2="560" y2="640" stroke="#D6CFC2" stroke-width="1" />
+  </g>
+
+  <g id="operf-share-pie" data-pptx-bounds="592 214 624 372" data-pptx-replace-with="chart" data-pptx-fallback-sha256="8932f7ab86999147fe62610f3a10c4825fce09a2973964d5d982b98c9aeb5478">
+    <metadata type="application/json">
+{
+              "name": "operf-share-pie",
+              "x": 592,
+              "y": 214,
+              "width": 624,
+              "height": 372,
+              "type": "pie",
+              "title": "OPERF's share of TPG VI commitments",
+              "categories": [
+                      "OPERF",
+                      "Other commitments"
+              ],
+              "series": [
+                      {
+                              "name": "Commitments ($m)",
+                              "values": [
+                                      750,
+                                      19050
+                              ]
+                      }
+              ],
+              "style": {
+                      "colors": [
+                              "#003657",
+                              "#D6CFC2"
+                      ],
+                      "font_family": "Calibri",
+                      "text_color": "#003657"
+              },
+              "notes": [
+                      {
+                              "text": "OPERF 3.8% · $750m",
+                              "width": 220,
+                              "bold": true,
+                              "font_size": 18
+                      },
+                      {
+                              "text": "Other commitments 96.2%",
+                              "width": 300,
+                              "color": "#5C6670",
+                              "font_size": 18
+                      }
+              ]
+      }
+    </metadata>
+    <text x="860" y="240" font-size="18" font-weight="bold" fill="#003657" text-anchor="middle">OPERF's share of TPG VI commitments</text>
+    <g id="operf-share-pie-chartArea">
+      
+      <g transform="translate(860 404)" stroke="#FBF8F2" stroke-width="2">
+        <path d="M 0,0 L 0,-140 A 140,140 0 0,1 33.01,-136.05 Z" fill="#003657" />
+        <path d="M 0,0 L 33.01,-136.05 A 140,140 0 1,1 0,-140 Z" fill="#D6CFC2" />
+      </g>
+      <line x1="877" y1="265" x2="950" y2="290" stroke="#003657" stroke-width="1" />
+      <text x="958" y="296" font-size="18" font-weight="bold" fill="#003657">OPERF 3.8% · $750m</text>
+      <text x="860" y="572" font-size="18" fill="#5C6670" text-anchor="middle">Other commitments 96.2%</text>
+    </g>
+  </g>
+
+  <g id="pie-total" data-pptx-bounds="592 594 624 30">
+    <text x="860" y="616" fill="#003657" text-anchor="middle">Total fund commitments: $19.8bn</text>
+  </g>
+
+  <g id="footer" data-pptx-bounds="64 668 1152 36" fill="#5C6670" font-size="14">
+    <text x="64" y="680">Source: Case pp. 1, 5 and footnote 9. 750 ÷ 19,800 = 3.79%; the denominator is TPG VI's committed capital, not OPERF's asset allocation or paid-in</text><text x="64" y="697">capital.</text><text x="1216" y="697" text-anchor="end">4</text>
+  </g>
+</svg>

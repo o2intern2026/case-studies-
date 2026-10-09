@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" data-pptx-page-role="content" font-family="Calibri, Arial, sans-serif" font-size="22">
+  <rect id="page-background" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FBF8F2" />
+
+  <g id="kicker" data-pptx-bounds="64 58 500 26">
+    <text x="64" y="72" font-size="16" font-weight="bold" letter-spacing="2" fill="#003657">CASE BACKGROUND</text>
+    <line x1="64" y1="82" x2="120" y2="82" stroke="#BC9E60" stroke-width="2" />
+  </g>
+
+  <g id="title" data-pptx-bounds="64 90 1152 96">
+    <text font-size="40" fill="#003657" font-family="Cambria, Georgia, serif" font-weight="bold" x="64" y="124">TPG VI was a large fund entering</text><text font-size="40" fill="#003657" font-family="Cambria, Georgia, serif" font-weight="bold" x="64" y="172">a stressed market</text></g>
+
+  <g id="fund-facts" data-pptx-bounds="64 220 500 420">
+    <text x="64" y="256" font-weight="bold" fill="#003657">Final close</text>
+    <text x="64" y="288" fill="#1E1E1E">September 2008.</text>
+    <text x="64" y="380" font-weight="bold" fill="#003657">Focus</text>
+    <text fill="#1E1E1E" x="64" y="412">Buyouts, restructurings and distressed</text><text fill="#1E1E1E" x="64" y="442">opportunities.</text><line x1="64" y1="496" x2="160" y2="496" stroke="#D6CFC2" stroke-width="1" />
+    <text fill="#5C6670" x="64" y="534">Size shown against funds that closed</text><text fill="#5C6670" x="64" y="564">in the same quarter.</text><line x1="560" y1="220" x2="560" y2="640" stroke="#D6CFC2" stroke-width="1" />
+  </g>
+
+  <g id="tpg-vi-fundraising-pie" data-pptx-bounds="592 214 624 372" data-pptx-replace-with="chart" data-pptx-fallback-sha256="c4f8bcf45d046f0f6b38860dc06a9a7ee2c2f18c46a8bb5de4fe227b48cb4f48">
+    <metadata type="application/json">
+{
+              "name": "tpg-vi-fundraising-pie",
+              "x": 592,
+              "y": 214,
+              "width": 624,
+              "height": 372,
+              "type": "pie",
+              "title": "TPG VI in Q3 2008 global buyout fundraising",
+              "categories": [
+                      "TPG VI",
+                      "Other buyout funds closed in Q3 2008"
+              ],
+              "series": [
+                      {
+                              "name": "Final-close commitments ($bn)",
+                              "values": [
+                                      19.8,
+                                      22.9
+                              ]
+                      }
+              ],
+              "style": {
+                      "colors": [
+                              "#003657",
+                              "#D6CFC2"
+                      ],
+                      "font_family": "Calibri",
+                      "text_color": "#003657"
+              },
+              "notes": [
+                      {
+                              "text": "TPG VI 46.4%",
+                              "width": 160,
+                              "bold": true,
+                              "font_size": 18
+                      },
+                      {
+                              "text": "$19.8bn",
+                              "width": 160,
+                              "font_size": 18
+                      },
+                      {
+                              "text": "Other buyout funds closed in Q3 2008: 53.6%",
+                              "width": 420,
+                              "color": "#5C6670",
+                              "font_size": 18
+                      }
+              ]
+      }
+    </metadata>
+    <text x="860" y="240" font-size="18" font-weight="bold" fill="#003657" text-anchor="middle">TPG VI in Q3 2008 global buyout fundraising</text>
+    <g id="tpg-vi-fundraising-pie-chartArea">
+      
+      <g transform="translate(860 404)" stroke="#FBF8F2" stroke-width="2">
+        <path d="M 0,0 L 0,-140 A 140,140 0 0,1 31.67,136.37 Z" fill="#003657" />
+        <path d="M 0,0 L 31.67,136.37 A 140,140 0 1,1 0,-140 Z" fill="#D6CFC2" />
+      </g>
+      <line x1="999" y1="388" x2="1040" y2="360" stroke="#003657" stroke-width="1" />
+      <text x="1048" y="356" font-size="18" font-weight="bold" fill="#003657">TPG VI 46.4%</text>
+      <text x="1048" y="380" font-size="18" fill="#003657">$19.8bn</text>
+      <text x="860" y="572" font-size="18" fill="#5C6670" text-anchor="middle">Other buyout funds closed in Q3 2008: 53.6%</text>
+    </g>
+  </g>
+
+  <g id="pie-total" data-pptx-bounds="592 594 624 30">
+    <text x="860" y="616" fill="#003657" text-anchor="middle">Global buyout funds closing in Q3 2008: $42.7bn</text>
+  </g>
+
+  <g id="footer" data-pptx-bounds="64 668 1152 36" fill="#5C6670" font-size="14">
+    <text x="64" y="688">Source: Case p. 5 and footnote 10; Preqin, Q3 2008 Private Equity Fundraising Update, 24 Oct 2008, pp. 5, 9 (as published). 19.8 ÷ 42.7 = 46.37%.</text>
+    <text x="1216" y="697" text-anchor="end">5</text>
+  </g>
+</svg>

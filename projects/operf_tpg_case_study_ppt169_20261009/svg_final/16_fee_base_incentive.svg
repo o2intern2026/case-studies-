@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" data-pptx-page-role="content" font-family="Calibri, Arial, sans-serif" font-size="22">
+  <rect id="page-background" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FBF8F2" />
+
+  <g id="kicker" data-pptx-bounds="64 58 500 26">
+    <text x="64" y="72" font-size="16" font-weight="bold" letter-spacing="2" fill="#003657">GP–LP INCENTIVES</text>
+    <line x1="64" y1="82" x2="120" y2="82" stroke="#BC9E60" stroke-width="2" />
+  </g>
+
+  <g id="title" data-pptx-bounds="64 90 1152 96">
+    <text font-size="40" fill="#003657" font-family="Cambria, Georgia, serif" font-weight="bold" x="64" y="124">A larger fee base can increase pay</text><text font-size="40" fill="#003657" font-family="Cambria, Georgia, serif" font-weight="bold" x="64" y="172">before profits are realised</text></g>
+
+  <g id="annual-fee-scenarios" data-pptx-bounds="64 200 1152 370" data-pptx-replace-with="chart" data-pptx-fallback-sha256="f570ea941a7bef44859c25a790f0d8e9a1fc0eca36e02484136620df4a6c7443">
+    <metadata type="application/json">
+{
+              "name": "annual-fee-scenarios",
+              "x": 64,
+              "y": 200,
+              "width": 1152,
+              "height": 370,
+              "type": "bar",
+              "grouping": "clustered",
+              "title": "Illustrative annual management fee revenue",
+              "categories": [
+                      "Original",
+                      "Fee cut",
+                      "Fee cut + smaller base"
+              ],
+              "series": [
+                      {
+                              "name": "Annual fees ($m)",
+                              "values": [
+                                      297,
+                                      267.3,
+                                      240.57
+                              ],
+                              "point_colors": [
+                                      "#003657",
+                                      "#4B7086",
+                                      "#8AA1AC"
+                              ]
+                      }
+              ],
+              "gap_width": 83,
+              "plot_area": {
+                      "x": 300,
+                      "y": 236,
+                      "width": 880,
+                      "height": 264
+              },
+              "axes": {
+                      "category": {
+                              "position": "left"
+                      },
+                      "value": {
+                              "position": "bottom",
+                              "minimum": 0,
+                              "maximum": 320,
+                              "major_unit": 50,
+                              "major_gridlines": true,
+                              "number_format": "0"
+                      }
+              },
+              "axis_titles": {
+                      "value": "Annual management fee revenue, USD m"
+              },
+              "data_labels": {
+                      "show_value": true,
+                      "position": "outside_end",
+                      "number_format": "0.00"
+              },
+              "style": {
+                      "font_family": "Calibri",
+                      "text_color": "#5C6670",
+                      "axis_color": "#5C6670",
+                      "grid_color": "#E6E0D4"
+              },
+              "notes": [
+                      {
+                              "text": "hypothetical 10% base cut",
+                              "width": 200,
+                              "font_size": 14
+                      }
+              ]
+      }
+    </metadata>
+    <text x="300" y="222" font-size="18" font-weight="bold" fill="#003657">Illustrative annual management fee revenue</text>
+    <g id="annual-fee-scenarios-chartArea">
+      <g id="annual-fee-scenarios-grid" stroke="#E6E0D4" stroke-width="1">
+        <line x1="437.5" y1="236" x2="437.5" y2="500" />
+        <line x1="575" y1="236" x2="575" y2="500" />
+        <line x1="712.5" y1="236" x2="712.5" y2="500" />
+        <line x1="850" y1="236" x2="850" y2="500" />
+        <line x1="987.5" y1="236" x2="987.5" y2="500" />
+        <line x1="1125" y1="236" x2="1125" y2="500" />
+      </g>
+      <g id="annual-fee-scenarios-axis" stroke="#5C6670" stroke-width="1.5">
+        <line x1="300" y1="236" x2="300" y2="500" />
+        <line x1="300" y1="500" x2="1180" y2="500" />
+      </g>
+      
+      <rect x="300" y="252" width="816.75" height="48" fill="#003657" />
+      <rect x="300" y="336" width="735.08" height="48" fill="#4B7086" />
+      <rect x="300" y="420" width="661.57" height="48" fill="#8AA1AC" />
+      <g font-size="18" fill="#003657" text-anchor="end">
+        <text x="288" y="282">Original</text>
+        <text x="288" y="366">Fee cut</text>
+        <text x="288" y="440">Fee cut + smaller base</text>
+      </g>
+      <text x="288" y="462" font-size="14" font-style="italic" fill="#5C6670" text-anchor="end">hypothetical 10% base cut</text>
+      <g font-size="18" font-weight="bold" fill="#003657">
+        <text x="1125" y="282">297.00</text>
+        <text x="1043" y="366">267.30</text>
+        <text x="970" y="450">240.57</text>
+      </g>
+      <g font-size="14" fill="#5C6670" text-anchor="middle">
+        <text x="300" y="522">0</text>
+        <text x="437.5" y="522">50</text>
+        <text x="575" y="522">100</text>
+        <text x="712.5" y="522">150</text>
+        <text x="850" y="522">200</text>
+        <text x="987.5" y="522">250</text>
+        <text x="1125" y="522">300</text>
+      </g>
+      <text x="740" y="552" font-size="18" fill="#5C6670" text-anchor="middle">Annual management fee revenue, USD m</text>
+    </g>
+  </g>
+
+  <g id="takeaway" data-pptx-bounds="64 580 1152 60">
+    <text x="64" y="600" fill="#003657">Fee revenue remains linked to the fee base.</text>
+    <text x="64" y="630" font-size="18" fill="#5C6670">Uniform annual fee base; before offsets and costs; not actual receipts.</text>
+  </g>
+
+  <g id="footer" data-pptx-bounds="64 668 1152 36" fill="#5C6670" font-size="14">
+    <text x="64" y="680">Source: Case p. 1 (fund size and offered fee rate); Metrick &amp; Yasuda (2007). $19.8bn × 1.50% = $297.00m; × 1.35% = $267.30m; × 90% × 1.35% = $240.57m.</text><text x="64" y="697">The third bar is a hypothesis, not a statement that all LPs reduced; the model does not say whether GP capital is charged the same way.</text><text x="1216" y="697" text-anchor="end">16</text>
+  </g>
+</svg>

@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" data-pptx-page-role="content" font-family="Calibri, Arial, sans-serif" font-size="22">
+  <rect id="page-background" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#003657" />
+
+  <g id="kicker" data-pptx-bounds="64 58 760 26">
+    <text x="64" y="72" font-size="16" font-weight="bold" letter-spacing="2" fill="#BC9E60">COMMITMENT DECISION · ANSWER: DO NOT TAKE THE 10% REDUCTION</text>
+    <line x1="64" y1="82" x2="120" y2="82" stroke="#BC9E60" stroke-width="2" />
+  </g>
+
+  <g id="title" data-pptx-bounds="64 90 1152 96">
+    <text font-size="40" fill="#FBF8F2" font-family="Cambria, Georgia, serif" font-weight="bold" x="64" y="124">Retain $750m in the base case;</text><text font-size="40" fill="#FBF8F2" font-family="Cambria, Georgia, serif" font-weight="bold" x="64" y="172">value drives the recommendation</text></g>
+
+  <g id="lead" data-pptx-bounds="64 186 1152 64">
+    <text fill="#FBF8F2" x="64" y="206">Keeping the additional obligation creates +$2.82m of modeled NPV under the prescribed base case.</text><text fill="#FBF8F2" x="64" y="236">Funding ability is a separate feasibility condition.</text></g>
+
+  <g id="panel-economic" data-pptx-bounds="64 262 560 204">
+    <text x="64" y="282" font-size="16" font-weight="bold" letter-spacing="2" fill="#BC9E60">ECONOMIC REASON</text>
+    <text x="64" y="352" font-family="Cambria, Georgia, serif" font-size="72" font-weight="bold" fill="#FBF8F2">+$2.82m</text>
+    <text font-size="18" fill="#FBF8F2" x="64" y="384">Marginal inception NPV: retain-model NPV $28.24m versus $25.41m</text><text font-size="18" fill="#FBF8F2" x="64" y="408">for a hypothetical smaller inception commitment.</text><text font-size="16" fill="#D6CFC2" x="64" y="440">LP IRR 15.94% against the 15% discount rate is the same model result</text><text font-size="16" fill="#D6CFC2" x="64" y="460">expressed differently, not independent evidence.</text></g>
+
+  <g id="panel-rule" data-pptx-bounds="639 262 2 204">
+    <line x1="640" y1="262" x2="640" y2="466" stroke="#BC9E60" stroke-width="2" />
+  </g>
+
+  <g id="panel-cushion" data-pptx-bounds="656 262 560 204">
+    <text x="656" y="282" font-size="16" font-weight="bold" letter-spacing="2" fill="#BC9E60">LIMITED CUSHION</text>
+    <text x="656" y="352" font-family="Cambria, Georgia, serif" font-size="72" font-weight="bold" fill="#FBF8F2">−$2.84m</text>
+    <text font-size="18" fill="#FBF8F2" x="656" y="384">Moving annual asset growth from 20% to 19% removes essentially</text><text font-size="18" fill="#FBF8F2" x="656" y="408">all of the marginal value.</text><text font-size="16" fill="#D6CFC2" x="656" y="440">The retain answer needs a defensible outlook and an</text><text font-size="16" fill="#D6CFC2" x="656" y="460">opportunity-cost benchmark.</text></g>
+
+  <g id="feasibility-strip" data-pptx-bounds="64 466 1152 50">
+    <line x1="64" y1="466" x2="1216" y2="466" stroke="#BC9E60" stroke-width="1" />
+    <text font-size="18" fill="#FBF8F2" x="64" y="488"><tspan font-weight="bold" fill="#BC9E60">Feasibility condition: </tspan>test pension payments, aggregate calls, liquid assets and concentration; meeting expected TPG calls</text><text font-size="18" fill="#FBF8F2" x="64" y="510">is neither a full stress test nor an economic reason to retain.</text></g>
+
+  <g id="rule-retain" data-pptx-bounds="64 524 560 106">
+    
+  <g transform="translate(64, 528) scale(1.33333)" fill="none" stroke="#BC9E60" stroke-width="2">
+    <path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+    <path d="M9 12l2 2l4 -4" />
+  </g>
+    <text x="108" y="552" font-size="20" font-weight="bold" fill="#FBF8F2">Retain when</text>
+    <text font-size="16" fill="#D6CFC2" x="64" y="584">the actual forward marginal investment is attractive relative to alternative</text><text font-size="16" fill="#D6CFC2" x="64" y="604">uses of capacity, on the terms actually available, and liquidity and</text><text font-size="16" fill="#D6CFC2" x="64" y="624">concentration constraints are acceptable.</text></g>
+
+  <g id="rule-reduce" data-pptx-bounds="656 524 560 106">
+    
+  <g transform="translate(656, 528) scale(1.33333)" fill="none" stroke="#BC9E60" stroke-width="2">
+    <path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+    <path d="M10 10l4 4m0 -4l-4 4" />
+  </g>
+    <text x="700" y="552" font-size="20" font-weight="bold" fill="#FBF8F2">Use the 10% reduction when</text>
+    <text font-size="16" fill="#D6CFC2" x="656" y="584">forward incremental NPV is negative, superior alternatives or concentration</text><text font-size="16" fill="#D6CFC2" x="656" y="604">constraints make the extra exposure unattractive, or liquidity pressure is</text><text font-size="16" fill="#D6CFC2" x="656" y="624">unacceptable.</text></g>
+
+  <g id="closing-strip" data-pptx-bounds="64 634 1152 30">
+    <line x1="64" y1="634" x2="1216" y2="634" stroke="#BC9E60" stroke-width="1" />
+    <text x="64" y="657" font-size="18" font-weight="bold" fill="#BC9E60">Accept the 1.35% fee cut either way. Follow the Q5 negotiating order without counting unagreed improvements.</text>
+  </g>
+
+  <g id="footer" data-pptx-bounds="64 668 1152 36" fill="#D6CFC2" font-size="14">
+    <text x="64" y="680">Source: Q6 OPERF decision!B20:D21; Summary!C11; Engine!L71:L72 × 75 ÷ 20,000; Inputs!C9; Case pp. 5–6. The workbook's −$2.82m measures the change caused by reducing;</text><text x="64" y="697">keeping has +$2.82m. All NPVs at model inception.</text><text x="1216" y="697" text-anchor="end">50</text>
+  </g>
+</svg>

@@ -87,3 +87,321 @@ stdout:
     Geometry: SVG elements 28 | native presets 0 | page-frame elements 5 | marker uses 0
   [REPORT] JSON quality report exported: projects/operf_tpg_case_study_ppt169_20261009/validation/svg_quality_early_report.json
 === 2026-10-09T07:24:42.593Z END run=3df16926cef4 elapsed_ms=1039 output_lines=44 retained=19 omitted=25 ===
+
+=== 2026-10-09T08:07:02.206Z PYTHON run=2657f90ece8b ===
+cwd: /home/user/case-studies-
+argv: ["/usr/bin/python3", "skills/ppt-master/scripts/stamp_native_fallbacks.py", "projects/operf_tpg_case_study_ppt169_20261009/svg_output", "--write"]
+stderr:
+  Error: 56_appendix_tpg_record.svg: invalid chart marker tpg-tvpi-columns: Native PPTX chart axes.value contains unsupported field(s): gridlines
+=== 2026-10-09T08:07:02.383Z END run=2657f90ece8b elapsed_ms=176 output_lines=57 retained=1 omitted=56 ===
+
+=== 2026-10-09T08:10:11.563Z PYTHON run=f0013dbecc5f ===
+cwd: /home/user/case-studies-
+argv: ["/usr/bin/python3", "skills/ppt-master/scripts/stamp_native_fallbacks.py", "projects/operf_tpg_case_study_ppt169_20261009/svg_output", "--write"]
+=== 2026-10-09T08:10:11.655Z END run=f0013dbecc5f elapsed_ms=91 output_lines=57 retained=0 omitted=57 ===
+
+=== 2026-10-09T08:10:25.964Z PYTHON run=b0e69fa3c76b ===
+cwd: /home/user/case-studies-
+argv: ["/usr/bin/python3", "skills/ppt-master/scripts/svg_quality_checker.py", "projects/operf_tpg_case_study_ppt169_20261009", "--canonical-authoring", "--stage", "final", "--json"]
+stdout:
+  [OK] 01_cover.svg - Passed
+  [WARN] 04_operf_and_tpg.svg - Passed (with warnings)
+     [WARN] Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (6 change(s)); examples (group:attr None -> value hoists the shared value onto that group; child:attr value -> None drops the copy the child now inherits): footer:fill None -> '#5C6670'; footer:font-size None -> '14'; text[32]:fill '#5C6670' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)
+  [WARN] 05_tpg_vi_size.svg - Passed (with warnings)
+     [WARN] Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (6 change(s)); examples (group:attr None -> value hoists the shared value onto that group; child:attr value -> None drops the copy the child now inherits): footer:fill None -> '#5C6670'; footer:font-size None -> '14'; text[33]:fill '#5C6670' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)
+  [ERROR] 25_year8_distribution.svg - Failed
+     viewBox: 0 0 1280 720
+     [ERROR] <g id="year8-distribution"> data-pptx-bounds overlaps <g id="profit-pool"> data-pptx-bounds by 890.0px x 2.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+     [WARN] Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (9 change(s)); examples (group:attr None -> value hoists the shared value onto that group; child:attr value -> None drops the copy the child now inherits): distribution-facts:font-size None -> '18'; text[31]:font-size '18' -> None; text[32]:font-size '18' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)
+  [WARN] 26_irr_bridge.svg - Passed (with warnings)
+     viewBox: 0 0 1280 720
+     [WARN] Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (6 change(s)); examples (group:attr None -> value hoists the shared value onto that group; child:attr value -> None drops the copy the child now inherits): footer:fill None -> '#5C6670'; footer:font-size None -> '14'; text[41]:fill '#5C6670' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)
+  [ERROR] 27_irr_benchmark.svg - Failed
+     viewBox: 0 0 1280 720
+     [ERROR] <text> (x=888, y=386; text='+$21.68m') exceeds <g id="hero-npv"> data-pptx-bounds on the horizontal axis: content (888.0, 324.8)-(1261.1, 411.2), container (850.0, 280.0)-(1216.0, 460.0), overflow horizontal 12.3%, vertical 0.0% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text; ≈46.6 px per Latin char at 72px incl. headroom; ≈7 chars fit in 366 px
+     [WARN] Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (10 change(s)); examples (group:attr None -> value hoists the shared value onto that group; child:attr value -> None drops the copy the child now inherits): benchmark-notes:font-size None -> '18'; text[41]:font-size '18' -> None; text[42]:font-size '18' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)
+  [WARN] 28_lp_value_bridge.svg - Passed (with warnings)
+     viewBox: 0 0 1280 720
+     [WARN] Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (6 change(s)); examples (group:attr None -> value hoists the shared value onto that group; child:attr value -> None drops the copy the child now inherits): footer:fill None -> '#5C6670'; footer:font-size None -> '14'; text[45]:fill '#5C6670' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)
+  [ERROR] 31_lp_gp_risks.svg - Failed
+     viewBox: 0 0 1280 720
+     [ERROR] <text> (x=64, y=540; text='Q3 in one line: the …') exceeds <g id="conclusion"> data-pptx-bounds on the horizontal axis: content (64.0, 524.7)-(1277.2, 546.3), container (64.0, 476.0)-(1216.0, 556.0), overflow horizontal 5.3%, vertical 0.0% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text; ≈9.3 px per Latin char at 18px incl. headroom; ≈123 chars fit in 1152 px
+     [WARN] Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (6 change(s)); examples (group:attr None -> value hoists the shared value onto that group; child:attr value -> None drops the copy the child now inherits): footer:fill None -> '#5C6670'; footer:font-size None -> '14'; text[38]:fill '#5C6670' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)
+  [WARN] 32_fee_cut_fund_level.svg - Passed (with warnings)
+     viewBox: 0 0 1280 720
+     [WARN] Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (6 change(s)); examples (group:attr None -> value hoists the shared value onto that group; child:attr value -> None drops the copy the child now inherits): footer:fill None -> '#5C6670'; footer:font-size None -> '14'; text[45]:fill '#5C6670' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)
+  [ERROR] 34_fee_gain_bridge.svg - Failed
+     viewBox: 0 0 1280 720
+     [ERROR] <g id="title"> data-pptx-bounds overlaps <g id="fee-gain-bridge"> data-pptx-bounds by 1152.0px x 6.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+     [WARN] Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (6 change(s)); examples (group:attr None -> value hoists the shared value onto that group; child:attr value -> None drops the copy the child now inherits): footer:fill None -> '#5C6670'; footer:font-size None -> '14'; text[36]:fill '#5C6670' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)
+  [WARN] 35_gp_receipts_change.svg - Passed (with warnings)
+     viewBox: 0 0 1280 720
+     [WARN] Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (6 change(s)); examples (group:attr None -> value hoists the shared value onto that group; child:attr value -> None drops the copy the child now inherits): footer:fill None -> '#5C6670'; footer:font-size None -> '14'; text[35]:fill '#5C6670' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)
+  [ERROR] 49_portfolio_checks.svg - Failed
+     viewBox: 0 0 1280 720
+     [ERROR] <text> (x=64, y=590; text='Comparison to comple…') exceeds <g id="comparison"> data-pptx-bounds on the vertical axis: content (64.0, 574.7)-(1086.7, 618.3), container (64.0, 572.0)-(1216.0, 616.0), overflow horizontal 0.0%, vertical 5.2% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text
+     [ERROR] <text> (x=76, y=647; text='Limitations: 20% gro…') exceeds <g id="limits-strip"> data-pptx-bounds on the horizontal axis: content (76.0, 635.1)-(1274.8, 651.9), container (64.0, 624.0)-(1216.0, 660.0), overflow horizontal 5.1%, vertical 0.0% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text; ≈7.0 px per Latin char at 14px incl. headroom; ≈164 chars fit in 1152 px
+     [WARN] Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (6 change(s)); examples (group:attr None -> value hoists the shared value onto that group; child:attr value -> None drops the copy the child now inherits): footer:fill None -> '#5C6670'; footer:font-size None -> '14'; text[45]:fill '#5C6670' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)
+     [WARN] <text> (x=412, y=320; text='Treat capacity for a…') exceeds <g id="portfolio-checks-table"> data-pptx-bounds on the horizontal axis: content (412.0, 304.7)-(1233.2, 370.3), container (64.0, 262.0)-(1216.0, 562.0), overflow horizontal 1.5%, vertical 0.0% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text; ≈9.2 px per Latin char at 18px incl. headroom; ≈124 chars fit in 1152 px
+  [ERROR] 50_q6_answer.svg - Failed
+     viewBox: 0 0 1280 720
+     [ERROR] <text> (x=64, y=440; text='LP IRR 15.94% agains…') exceeds <g id="panel-economic"> data-pptx-bounds on the vertical axis: content (64.0, 426.4)-(544.7, 465.6), container (64.0, 262.0)-(624.0, 452.0), overflow horizontal 0.0%, vertical 7.2% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text
+     [ERROR] <text> (x=656, y=440; text='The retain answer ne…') exceeds <g id="panel-cushion"> data-pptx-bounds on the vertical axis: content (656.0, 426.4)-(1021.0, 465.6), container (656.0, 262.0)-(1216.0, 452.0), overflow horizontal 0.0%, vertical 7.2% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text
+     [WARN] Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (6 change(s)); examples (group:attr None -> value hoists the shared value onto that group; child:attr value -> None drops the copy the child now inherits): footer:fill None -> '#D6CFC2'; footer:font-size None -> '14'; text[49]:fill '#D6CFC2' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)
+     [WARN] <text> (x=64, y=584; text='the actual forward m…') exceeds <g id="rule-retain"> data-pptx-bounds on the vertical axis: content (64.0, 570.4)-(575.1, 629.6), container (64.0, 524.0)-(624.0, 628.0), overflow horizontal 0.0%, vertical 1.5% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text
+     [WARN] <text> (x=656, y=584; text='forward incremental …') exceeds <g id="rule-reduce"> data-pptx-bounds on the vertical axis: content (656.0, 570.4)-(1179.8, 629.6), container (656.0, 524.0)-(1216.0, 628.0), overflow horizontal 0.0%, vertical 1.5% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text
+  [WARN] 51_recommendation.svg - Passed (with warnings)
+  [SUMMARY] Check Summary
+  Total files: 56
+    [OK] Fully passed: 7 (12%)
+    [WARN] With warnings: 43 (76%)
+    [ERROR] With errors: 6 (10%)
+  Provenance categories:
+    blocking: 8          hard findings; gate also requires exit 0
+    introduced: 74       advisory; new or changed
+    inherited: 0         informational; prototype-identical
+    source-import: 0     informational; source-conversion loss
+  [CARRIERS] Actual-use receipt (informational; not a quota)
+    Pages: 56 | text: 1152 | images: 0 | icons: 7
+    Geometry: SVG elements 533 | native presets 5 | page-frame elements 56 | marker uses 21
+  [REPORT] JSON quality report exported: projects/operf_tpg_case_study_ppt169_20261009/validation/svg_quality_report.json
+=== 2026-10-09T08:10:30.966Z END run=b0e69fa3c76b elapsed_ms=5001 output_lines=234 retained=61 omitted=173 ===
+
+=== 2026-10-09T08:14:44.318Z PYTHON run=9ce1f4c0b1c6 ===
+cwd: /home/user/case-studies-
+argv: ["/usr/bin/python3", "skills/ppt-master/scripts/compact_svg_styles.py", "projects/operf_tpg_case_study_ppt169_20261009/svg_output", "--inplace"]
+=== 2026-10-09T08:14:44.413Z END run=9ce1f4c0b1c6 elapsed_ms=94 output_lines=1 retained=0 omitted=1 ===
+
+=== 2026-10-09T08:14:44.772Z PYTHON run=f62a37e333a1 ===
+cwd: /home/user/case-studies-
+argv: ["/usr/bin/python3", "skills/ppt-master/scripts/stamp_native_fallbacks.py", "projects/operf_tpg_case_study_ppt169_20261009/svg_output", "--write"]
+stderr:
+  Error: 25_year8_distribution.svg: invalid chart marker year8-distribution: Native PPTX chart plot_area must be fully contained within the chart frame
+=== 2026-10-09T08:14:44.881Z END run=f62a37e333a1 elapsed_ms=109 output_lines=57 retained=1 omitted=56 ===
+
+=== 2026-10-09T08:14:45.063Z PYTHON run=2907b99fe46d ===
+cwd: /home/user/case-studies-
+argv: ["/usr/bin/python3", "skills/ppt-master/scripts/svg_quality_checker.py", "projects/operf_tpg_case_study_ppt169_20261009", "--canonical-authoring", "--stage", "final", "--json"]
+stdout:
+  [OK] 01_cover.svg - Passed
+  [WARN] 06_fund_structure.svg - Passed (with warnings)
+     [WARN] Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=900, y=316; text='1 Investment selecti…'); use supported explicit text positioning when page fit matters (continuation <tspan> lines repeat the parent x; a hanging indent needs its own <text>)
+     [WARN] Detected 2 paragraph-like line run(s) split across sibling <text> elements (<g id="flow-key"> x=900.0, y=388.0..444.0, 3 lines; <g id="flow-key"> x=900.0, y=472.0..528.0, 3 lines). If each run is one prose paragraph, combine it into one <text>: keep its first line as direct text and use direct <tspan> children with the parent x and positive relative dy values for later lines. An all-<tspan> form may start with dy="0". Keep semantically independent text frames separate.
+  [ERROR] 25_year8_distribution.svg - Failed
+     viewBox: 0 0 1280 720
+     [ERROR] Invalid data-pptx-replace-with marker year8-distribution: Native PPTX chart plot_area must be fully contained within the chart frame
+  [OK] 26_irr_bridge.svg - Passed
+     viewBox: 0 0 1280 720
+  [OK] 27_irr_benchmark.svg - Passed
+     viewBox: 0 0 1280 720
+  [WARN] 48_marginal_cushion.svg - Passed (with warnings)
+  [SUMMARY] Check Summary
+  Total files: 56
+    [OK] Fully passed: 53 (94%)
+    [WARN] With warnings: 2 (3%)
+    [ERROR] With errors: 1 (1%)
+  Provenance categories:
+    blocking: 1          hard findings; gate also requires exit 0
+    introduced: 3        advisory; new or changed
+    inherited: 0         informational; prototype-identical
+    source-import: 0     informational; source-conversion loss
+  [CARRIERS] Actual-use receipt (informational; not a quota)
+    Pages: 56 | text: 1157 | images: 0 | icons: 7
+    Geometry: SVG elements 533 | native presets 5 | page-frame elements 56 | marker uses 21
+  [REPORT] JSON quality report exported: projects/operf_tpg_case_study_ppt169_20261009/validation/svg_quality_report.json
+=== 2026-10-09T08:14:50.588Z END run=2907b99fe46d elapsed_ms=5525 output_lines=156 retained=26 omitted=130 ===
+
+=== 2026-10-09T08:15:20.443Z PYTHON run=f80c1a02b3ff ===
+cwd: /home/user/case-studies-
+argv: ["/usr/bin/python3", "skills/ppt-master/scripts/stamp_native_fallbacks.py", "projects/operf_tpg_case_study_ppt169_20261009/svg_output", "--write"]
+=== 2026-10-09T08:15:20.521Z END run=f80c1a02b3ff elapsed_ms=77 output_lines=57 retained=0 omitted=57 ===
+
+=== 2026-10-09T08:15:20.670Z PYTHON run=45aba4523746 ===
+cwd: /home/user/case-studies-
+argv: ["/usr/bin/python3", "skills/ppt-master/scripts/svg_quality_checker.py", "projects/operf_tpg_case_study_ppt169_20261009", "--canonical-authoring", "--stage", "final", "--json"]
+stdout:
+  [OK] 01_cover.svg - Passed
+  [SUMMARY] Check Summary
+  Total files: 56
+    [OK] Fully passed: 56 (100%)
+    [WARN] With warnings: 0 (0%)
+    [ERROR] With errors: 0 (0%)
+  Provenance categories:
+    blocking: 0          hard findings; gate also requires exit 0
+    introduced: 0        advisory; new or changed
+    inherited: 0         informational; prototype-identical
+    source-import: 0     informational; source-conversion loss
+  [CARRIERS] Actual-use receipt (informational; not a quota)
+    Pages: 56 | text: 1153 | images: 0 | icons: 7
+    Geometry: SVG elements 533 | native presets 5 | page-frame elements 56 | marker uses 21
+  [REPORT] JSON quality report exported: projects/operf_tpg_case_study_ppt169_20261009/validation/svg_quality_report.json
+=== 2026-10-09T08:15:25.894Z END run=45aba4523746 elapsed_ms=5223 output_lines=144 retained=15 omitted=129 ===
+
+=== 2026-10-09T08:18:46.860Z NOTE id=3e99166d652f ===
+verify-charts: 26 §IX data-driven objects checked against svg_output after the final gate passed 56/56. Receipts: 04 operf-share-pie pie direct-calc calc=ran svg=unchanged; 05 tpg-vi-fundraising-pie pie direct-calc calc=ran svg=unchanged; 16 annual-fee-scenarios bar direct-calc scale=0-320 calc=ran svg=unchanged; 20 pe-allocation-bullet bullet formula-verify 21.9/25x480=420.5px target 16/25x480=307.2px svg=unchanged; 20 commitment-bars bar direct-calc scale=0-800 calc=ran svg=unchanged; 21 tvpi-bars stacked-bar decomposable-calc scale=0-90 calc=ranx3 svg=unchanged; 23 lp-net-cash-flow column direct-calc scale=-5-25 calc=ran svg=unchanged; 24 first-call-use stacked-bar decomposable-calc scale=0-4000 (hidden axis from payload) calc=ranx2 svg=unchanged; 25 year8-distribution stacked-bar decomposable-calc scale=0-5638.98 (hidden axis from payload) calc=ranx3 svg=unchanged; 26 irr-bridge waterfall decomposable-calc scale=0-22 calc=ranx4 svg=unchanged; 27 irr-benchmark-dot dot-line manual-verify 15.72% at 100+1.7226x272=568.5 svg=unchanged; 28 lp-value-bridge waterfall decomposable-calc scale=0-5000 calc=ranx5 svg=unchanged; 29 gp-receipts-mix 100%-stacked decomposable-calc calc=ranx4 svg=unchanged; 30 lp-irr-by-growth bar direct-calc scale=-5-20 calc=ran svg=unchanged; 30 gp-receipts-by-growth stacked-bar decomposable-calc scale=0-4000 calc=ranx6 svg=unchanged; 33 operf-npv-dumbbell dumbbell manual-verify 21.68 at 824.6 and 28.24 at 1037.7 (32.5px/unit) svg=unchanged; 34 fee-gain-bridge waterfall decomposable-calc scale=0-10 calc=ranx3 svg=unchanged; 35 gp-receipts-change bar direct-calc scale=-400-200 calc=ran svg=updated (axis re-based to major-unit multiples); 36 npv-gain-by-growth column direct-calc scale=0-12 calc=ran svg=unchanged; 36 irr-gain-by-growth dots manual-verify svg=unchanged; 37 growth-vs-fee-bars bar direct-calc scale=-40-10 calc=ran svg=updated (axis re-based); 44 package-value-bars stacked-bar decomposable-calc scale=0-25 calc=ranx5 svg=unchanged; 46 commitment-bars stacked-bar decomposable-calc scale=0-800 calc=ranx5 svg=unchanged; 47 marginal-npv-bars bar direct-calc scale=0-6 calc=ran svg=unchanged; 48 marginal-npv-by-growth bar direct-calc scale=-30-30 calc=ran svg=updated (axis re-based); 56 tpg-tvpi-columns column direct-calc scale=0-4 calc=ran svg=unchanged. Every drawn length matches the calculator within 0.5px; the final gate was rerun after the three axis re-bases and passed 56/56.
+
+=== 2026-10-09T08:22:24.754Z PYTHON run=1f95d0ea0148 ===
+cwd: /home/user/case-studies-
+argv: ["/usr/bin/python3", "skills/ppt-master/scripts/total_md_split.py", "/home/user/case-studies-/projects/operf_tpg_case_study_ppt169_20261009"]
+stdout:
+  [OK] SVG files and notes have one-to-one correspondence
+  [Done] Successfully generated 56/56 file(s)
+  [Done] Notes splitting complete
+=== 2026-10-09T08:22:24.769Z END run=1f95d0ea0148 elapsed_ms=14 output_lines=65 retained=3 omitted=62 ===
+
+=== 2026-10-09T08:22:24.984Z PYTHON run=4e5e7e5f66ab ===
+cwd: /home/user/case-studies-
+argv: ["/usr/bin/python3", "skills/ppt-master/scripts/finalize_svg.py", "/home/user/case-studies-/projects/operf_tpg_case_study_ppt169_20261009"]
+stdout:
+  [OK] 02_contents.svg (5 icons)
+  [OK] Done!
+=== 2026-10-09T08:22:25.557Z END run=4e5e7e5f66ab elapsed_ms=572 output_lines=14 retained=2 omitted=12 ===
+
+=== 2026-10-09T08:22:30.917Z PYTHON run=de694485dd41 ===
+cwd: /home/user/case-studies-
+argv: ["/usr/bin/python3", "skills/ppt-master/scripts/svg_to_pptx.py", "/home/user/case-studies-/projects/operf_tpg_case_study_ppt169_20261009"]
+stdout:
+  [Done] Saved: /home/user/case-studies-/projects/operf_tpg_case_study_ppt169_20261009/exports/operf_tpg_case_study_20261009_082232.pptx
+    [POSTFLIGHT] status=passed quality_gate=passed slides=56 warning_categories=0
+    [PPTX] /home/user/case-studies-/projects/operf_tpg_case_study_ppt169_20261009/exports/operf_tpg_case_study_20261009_082232.pptx
+    [REPORT] /home/user/case-studies-/projects/operf_tpg_case_study_ppt169_20261009/validation/operf_tpg_case_study_20261009_082232.report.json
+=== 2026-10-09T08:22:35.530Z END run=de694485dd41 elapsed_ms=4612 output_lines=189 retained=4 omitted=185 ===
+
+=== 2026-10-09T08:22:35.918Z PYTHON run=1cc3d2307b93 ===
+cwd: /home/user/case-studies-
+argv: ["/usr/bin/python3", "skills/ppt-master/scripts/svg_to_pptx.py", "/home/user/case-studies-/projects/operf_tpg_case_study_ppt169_20261009", "--native-charts-and-tables"]
+stderr:
+  Warning: --native-charts-and-tables replaces shape-based SVG fallbacks with PowerPoint Chart/Table objects. The native objects may normalize styling or omit SVG details that are not represented by marker metadata; use the default shape-based export when exact fallback artwork is required.
+  Traceback (most recent call last):
+    File "/home/user/case-studies-/skills/ppt-master/scripts/svg_to_pptx/drawingml/converter.py", line 1867, in convert_element
+      result = converter(elem, ctx)
+    File "/home/user/case-studies-/skills/ppt-master/scripts/svg_to_pptx/drawingml/converter.py", line 1255, in convert_g
+      native_result = convert_native_object(elem, child_ctx)
+    File "/home/user/case-studies-/skills/ppt-master/scripts/svg_to_pptx/native_objects/__init__.py", line 715, in convert_native_object
+      kind, payload, validated_data = _validate_native_object_marker_payload(
+stderr-tail:
+      ^
+    File "/home/user/case-studies-/skills/ppt-master/scripts/svg_to_pptx/drawingml/converter.py", line 2416, in convert_svg_to_slide_shapes
+      raise SvgNativeConversionError(f'{svg_path.name}: {exc}') from exc
+  svg_to_pptx.drawingml.converter.SvgNativeConversionError: 23_lp_cash_flow_timing.svg: Failed to convert <g id="lp-net-cash-flow">: Visible native-object SVG fallback was edited after its baseline was recorded; --native-charts-and-tables stopped to avoid discarding the SVG edit. Use the default fallback export, or deliberately update the native metadata and baseline together
+=== 2026-10-09T08:22:38.151Z END run=1cc3d2307b93 elapsed_ms=2232 output_lines=138 retained=12 omitted=126 ===
+
+=== 2026-10-09T08:22:52.546Z PYTHON run=75dd5792a6fe ===
+cwd: /home/user/case-studies-
+argv: ["/usr/bin/python3", "skills/ppt-master/scripts/stamp_native_fallbacks.py", "/home/user/case-studies-/projects/operf_tpg_case_study_ppt169_20261009/svg_output"]
+=== 2026-10-09T08:22:52.676Z END run=75dd5792a6fe elapsed_ms=129 output_lines=57 retained=0 omitted=57 ===
+
+=== 2026-10-09T08:24:10.478Z PYTHON run=99889ab691d5 ===
+cwd: /home/user/case-studies-
+argv: ["/usr/bin/python3", "skills/ppt-master/scripts/stamp_native_fallbacks.py", "/home/user/case-studies-/projects/operf_tpg_case_study_ppt169_20261009/svg_output", "--write"]
+=== 2026-10-09T08:24:10.615Z END run=99889ab691d5 elapsed_ms=137 output_lines=57 retained=0 omitted=57 ===
+
+=== 2026-10-09T08:24:10.802Z PYTHON run=14c5e0100a9e ===
+cwd: /home/user/case-studies-
+argv: ["/usr/bin/python3", "skills/ppt-master/scripts/svg_quality_checker.py", "/home/user/case-studies-/projects/operf_tpg_case_study_ppt169_20261009", "--canonical-authoring", "--stage", "final", "--json"]
+stdout:
+  [OK] 01_cover.svg - Passed
+  [SUMMARY] Check Summary
+  Total files: 56
+    [OK] Fully passed: 56 (100%)
+    [WARN] With warnings: 0 (0%)
+    [ERROR] With errors: 0 (0%)
+  Provenance categories:
+    blocking: 0          hard findings; gate also requires exit 0
+    introduced: 0        advisory; new or changed
+    inherited: 0         informational; prototype-identical
+    source-import: 0     informational; source-conversion loss
+  [CARRIERS] Actual-use receipt (informational; not a quota)
+    Pages: 56 | text: 1153 | images: 0 | icons: 7
+    Geometry: SVG elements 534 | native presets 4 | page-frame elements 56 | marker uses 21
+  [REPORT] JSON quality report exported: /home/user/case-studies-/projects/operf_tpg_case_study_ppt169_20261009/validation/svg_quality_report.json
+=== 2026-10-09T08:24:15.779Z END run=14c5e0100a9e elapsed_ms=4977 output_lines=144 retained=15 omitted=129 ===
+
+=== 2026-10-09T08:24:16.123Z PYTHON run=600c33ea59cb ===
+cwd: /home/user/case-studies-
+argv: ["/usr/bin/python3", "skills/ppt-master/scripts/finalize_svg.py", "/home/user/case-studies-/projects/operf_tpg_case_study_ppt169_20261009"]
+stdout:
+  [OK] 02_contents.svg (5 icons)
+  [OK] Done!
+=== 2026-10-09T08:24:16.791Z END run=600c33ea59cb elapsed_ms=667 output_lines=14 retained=2 omitted=12 ===
+
+=== 2026-10-09T08:24:17.064Z PYTHON run=5ee9c73f5e71 ===
+cwd: /home/user/case-studies-
+argv: ["/usr/bin/python3", "skills/ppt-master/scripts/svg_to_pptx.py", "/home/user/case-studies-/projects/operf_tpg_case_study_ppt169_20261009"]
+stdout:
+  [Done] Saved: /home/user/case-studies-/projects/operf_tpg_case_study_ppt169_20261009/exports/operf_tpg_case_study_20261009_082418.pptx
+    [POSTFLIGHT] status=passed quality_gate=passed slides=56 warning_categories=0
+    [PPTX] /home/user/case-studies-/projects/operf_tpg_case_study_ppt169_20261009/exports/operf_tpg_case_study_20261009_082418.pptx
+    [REPORT] /home/user/case-studies-/projects/operf_tpg_case_study_ppt169_20261009/validation/operf_tpg_case_study_20261009_082418.report.json
+=== 2026-10-09T08:24:22.751Z END run=5ee9c73f5e71 elapsed_ms=5687 output_lines=189 retained=4 omitted=185 ===
+
+=== 2026-10-09T08:24:23.025Z PYTHON run=e75604ca87c8 ===
+cwd: /home/user/case-studies-
+argv: ["/usr/bin/python3", "skills/ppt-master/scripts/svg_to_pptx.py", "/home/user/case-studies-/projects/operf_tpg_case_study_ppt169_20261009", "--native-charts-and-tables"]
+stderr:
+  Warning: --native-charts-and-tables replaces shape-based SVG fallbacks with PowerPoint Chart/Table objects. The native objects may normalize styling or omit SVG details that are not represented by marker metadata; use the default shape-based export when exact fallback artwork is required.
+stdout:
+  [Done] Saved: /home/user/case-studies-/projects/operf_tpg_case_study_ppt169_20261009/exports/operf_tpg_case_study_20261009_082424_native_charts_tables.pptx
+    [POSTFLIGHT] status=passed quality_gate=passed slides=56 warning_categories=0
+    [PPTX] /home/user/case-studies-/projects/operf_tpg_case_study_ppt169_20261009/exports/operf_tpg_case_study_20261009_082424_native_charts_tables.pptx
+    [REPORT] /home/user/case-studies-/projects/operf_tpg_case_study_ppt169_20261009/validation/operf_tpg_case_study_20261009_082424_native_charts_tables.report.json
+=== 2026-10-09T08:24:27.437Z END run=e75604ca87c8 elapsed_ms=4411 output_lines=190 retained=5 omitted=185 ===
+
+=== 2026-10-09T08:24:50.430Z NOTE id=fd4d45d722d3 ===
+Final gate passed 56/56 (0 warnings) after consolidated repair; verify-charts complete; notes/total.md written (56 pages, plain English, Detail paragraphs for Alex 19,22-25,27-30,32-37 and Jimmy 41-50) and split; finalize_svg 56/56; exports: operf_tpg_case_study_20261009_082418.pptx (default, notes) and operf_tpg_case_study_20261009_082424_native_charts_tables.pptx (native charts/tables) both POSTFLIGHT passed, quality_gate=passed, warning_categories=0. Carrier receipt: presets chevron x3 (P15), leftBrace (P25); P23 bracket drawn as a plain path because a compact preset inside a native chart marker breaks the native export's fallback-freshness check; icons on P02 and P50; no gradients/filters/text effects (flat editorial style); no images.
+
+=== 2026-10-09T08:26:05.167Z PYTHON run=d540e5dc0b64 ===
+cwd: /home/user/case-studies-
+argv: ["/usr/bin/python3", "skills/ppt-master/scripts/stamp_native_fallbacks.py", "/home/user/case-studies-/projects/operf_tpg_case_study_ppt169_20261009/svg_output", "--write"]
+=== 2026-10-09T08:26:05.244Z END run=d540e5dc0b64 elapsed_ms=76 output_lines=57 retained=0 omitted=57 ===
+
+=== 2026-10-09T08:26:05.392Z PYTHON run=fad42c2f7283 ===
+cwd: /home/user/case-studies-
+argv: ["/usr/bin/python3", "skills/ppt-master/scripts/svg_quality_checker.py", "/home/user/case-studies-/projects/operf_tpg_case_study_ppt169_20261009", "--canonical-authoring", "--stage", "final", "--json"]
+stdout:
+  [OK] 01_cover.svg - Passed
+  [SUMMARY] Check Summary
+  Total files: 56
+    [OK] Fully passed: 56 (100%)
+    [WARN] With warnings: 0 (0%)
+    [ERROR] With errors: 0 (0%)
+  Provenance categories:
+    blocking: 0          hard findings; gate also requires exit 0
+    introduced: 0        advisory; new or changed
+    inherited: 0         informational; prototype-identical
+    source-import: 0     informational; source-conversion loss
+  [CARRIERS] Actual-use receipt (informational; not a quota)
+    Pages: 56 | text: 1153 | images: 0 | icons: 7
+    Geometry: SVG elements 534 | native presets 4 | page-frame elements 56 | marker uses 21
+  [REPORT] JSON quality report exported: /home/user/case-studies-/projects/operf_tpg_case_study_ppt169_20261009/validation/svg_quality_report.json
+=== 2026-10-09T08:26:10.173Z END run=fad42c2f7283 elapsed_ms=4781 output_lines=144 retained=15 omitted=129 ===
+
+=== 2026-10-09T08:26:30.846Z PYTHON run=f315e2919a12 ===
+cwd: /home/user/case-studies-
+argv: ["/usr/bin/python3", "skills/ppt-master/scripts/finalize_svg.py", "/home/user/case-studies-/projects/operf_tpg_case_study_ppt169_20261009"]
+stdout:
+  [OK] 02_contents.svg (5 icons)
+  [OK] Done!
+=== 2026-10-09T08:26:31.347Z END run=f315e2919a12 elapsed_ms=500 output_lines=14 retained=2 omitted=12 ===
+
+=== 2026-10-09T08:26:31.504Z PYTHON run=5a2ef4e87ed4 ===
+cwd: /home/user/case-studies-
+argv: ["/usr/bin/python3", "skills/ppt-master/scripts/svg_to_pptx.py", "/home/user/case-studies-/projects/operf_tpg_case_study_ppt169_20261009"]
+stdout:
+  [Done] Saved: /home/user/case-studies-/projects/operf_tpg_case_study_ppt169_20261009/exports/operf_tpg_case_study_20261009_082632.pptx
+    [POSTFLIGHT] status=passed quality_gate=passed slides=56 warning_categories=0
+    [PPTX] /home/user/case-studies-/projects/operf_tpg_case_study_ppt169_20261009/exports/operf_tpg_case_study_20261009_082632.pptx
+    [REPORT] /home/user/case-studies-/projects/operf_tpg_case_study_ppt169_20261009/validation/operf_tpg_case_study_20261009_082632.report.json
+=== 2026-10-09T08:26:35.575Z END run=5a2ef4e87ed4 elapsed_ms=4071 output_lines=189 retained=4 omitted=185 ===
+
+=== 2026-10-09T08:26:35.785Z PYTHON run=a4ee94e27cbb ===
+cwd: /home/user/case-studies-
+argv: ["/usr/bin/python3", "skills/ppt-master/scripts/svg_to_pptx.py", "/home/user/case-studies-/projects/operf_tpg_case_study_ppt169_20261009", "--native-charts-and-tables"]
+stderr:
+  Warning: --native-charts-and-tables replaces shape-based SVG fallbacks with PowerPoint Chart/Table objects. The native objects may normalize styling or omit SVG details that are not represented by marker metadata; use the default shape-based export when exact fallback artwork is required.
+stdout:
+  [Done] Saved: /home/user/case-studies-/projects/operf_tpg_case_study_ppt169_20261009/exports/operf_tpg_case_study_20261009_082636_native_charts_tables.pptx
+    [POSTFLIGHT] status=passed quality_gate=passed slides=56 warning_categories=0
+    [PPTX] /home/user/case-studies-/projects/operf_tpg_case_study_ppt169_20261009/exports/operf_tpg_case_study_20261009_082636_native_charts_tables.pptx
+    [REPORT] /home/user/case-studies-/projects/operf_tpg_case_study_ppt169_20261009/validation/operf_tpg_case_study_20261009_082636_native_charts_tables.report.json
+=== 2026-10-09T08:26:39.553Z END run=a4ee94e27cbb elapsed_ms=3768 output_lines=190 retained=5 omitted=185 ===

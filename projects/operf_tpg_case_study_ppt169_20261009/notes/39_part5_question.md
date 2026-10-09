@@ -1,0 +1,1 @@
+Part 5 asks what OPERF should negotiate and whether it should reduce its commitment. Jimmy presents Questions 5 and 6. Question 5 asks whether a hurdle rate or a lower carry would be reasonable for OPERF to request; we evaluate what each does, its value and the evidence supporting the request, before deciding on the $75 million.

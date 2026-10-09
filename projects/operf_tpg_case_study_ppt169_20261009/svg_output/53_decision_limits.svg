@@ -1,16 +1,16 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" data-pptx-page-role="content" font-family="Calibri, Arial, sans-serif" font-size="22">
-  <rect id="page-background" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FBF8F2"/>
+  <rect id="page-background" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FBF8F2" />
 
   <g id="kicker" data-pptx-bounds="64 58 760 26">
     <text x="64" y="72" font-size="16" font-weight="bold" letter-spacing="2" fill="#003657">FINAL RECOMMENDATION · ASSUMPTIONS AND DECISION LIMITS</text>
-    <line x1="64" y1="82" x2="120" y2="82" stroke="#BC9E60" stroke-width="2"/>
+    <line x1="64" y1="82" x2="120" y2="82" stroke="#BC9E60" stroke-width="2" />
   </g>
 
   <g id="title" data-pptx-bounds="64 90 1152 96">
     <text x="64" y="124" font-family="Cambria, Georgia, serif" font-size="40" font-weight="bold" fill="#003657">What the model establishes —<tspan x="64" dy="48">and what the decision still needs</tspan></text>
   </g>
 
-  <g id="limits-table" data-pptx-bounds="64 196 1152 450" data-pptx-replace-with="table">
+  <g id="limits-table" data-pptx-bounds="64 196 1152 450" data-pptx-replace-with="table" data-pptx-fallback-sha256="cf269c537037c10e742064f619916600b1e8d5135d167010ed4b527ff9166303">
     <metadata type="application/json">
       {
         "schema": "ppt-master.semantic-table.v2",
@@ -82,25 +82,25 @@
         ]
       }
     </metadata>
-    <rect x="64" y="196" width="1152" height="36" fill="#003657"/>
+    <rect x="64" y="196" width="1152" height="36" fill="#003657" />
     <g font-size="16" font-weight="bold" fill="#FBF8F2">
       <text x="76" y="220">Issue</text>
       <text x="266" y="220">What we know</text>
       <text x="766" y="220">Implication</text>
     </g>
     <g fill="#F1ECE2">
-      <rect x="64" y="286" width="1152" height="72"/>
-      <rect x="64" y="412" width="1152" height="54"/>
-      <rect x="64" y="520" width="1152" height="54"/>
+      <rect x="64" y="286" width="1152" height="72" />
+      <rect x="64" y="412" width="1152" height="54" />
+      <rect x="64" y="520" width="1152" height="54" />
     </g>
     <g stroke="#D6CFC2" stroke-width="1">
-      <line x1="64" y1="286" x2="1216" y2="286"/>
-      <line x1="64" y1="358" x2="1216" y2="358"/>
-      <line x1="64" y1="412" x2="1216" y2="412"/>
-      <line x1="64" y1="466" x2="1216" y2="466"/>
-      <line x1="64" y1="520" x2="1216" y2="520"/>
-      <line x1="64" y1="574" x2="1216" y2="574"/>
-      <line x1="64" y1="646" x2="1216" y2="646"/>
+      <line x1="64" y1="286" x2="1216" y2="286" />
+      <line x1="64" y1="358" x2="1216" y2="358" />
+      <line x1="64" y1="412" x2="1216" y2="412" />
+      <line x1="64" y1="466" x2="1216" y2="466" />
+      <line x1="64" y1="520" x2="1216" y2="520" />
+      <line x1="64" y1="574" x2="1216" y2="574" />
+      <line x1="64" y1="646" x2="1216" y2="646" />
     </g>
     <g font-size="16" font-weight="bold" fill="#003657">
       <text x="76" y="255">Growth and <tspan x="76" dy="20">discount rate</tspan></text>
@@ -135,8 +135,8 @@
     </g>
   </g>
 
-  <g id="footer" data-pptx-bounds="64 668 1152 36">
-    <text x="64" y="688" font-size="14" fill="#5C6670">Source: Inputs!A6:D23; Guide!B28:B35; Q6 OPERF decision!B7, B26:L28; Case p. 5. 79.9 ÷ 750 = 10.7%.</text>
-    <text x="1216" y="697" font-size="14" fill="#5C6670" text-anchor="end">53</text>
+  <g id="footer" data-pptx-bounds="64 668 1152 36" fill="#5C6670" font-size="14">
+    <text x="64" y="688">Source: Inputs!A6:D23; Guide!B28:B35; Q6 OPERF decision!B7, B26:L28; Case p. 5. 79.9 ÷ 750 = 10.7%.</text>
+    <text x="1216" y="697" text-anchor="end">53</text>
   </g>
 </svg>

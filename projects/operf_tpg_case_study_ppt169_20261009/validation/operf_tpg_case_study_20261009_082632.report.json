@@ -1,0 +1,583 @@
+{
+  "schema": "ppt-master.pptx-postflight-report.v1",
+  "status": "passed",
+  "output": {
+    "path": "/home/user/case-studies-/projects/operf_tpg_case_study_ppt169_20261009/exports/operf_tpg_case_study_20261009_082632.pptx",
+    "bytes": 286207
+  },
+  "source": {
+    "svg_slide_count": 56,
+    "layout_definition_count": 0,
+    "fingerprint": {
+      "algorithm": "sha256",
+      "digest": "a346af02761d669ce1bfc89a8498ace72792b749b549b3f031fd800aaa3bca24",
+      "file_count": 56,
+      "files": [
+        {
+          "file": "01_cover.svg",
+          "sha256": "92bd84d71caea2bd0b7a148f2700778c87f629bf445b3cf25e770a3decb7cb53"
+        },
+        {
+          "file": "02_contents.svg",
+          "sha256": "35356fd630d0f8d3bf336ac1f8ac5660ebe25c9d961cac4c7c66737b1dab7ba9"
+        },
+        {
+          "file": "03_part1_question.svg",
+          "sha256": "5046b204ace771e4f7d9d605b7a189045915d83c8625756b90bbf5206a74d16c"
+        },
+        {
+          "file": "04_operf_and_tpg.svg",
+          "sha256": "5527a5ad1ce5e4f26ee8d9d30fc0069ff2047fdf887f85b8098cf7309f33503f"
+        },
+        {
+          "file": "05_tpg_vi_size.svg",
+          "sha256": "57cc52cc5eef0518f4b0f55302e79ba89e91e069ca6cbe90c41630c954dafcd6"
+        },
+        {
+          "file": "06_fund_structure.svg",
+          "sha256": "b4f5264765ecfb564e318a5d6435c6e551da8c190055b047ffa49e6a401e066a"
+        },
+        {
+          "file": "07_december_decision.svg",
+          "sha256": "f67c14ceba16fef9533b08c0c88c353b9b19328167752fcfe6653aedbe2f9230"
+        },
+        {
+          "file": "08_part2_question.svg",
+          "sha256": "9c3a1b2c5978a3cacaab858d20b3f0c15e341f91ad7017dacba345e78ce7fad0"
+        },
+        {
+          "file": "09_crisis_channels.svg",
+          "sha256": "3da0accd3809d5a7befe5908edf26ff5ca3d5116e07cb5574352118d286f8bc1"
+        },
+        {
+          "file": "10_wamu_timeline.svg",
+          "sha256": "8a435cdb985b1b263d0033e80c63bd5979414e57997968442feb24f37d951ac6"
+        },
+        {
+          "file": "11_liquidity_allocation.svg",
+          "sha256": "7b6dff512b997263967b5d12b43412cbaa3ce5c80996058857837ef917826967"
+        },
+        {
+          "file": "12_lp_support_branches.svg",
+          "sha256": "3e6ee4b77b7969f841ea57ad6fdfa3863befe0e6d4af267ff25184abfa47c09f"
+        },
+        {
+          "file": "13_concession_matrix.svg",
+          "sha256": "e78a3ac33ddc5b47de9d156dbc0831f3bb4a812ea412cf0f6cbbf115c755c0dc"
+        },
+        {
+          "file": "14_part3_question.svg",
+          "sha256": "308bf249438d3d102759cfc90544907bed492c6086155c5494e1f0ee140e81c8"
+        },
+        {
+          "file": "15_fees_vs_carry.svg",
+          "sha256": "782872f001d7d8c8b00439d2057a71695de39f25cda4de8b609e89e546c3bc29"
+        },
+        {
+          "file": "16_fee_base_incentive.svg",
+          "sha256": "f3ed1695b959a424e1ab28286829ada0d7d3f64e1f2ff7d181a8f793f1baa9c1"
+        },
+        {
+          "file": "17_gp_capital_exposure.svg",
+          "sha256": "8123548ac56e32ae2893afc70256595807f779c0a6f8064a5dd7059f4b338e15"
+        },
+        {
+          "file": "18_part4_question.svg",
+          "sha256": "d829212d77b7b24721ffbca37c76a711950555e917e5f616c48b0b7420055616"
+        },
+        {
+          "file": "19_results_preview.svg",
+          "sha256": "17e99b74a28f0ebb67819081bb9b20cca249444b64fd3047d4a2d9569c236254"
+        },
+        {
+          "file": "20_operf_position.svg",
+          "sha256": "afcb8cd758189d0752fdfee054a3945411e3666c820e69a9f7769cbf9cb5513e"
+        },
+        {
+          "file": "21_tvpi_snapshot.svg",
+          "sha256": "e3158fab08ef088dc081b2dcb176fe32142fef2d4bcca76b87a7122b3a00f9f1"
+        },
+        {
+          "file": "22_model_assumptions.svg",
+          "sha256": "421db3a53187efbe51e498f54ca1323ff9da0f6133da48848ed5f220cef63cac"
+        },
+        {
+          "file": "23_lp_cash_flow_timing.svg",
+          "sha256": "adc3afde234ddbac3f1573da96ebd2eb636651407c5f3713f050824ed4160194"
+        },
+        {
+          "file": "24_first_call_fee.svg",
+          "sha256": "b1bdbdf7166298d6d186aff5597e6ef120e88afa56f57cf78fc8fb53abfca113"
+        },
+        {
+          "file": "25_year8_distribution.svg",
+          "sha256": "f3e6a39dfabe1b6c1047f288b71eef782869a2faef409db3b1b413fe59ddef0e"
+        },
+        {
+          "file": "26_irr_bridge.svg",
+          "sha256": "60338f12dd904f04b72c2cb99445dae07182083f888da1c8773809161610333f"
+        },
+        {
+          "file": "27_irr_benchmark.svg",
+          "sha256": "cba145904e6e9f9d1f765fabc750a6c8738737adf1b2c06eedadff1dbabb62ba"
+        },
+        {
+          "file": "28_lp_value_bridge.svg",
+          "sha256": "36e1c2a9af4212be171de9b7ff622c80d13785f0488376857cb5d044d7f8d2d1"
+        },
+        {
+          "file": "29_gp_receipts_mix.svg",
+          "sha256": "b06a615f075f00fe43d47de73665607189746a6831d50dc4f5e3af8e264a61e4"
+        },
+        {
+          "file": "30_growth_sensitivity.svg",
+          "sha256": "6e8f0775a735dae2cb61ea84fd9843ed3a48a449ab355e7e726c5ef71a5dd845"
+        },
+        {
+          "file": "31_lp_gp_risks.svg",
+          "sha256": "9e6970075ee93d07756d439cc7b05612fa62d505e627ddecfcc272a0df8776c8"
+        },
+        {
+          "file": "32_fee_cut_fund_level.svg",
+          "sha256": "8b43072ab81f6e65d74f4e2980a811cc9f8cd68af765983922fc5cdc3c6f453b"
+        },
+        {
+          "file": "33_operf_npv_dumbbell.svg",
+          "sha256": "242187529505fff95748533b51258e7e12bd4d15a77fe6c750e86521de0dacbf"
+        },
+        {
+          "file": "34_fee_gain_bridge.svg",
+          "sha256": "8cad5c7a145d4541bf7c3c59e39c79281bc2cee857774ddd8d71df07bc3095b8"
+        },
+        {
+          "file": "35_gp_receipts_change.svg",
+          "sha256": "decf2583bad03fa1b72dafc30a3396d2423ff167135500977fca37bde3d252d1"
+        },
+        {
+          "file": "36_fee_cut_scenarios.svg",
+          "sha256": "941110670b0b10943cc1195d8badc5d9fec33d454e046b9c3965b6a7b6d761e6"
+        },
+        {
+          "file": "37_growth_vs_fee.svg",
+          "sha256": "ae30341dcc6bb8af57fe5b3dabbde104ac8e917c50df286e8825e18ab3dcdcc1"
+        },
+        {
+          "file": "38_q3_q4_handoff.svg",
+          "sha256": "e61378b84caac8658261d8d7ba92839348dd6616d0f8c5ea74e3513b208fd854"
+        },
+        {
+          "file": "39_part5_question.svg",
+          "sha256": "07758610f057e1337992b9139176ed73e3aac105b8595701d0df021b57c1056d"
+        },
+        {
+          "file": "40_hurdle_vs_carry.svg",
+          "sha256": "541fb01450d1d9a97e86f3a6fbc30e8b1b930db443e32c2c1c6c44fe9b490ca0"
+        },
+        {
+          "file": "41_hurdle_sensitivity.svg",
+          "sha256": "dc0bd95ec735b1da92094bc260847a889456d4c0badad61baaf1fd513dba23ab"
+        },
+        {
+          "file": "42_carry_sensitivity.svg",
+          "sha256": "b215f075d9b55c8a7f0f7a73051285d5d50cf6b6667fa14e1a46a7d29c57cba4"
+        },
+        {
+          "file": "43_q5_test_points.svg",
+          "sha256": "5f011820c56911919a61a492486a2fe4c0a4c753b130d422fc8ac67074332f3d"
+        },
+        {
+          "file": "44_proposal_packages.svg",
+          "sha256": "ab2c7eb5353b596cc9e7316ae2067a908487283742a090b0b35529654b9e7a9b"
+        },
+        {
+          "file": "45_q5_answer.svg",
+          "sha256": "9dbbb4e61c628b46d1678e649645608e58c704af80e27c361c6281e649b4842e"
+        },
+        {
+          "file": "46_define_the_choice.svg",
+          "sha256": "dd39c6972938334ab02118347797d5a0fc3fa03365346d761585b9db7a2f1558"
+        },
+        {
+          "file": "47_marginal_value.svg",
+          "sha256": "107803e42b0b57cb13827865c7108048fa7fde8995f4e20119f9f4cf30420c54"
+        },
+        {
+          "file": "48_marginal_cushion.svg",
+          "sha256": "fb0c416a7ad35314b6266581200873286eba5916f56a60b7fb633ac9d80a32a4"
+        },
+        {
+          "file": "49_portfolio_checks.svg",
+          "sha256": "fb7d9b79d17ded983e047a2f22934d751dde8c2bd0281895206e278aa4d1de4e"
+        },
+        {
+          "file": "50_q6_answer.svg",
+          "sha256": "5ed1f09095c83558f8293f32546a1cb454b6b75445ce900997b0be99d05233dc"
+        },
+        {
+          "file": "51_recommendation.svg",
+          "sha256": "c99173e23e8f07fed2c653a2a25815e56e949ee141c42bd7d96b00bf9875864d"
+        },
+        {
+          "file": "52_negotiation_approach.svg",
+          "sha256": "459d9f37c1b4414181fe6ea9174014e7e0269af7307fed52dd720d472b0d3e6c"
+        },
+        {
+          "file": "53_decision_limits.svg",
+          "sha256": "6e6d89b2eda020c348482fd7801f20c644799595f8fa7bd4d891cf658663d554"
+        },
+        {
+          "file": "54_appendix_alternatives.svg",
+          "sha256": "e8812b6a446f6f615451a338b28333b9248a071c5350ee7dfb55adc1c4fc3eff"
+        },
+        {
+          "file": "55_appendix_npv_grid.svg",
+          "sha256": "0d16368cb5eadf74856ab024de52499f2d4692895dda0a69fe4936a016902f9a"
+        },
+        {
+          "file": "56_appendix_tpg_record.svg",
+          "sha256": "7ef3704fd39756c432af3005a3cff468404841e14d169315c63d56383dc3366b"
+        }
+      ]
+    },
+    "authoring_roundtrip": null
+  },
+  "package": {
+    "zip_integrity": "passed",
+    "corrupt_member": null,
+    "slides": 56,
+    "notes": 56,
+    "masters": 1,
+    "layouts": 1
+  },
+  "checks": {
+    "zip_integrity": "passed",
+    "slide_count": "passed",
+    "internal_relationships": "enforced-at-build",
+    "structured_package": "not-applicable",
+    "transitions": "enforced-at-build",
+    "animations": "enforced-at-build",
+    "project_svg_contract": "enforced-at-build",
+    "compatibility_normalization": "not-applicable",
+    "authoring_roundtrip": "not-applicable",
+    "quality_gate": "passed",
+    "quality_warnings": "passed",
+    "template_tokens": "passed",
+    "external_images": "passed",
+    "font_portability": "passed"
+  },
+  "quality": {
+    "status": "loaded",
+    "path": "/home/user/case-studies-/projects/operf_tpg_case_study_ppt169_20261009/validation/svg_quality_report.json",
+    "schema": "ppt-master.svg-quality-report.v1",
+    "stage": "final",
+    "source_match": "passed",
+    "source_fingerprint": {
+      "algorithm": "sha256",
+      "digest": "a346af02761d669ce1bfc89a8498ace72792b749b549b3f031fd800aaa3bca24",
+      "file_count": 56,
+      "files": [
+        {
+          "file": "01_cover.svg",
+          "sha256": "92bd84d71caea2bd0b7a148f2700778c87f629bf445b3cf25e770a3decb7cb53"
+        },
+        {
+          "file": "02_contents.svg",
+          "sha256": "35356fd630d0f8d3bf336ac1f8ac5660ebe25c9d961cac4c7c66737b1dab7ba9"
+        },
+        {
+          "file": "03_part1_question.svg",
+          "sha256": "5046b204ace771e4f7d9d605b7a189045915d83c8625756b90bbf5206a74d16c"
+        },
+        {
+          "file": "04_operf_and_tpg.svg",
+          "sha256": "5527a5ad1ce5e4f26ee8d9d30fc0069ff2047fdf887f85b8098cf7309f33503f"
+        },
+        {
+          "file": "05_tpg_vi_size.svg",
+          "sha256": "57cc52cc5eef0518f4b0f55302e79ba89e91e069ca6cbe90c41630c954dafcd6"
+        },
+        {
+          "file": "06_fund_structure.svg",
+          "sha256": "b4f5264765ecfb564e318a5d6435c6e551da8c190055b047ffa49e6a401e066a"
+        },
+        {
+          "file": "07_december_decision.svg",
+          "sha256": "f67c14ceba16fef9533b08c0c88c353b9b19328167752fcfe6653aedbe2f9230"
+        },
+        {
+          "file": "08_part2_question.svg",
+          "sha256": "9c3a1b2c5978a3cacaab858d20b3f0c15e341f91ad7017dacba345e78ce7fad0"
+        },
+        {
+          "file": "09_crisis_channels.svg",
+          "sha256": "3da0accd3809d5a7befe5908edf26ff5ca3d5116e07cb5574352118d286f8bc1"
+        },
+        {
+          "file": "10_wamu_timeline.svg",
+          "sha256": "8a435cdb985b1b263d0033e80c63bd5979414e57997968442feb24f37d951ac6"
+        },
+        {
+          "file": "11_liquidity_allocation.svg",
+          "sha256": "7b6dff512b997263967b5d12b43412cbaa3ce5c80996058857837ef917826967"
+        },
+        {
+          "file": "12_lp_support_branches.svg",
+          "sha256": "3e6ee4b77b7969f841ea57ad6fdfa3863befe0e6d4af267ff25184abfa47c09f"
+        },
+        {
+          "file": "13_concession_matrix.svg",
+          "sha256": "e78a3ac33ddc5b47de9d156dbc0831f3bb4a812ea412cf0f6cbbf115c755c0dc"
+        },
+        {
+          "file": "14_part3_question.svg",
+          "sha256": "308bf249438d3d102759cfc90544907bed492c6086155c5494e1f0ee140e81c8"
+        },
+        {
+          "file": "15_fees_vs_carry.svg",
+          "sha256": "782872f001d7d8c8b00439d2057a71695de39f25cda4de8b609e89e546c3bc29"
+        },
+        {
+          "file": "16_fee_base_incentive.svg",
+          "sha256": "f3ed1695b959a424e1ab28286829ada0d7d3f64e1f2ff7d181a8f793f1baa9c1"
+        },
+        {
+          "file": "17_gp_capital_exposure.svg",
+          "sha256": "8123548ac56e32ae2893afc70256595807f779c0a6f8064a5dd7059f4b338e15"
+        },
+        {
+          "file": "18_part4_question.svg",
+          "sha256": "d829212d77b7b24721ffbca37c76a711950555e917e5f616c48b0b7420055616"
+        },
+        {
+          "file": "19_results_preview.svg",
+          "sha256": "17e99b74a28f0ebb67819081bb9b20cca249444b64fd3047d4a2d9569c236254"
+        },
+        {
+          "file": "20_operf_position.svg",
+          "sha256": "afcb8cd758189d0752fdfee054a3945411e3666c820e69a9f7769cbf9cb5513e"
+        },
+        {
+          "file": "21_tvpi_snapshot.svg",
+          "sha256": "e3158fab08ef088dc081b2dcb176fe32142fef2d4bcca76b87a7122b3a00f9f1"
+        },
+        {
+          "file": "22_model_assumptions.svg",
+          "sha256": "421db3a53187efbe51e498f54ca1323ff9da0f6133da48848ed5f220cef63cac"
+        },
+        {
+          "file": "23_lp_cash_flow_timing.svg",
+          "sha256": "adc3afde234ddbac3f1573da96ebd2eb636651407c5f3713f050824ed4160194"
+        },
+        {
+          "file": "24_first_call_fee.svg",
+          "sha256": "b1bdbdf7166298d6d186aff5597e6ef120e88afa56f57cf78fc8fb53abfca113"
+        },
+        {
+          "file": "25_year8_distribution.svg",
+          "sha256": "f3e6a39dfabe1b6c1047f288b71eef782869a2faef409db3b1b413fe59ddef0e"
+        },
+        {
+          "file": "26_irr_bridge.svg",
+          "sha256": "60338f12dd904f04b72c2cb99445dae07182083f888da1c8773809161610333f"
+        },
+        {
+          "file": "27_irr_benchmark.svg",
+          "sha256": "cba145904e6e9f9d1f765fabc750a6c8738737adf1b2c06eedadff1dbabb62ba"
+        },
+        {
+          "file": "28_lp_value_bridge.svg",
+          "sha256": "36e1c2a9af4212be171de9b7ff622c80d13785f0488376857cb5d044d7f8d2d1"
+        },
+        {
+          "file": "29_gp_receipts_mix.svg",
+          "sha256": "b06a615f075f00fe43d47de73665607189746a6831d50dc4f5e3af8e264a61e4"
+        },
+        {
+          "file": "30_growth_sensitivity.svg",
+          "sha256": "6e8f0775a735dae2cb61ea84fd9843ed3a48a449ab355e7e726c5ef71a5dd845"
+        },
+        {
+          "file": "31_lp_gp_risks.svg",
+          "sha256": "9e6970075ee93d07756d439cc7b05612fa62d505e627ddecfcc272a0df8776c8"
+        },
+        {
+          "file": "32_fee_cut_fund_level.svg",
+          "sha256": "8b43072ab81f6e65d74f4e2980a811cc9f8cd68af765983922fc5cdc3c6f453b"
+        },
+        {
+          "file": "33_operf_npv_dumbbell.svg",
+          "sha256": "242187529505fff95748533b51258e7e12bd4d15a77fe6c750e86521de0dacbf"
+        },
+        {
+          "file": "34_fee_gain_bridge.svg",
+          "sha256": "8cad5c7a145d4541bf7c3c59e39c79281bc2cee857774ddd8d71df07bc3095b8"
+        },
+        {
+          "file": "35_gp_receipts_change.svg",
+          "sha256": "decf2583bad03fa1b72dafc30a3396d2423ff167135500977fca37bde3d252d1"
+        },
+        {
+          "file": "36_fee_cut_scenarios.svg",
+          "sha256": "941110670b0b10943cc1195d8badc5d9fec33d454e046b9c3965b6a7b6d761e6"
+        },
+        {
+          "file": "37_growth_vs_fee.svg",
+          "sha256": "ae30341dcc6bb8af57fe5b3dabbde104ac8e917c50df286e8825e18ab3dcdcc1"
+        },
+        {
+          "file": "38_q3_q4_handoff.svg",
+          "sha256": "e61378b84caac8658261d8d7ba92839348dd6616d0f8c5ea74e3513b208fd854"
+        },
+        {
+          "file": "39_part5_question.svg",
+          "sha256": "07758610f057e1337992b9139176ed73e3aac105b8595701d0df021b57c1056d"
+        },
+        {
+          "file": "40_hurdle_vs_carry.svg",
+          "sha256": "541fb01450d1d9a97e86f3a6fbc30e8b1b930db443e32c2c1c6c44fe9b490ca0"
+        },
+        {
+          "file": "41_hurdle_sensitivity.svg",
+          "sha256": "dc0bd95ec735b1da92094bc260847a889456d4c0badad61baaf1fd513dba23ab"
+        },
+        {
+          "file": "42_carry_sensitivity.svg",
+          "sha256": "b215f075d9b55c8a7f0f7a73051285d5d50cf6b6667fa14e1a46a7d29c57cba4"
+        },
+        {
+          "file": "43_q5_test_points.svg",
+          "sha256": "5f011820c56911919a61a492486a2fe4c0a4c753b130d422fc8ac67074332f3d"
+        },
+        {
+          "file": "44_proposal_packages.svg",
+          "sha256": "ab2c7eb5353b596cc9e7316ae2067a908487283742a090b0b35529654b9e7a9b"
+        },
+        {
+          "file": "45_q5_answer.svg",
+          "sha256": "9dbbb4e61c628b46d1678e649645608e58c704af80e27c361c6281e649b4842e"
+        },
+        {
+          "file": "46_define_the_choice.svg",
+          "sha256": "dd39c6972938334ab02118347797d5a0fc3fa03365346d761585b9db7a2f1558"
+        },
+        {
+          "file": "47_marginal_value.svg",
+          "sha256": "107803e42b0b57cb13827865c7108048fa7fde8995f4e20119f9f4cf30420c54"
+        },
+        {
+          "file": "48_marginal_cushion.svg",
+          "sha256": "fb0c416a7ad35314b6266581200873286eba5916f56a60b7fb633ac9d80a32a4"
+        },
+        {
+          "file": "49_portfolio_checks.svg",
+          "sha256": "fb7d9b79d17ded983e047a2f22934d751dde8c2bd0281895206e278aa4d1de4e"
+        },
+        {
+          "file": "50_q6_answer.svg",
+          "sha256": "5ed1f09095c83558f8293f32546a1cb454b6b75445ce900997b0be99d05233dc"
+        },
+        {
+          "file": "51_recommendation.svg",
+          "sha256": "c99173e23e8f07fed2c653a2a25815e56e949ee141c42bd7d96b00bf9875864d"
+        },
+        {
+          "file": "52_negotiation_approach.svg",
+          "sha256": "459d9f37c1b4414181fe6ea9174014e7e0269af7307fed52dd720d472b0d3e6c"
+        },
+        {
+          "file": "53_decision_limits.svg",
+          "sha256": "6e6d89b2eda020c348482fd7801f20c644799595f8fa7bd4d891cf658663d554"
+        },
+        {
+          "file": "54_appendix_alternatives.svg",
+          "sha256": "e8812b6a446f6f615451a338b28333b9248a071c5350ee7dfb55adc1c4fc3eff"
+        },
+        {
+          "file": "55_appendix_npv_grid.svg",
+          "sha256": "0d16368cb5eadf74856ab024de52499f2d4692895dda0a69fe4936a016902f9a"
+        },
+        {
+          "file": "56_appendix_tpg_record.svg",
+          "sha256": "7ef3704fd39756c432af3005a3cff468404841e14d169315c63d56383dc3366b"
+        }
+      ]
+    },
+    "summary": {
+      "total": 56,
+      "passed": 56,
+      "warnings": 0,
+      "errors": 0
+    },
+    "categories": {
+      "blocking": {
+        "count": 0,
+        "issues": []
+      },
+      "introduced": {
+        "count": 0,
+        "issues": []
+      },
+      "inherited": {
+        "count": 0,
+        "issues": []
+      },
+      "source-import": {
+        "count": 0,
+        "summary": {
+          "warning_count": 0,
+          "by_code": {}
+        }
+      }
+    }
+  },
+  "resources": {
+    "unresolved_template_tokens": [],
+    "fonts": {
+      "stacks": [
+        "Calibri, Arial, sans-serif",
+        "Cambria, Georgia, serif"
+      ],
+      "generic_only_stacks": [],
+      "unsafe_exported_faces": []
+    },
+    "images": {
+      "data_uri": 0,
+      "local": 0,
+      "external": 0,
+      "external_references": []
+    }
+  },
+  "export_policy": {
+    "project_svg_contract": "strict",
+    "dangerous_normalization_count": 0
+  },
+  "deck_motion": {
+    "transition": {
+      "effect": "fade",
+      "effect_options": {},
+      "duration": 0.4,
+      "auto_advance": null,
+      "sound": null
+    },
+    "animation": {
+      "effect": "none",
+      "effect_request": null,
+      "duration": 0.4,
+      "stagger": 0.5,
+      "trigger": "after-previous"
+    },
+    "cli_overrides": {
+      "transition": false,
+      "transition_duration": false,
+      "auto_advance": false,
+      "transition_sound": false,
+      "animation": false,
+      "animation_duration": false,
+      "animation_stagger": false,
+      "animation_trigger": false
+    },
+    "narration_timings": false
+  },
+  "backup_path": "/home/user/case-studies-/projects/operf_tpg_case_study_ppt169_20261009/backup/20261009_082632/svg_output",
+  "conversion_trace_path": null
+}

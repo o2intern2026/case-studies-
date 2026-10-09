@@ -1,0 +1,161 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" data-pptx-page-role="content" font-family="Calibri, Arial, sans-serif" font-size="22">
+  <rect id="page-background" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FBF8F2" />
+
+  <g id="kicker" data-pptx-bounds="64 58 700 26">
+    <text x="64" y="72" font-size="16" font-weight="bold" letter-spacing="2" fill="#003657">COMMITMENT DECISION · EVIDENCE FROM Q3, Q4 AND Q5</text>
+    <line x1="64" y1="82" x2="120" y2="82" stroke="#BC9E60" stroke-width="2" />
+  </g>
+
+  <g id="title" data-pptx-bounds="64 90 1152 96">
+    <text font-size="40" fill="#003657" font-family="Cambria, Georgia, serif" font-weight="bold" x="64" y="124">Earlier calculations support retaining</text><text font-size="40" fill="#003657" font-family="Cambria, Georgia, serif" font-weight="bold" x="64" y="172">in the base case</text></g>
+
+  <g id="lead" data-pptx-bounds="64 186 1152 64">
+    <text fill="#003657" x="64" y="206">After the offered fee cut, the hypothetical marginal $75m inception commitment has <tspan font-weight="bold">+$2.82m NPV</tspan>.</text><text fill="#003657" x="64" y="236">Negotiated improvements could increase this value, but they are not yet secured.</text></g>
+
+  <g id="marginal-npv-bars" data-pptx-bounds="64 262 760 318" data-pptx-replace-with="chart" data-pptx-fallback-sha256="9cc706748af9829f2b53b591168d92a9650525457e81d6d3ae8663e6fbf94a71">
+    <metadata type="application/json">
+{
+              "name": "marginal-npv-bars",
+              "x": 64,
+              "y": 262,
+              "width": 760,
+              "height": 318,
+              "type": "bar",
+              "grouping": "clustered",
+              "title": "NPV of a hypothetical $75m inception commitment, $m",
+              "categories": [
+                      "Q3: 1.50% fee, 20% carry, no hurdle assumed",
+                      "Q4: 1.35% fee, 20% carry, no hurdle assumed",
+                      "Q5 Package A: 1.35% fee, 8% hurdle, no catch-up, 20% carry",
+                      "Q5 Package B: 1.35% fee, 8% hurdle, full catch-up, 15% carry"
+              ],
+              "series": [
+                      {
+                              "name": "Marginal $75m inception NPV ($m)",
+                              "values": [
+                                      2.168314,
+                                      2.823672,
+                                      4.888269,
+                                      4.754964
+                              ],
+                              "point_colors": [
+                                      "#8AA1AC",
+                                      "#003657",
+                                      "#BFCDD5",
+                                      "#BFD4FF"
+                              ]
+                      }
+              ],
+              "gap_width": 56,
+              "plot_area": {
+                      "x": 420,
+                      "y": 300,
+                      "width": 380,
+                      "height": 230
+              },
+              "axes": {
+                      "category": {
+                              "position": "left"
+                      },
+                      "value": {
+                              "position": "bottom",
+                              "minimum": 0,
+                              "maximum": 6,
+                              "major_unit": 2,
+                              "number_format": "0"
+                      }
+              },
+              "style": {
+                      "font_family": "Calibri",
+                      "text_color": "#003657",
+                      "axis_color": "#5C6670"
+              },
+              "notes": [
+                      {
+                              "text": "+2.17",
+                              "width": 60,
+                              "bold": true,
+                              "font_size": 18
+                      },
+                      {
+                              "text": "+2.82",
+                              "width": 60,
+                              "bold": true,
+                              "font_size": 18
+                      },
+                      {
+                              "text": "+4.89",
+                              "width": 60,
+                              "bold": true,
+                              "font_size": 18
+                      },
+                      {
+                              "text": "+4.75",
+                              "width": 60,
+                              "bold": true,
+                              "font_size": 18
+                      },
+                      {
+                              "text": "base case",
+                              "width": 80,
+                              "color": "#5C6670",
+                              "font_size": 14
+                      },
+                      {
+                              "text": "conditional on obtaining the package",
+                              "width": 260,
+                              "color": "#5C6670",
+                              "font_size": 14
+                      }
+              ]
+      }
+    </metadata>
+    <text x="64" y="284" font-size="18" font-weight="bold" fill="#003657">NPV of a hypothetical $75m inception commitment, $m</text>
+    <g id="marginal-npv-bars-chartArea">
+      <g id="marginal-npv-bars-axis" stroke="#5C6670" stroke-width="1.5">
+        <line x1="420" y1="300" x2="420" y2="530" />
+        <line x1="420" y1="530" x2="800" y2="530" />
+      </g>
+      
+      <rect x="420" y="306" width="137.3" height="36" fill="#8AA1AC" />
+      <rect x="420" y="362" width="178.8" height="36" fill="#003657" />
+      <rect x="420" y="418" width="309.6" height="36" fill="#BFCDD5" stroke="#003657" stroke-width="1.5" stroke-dasharray="4,3" />
+      <rect x="420" y="474" width="301.1" height="36" fill="#BFD4FF" stroke="#0055FF" stroke-width="1.5" stroke-dasharray="4,3" />
+      <g font-size="16" fill="#003657" text-anchor="end">
+        <text x="408" y="320">Q3: 1.50% fee, 20% carry, </text><text x="408" y="340">no hurdle assumed</text><text font-weight="bold" x="408" y="376">Q4: 1.35% fee, 20% carry, </text><text font-weight="normal" x="408" y="396">no hurdle assumed</text><text x="408" y="432">Q5 Package A: 1.35% fee, 8% hurdle, </text><text x="408" y="452">no catch-up, 20% carry</text><text x="408" y="488">Q5 Package B: 1.35% fee, 8% hurdle, </text><text x="408" y="508">full catch-up, 15% carry</text></g>
+      <g font-size="18" font-weight="bold" fill="#003657">
+        <text x="565" y="330">+2.17</text>
+        <text x="607" y="386">+2.82</text>
+        <text x="738" y="442">+4.89</text>
+        <text x="729" y="498">+4.75</text>
+      </g>
+      <text x="668" y="386" font-size="14" font-style="italic" fill="#5C6670">base case</text>
+      <text x="420" y="552" font-size="14" font-style="italic" fill="#5C6670">conditional on obtaining the package</text>
+      <g font-size="14" fill="#5C6670" text-anchor="middle">
+        <text x="420" y="572">0</text>
+        <text x="546.7" y="572">2</text>
+        <text x="673.3" y="572">4</text>
+        <text x="800" y="572">6</text>
+      </g>
+    </g>
+  </g>
+
+  <g id="sign-callout" data-pptx-bounds="840 262 376 310">
+    <rect x="840" y="268" width="376" height="300" fill="#F1ECE2" />
+    <text x="864" y="298" font-size="18" font-weight="bold" fill="#003657">Sign convention</text>
+    <text font-size="18" fill="#1E1E1E" x="864" y="330">The workbook's −$2.82m is the NPV</text><text font-size="18" fill="#1E1E1E" x="864" y="354">change from reducing. The value of</text><text font-size="18" fill="#1E1E1E" x="864" y="378">retaining the extra commitment</text><text font-size="18" fill="#1E1E1E" x="864" y="402">is +$2.82m.</text><text x="864" y="444" font-size="16" fill="#5C6670">$25.413m − $28.237m = −$2.824m</text>
+    <text x="864" y="484" font-size="18" font-weight="bold" fill="#003657">Supporting calculation</text>
+    <text font-size="16" fill="#5C6670" x="864" y="512">2.168314 + 0.655358 = 2.823672</text><text font-size="16" fill="#5C6670" x="864" y="534">(the $6.55m fee-cut gain × 10% ≈ $0.66m)</text></g>
+
+  <g id="chart-footer" data-pptx-bounds="64 582 1152 30">
+    <text x="64" y="600" font-size="14" font-style="italic" fill="#5C6670">20% annual asset growth; 15% discount rate; hypothetical inception model. This is not a December valuation of cancelling remaining obligations.</text>
+  </g>
+
+  <g id="scaling-note" data-pptx-bounds="64 616 1152 30">
+    <text x="64" y="636" font-size="18" fill="#5C6670">All values scale the $750m model by 10%, holding fund size, investment timing and proportional cash-flow rights fixed.</text>
+  </g>
+
+  <g id="footer" data-pptx-bounds="64 668 1152 36" fill="#5C6670" font-size="14">
+    <text x="64" y="680">Source: Summary!B29, C29, D29 × Inputs!C27; Package B = (Summary!C29 + Q5 Analysis!G10) × Inputs!C27; fee gain Q4 Analysis!C25 × Inputs!C27; sign check</text><text x="64" y="697">Q6 OPERF decision!B20:D20. The workbook's first OPERF contribution is $150m, while the case reports $79.9m to date; a December valuation must preserve sunk contributions.</text><text x="1216" y="697" text-anchor="end">47</text>
+  </g>
+</svg>

@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" data-pptx-page-role="content" font-family="Calibri, Arial, sans-serif" font-size="22">
-  <rect id="page-background" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FBF8F2"/>
+  <rect id="page-background" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FBF8F2" />
 
   <g id="kicker" data-pptx-bounds="64 58 500 26">
     <text x="64" y="72" font-size="16" font-weight="bold" letter-spacing="2" fill="#003657">FINAL RECOMMENDATION</text>
-    <line x1="64" y1="82" x2="120" y2="82" stroke="#BC9E60" stroke-width="2"/>
+    <line x1="64" y1="82" x2="120" y2="82" stroke="#BC9E60" stroke-width="2" />
   </g>
 
   <g id="title" data-pptx-bounds="64 90 1152 96">
@@ -14,72 +14,72 @@
     <text x="64" y="206" font-weight="bold" fill="#003657">Retain $750m in the base case and accept the fee cut; preserve or seek the 8% preferred return;<tspan x="64" dy="30">lead with Package A, then Package B.</tspan></text>
   </g>
 
-  <g id="answer-q6" data-pptx-bounds="64 266 440 180">
+  <g id="answer-q6" data-pptx-bounds="64 266 480 218">
     <text x="64" y="284" font-size="16" font-weight="bold" letter-spacing="2" fill="#003657">Q6 · COMMITMENT</text>
-    <line x1="64" y1="294" x2="120" y2="294" stroke="#BC9E60" stroke-width="2"/>
-    <text x="64" y="320" font-size="18" fill="#1E1E1E">Do not take the 10% reduction under the prescribed<tspan x="64" dy="24">base case; retain $750m. Accept the fee cut available</tspan><tspan x="64" dy="24">either way.</tspan></text>
-    <text x="64" y="398" font-size="16" fill="#5C6670">The +$2.82m marginal inception value supports retaining.<tspan x="64" dy="20">Reverse if actual forward incremental value is negative, better</tspan><tspan x="64" dy="20">alternatives or concentration constraints make the extra</tspan><tspan x="64" dy="20">exposure unattractive, or liquidity pressure is unacceptable.</tspan></text>
+    <line x1="64" y1="294" x2="120" y2="294" stroke="#BC9E60" stroke-width="2" />
+    <text x="64" y="320" font-size="18" fill="#1E1E1E">Do not take the 10% reduction under the prescribed<tspan x="64" dy="24">base case; retain $750m. Accept the fee cut</tspan><tspan x="64" dy="24">available either way.</tspan></text>
+    <text x="64" y="396" font-size="16" fill="#5C6670">The +$2.82m marginal inception value supports retaining.<tspan x="64" dy="20">Reverse if actual forward incremental value is negative,</tspan><tspan x="64" dy="20">better alternatives or concentration constraints make the</tspan><tspan x="64" dy="20">extra exposure unattractive, or liquidity pressure is</tspan><tspan x="64" dy="20">unacceptable.</tspan></text>
   </g>
 
-  <g id="answer-q5" data-pptx-bounds="64 456 440 170">
-    <text x="64" y="474" font-size="16" font-weight="bold" letter-spacing="2" fill="#003657">Q5 · NEGOTIATING ORDER</text>
-    <line x1="64" y1="484" x2="120" y2="484" stroke="#BC9E60" stroke-width="2"/>
-    <text x="64" y="510" font-size="18" fill="#1E1E1E">1  Confirm or preserve 8% protection.<tspan x="64" dy="26">2  Lead with A: 8%, no catch-up, 20% carry.</tspan><tspan x="64" dy="26">3  If refused, pursue B: 8%, full catch-up, 15% carry.</tspan><tspan x="64" dy="26">4  Seek the standard 8% hurdle as a fallback only where absent.</tspan></text>
-    <text x="64" y="620" font-size="14" fill="#5C6670">Existing protection and the already-offered fee cut are not new concessions.</text>
+  <g id="answer-q5" data-pptx-bounds="64 492 480 140">
+    <text x="64" y="510" font-size="16" font-weight="bold" letter-spacing="2" fill="#003657">Q5 · NEGOTIATING ORDER</text>
+    <line x1="64" y1="520" x2="120" y2="520" stroke="#BC9E60" stroke-width="2" />
+    <text x="64" y="544" font-size="16" fill="#1E1E1E">1  Confirm or preserve 8% protection.<tspan x="64" dy="22">2  Lead with A: 8%, no catch-up, 20% carry.</tspan><tspan x="64" dy="22">3  If refused, pursue B: 8%, full catch-up, 15% carry.</tspan><tspan x="64" dy="22">4  Standard 8% hurdle as a fallback, only where absent.</tspan></text>
+    <text x="64" y="628" font-size="14" fill="#5C6670">Existing protection and the already-offered fee cut are not new concessions.</text>
   </g>
 
-  <g id="branch-diagram" data-pptx-bounds="528 266 688 360">
-    <text x="528" y="284" font-size="16" font-weight="bold" letter-spacing="2" fill="#003657">OPERF NPV AT MODEL INCEPTION, $m</text>
-    <line x1="528" y1="294" x2="584" y2="294" stroke="#BC9E60" stroke-width="2"/>
+  <g id="branch-diagram" data-pptx-bounds="560 266 656 364">
+    <text x="560" y="284" font-size="16" font-weight="bold" letter-spacing="2" fill="#003657">OPERF NPV AT MODEL INCEPTION, $m</text>
+    <line x1="560" y1="294" x2="616" y2="294" stroke="#BC9E60" stroke-width="2" />
 
-    <g id="branch-origin" fill="#F1ECE2">
-      <rect x="528" y="420" width="150" height="72"/>
-      <text x="603" y="446" font-size="14" fill="#5C6670" text-anchor="middle">Original terms</text>
-      <text x="603" y="476" font-size="22" font-weight="bold" fill="#003657" text-anchor="middle">$21.68m</text>
+    <g id="branch-origin">
+      <rect x="560" y="418" width="140" height="76" fill="#F1ECE2" />
+      <text x="630" y="446" font-size="14" fill="#5C6670" text-anchor="middle">Original terms</text>
+      <text x="630" y="478" font-weight="bold" fill="#003657" text-anchor="middle">$21.68m</text>
     </g>
     <g id="arrow-origin-base" stroke="#5C6670" stroke-width="1.5" fill="#5C6670">
-      <line x1="678" y1="456" x2="716" y2="456"/>
-      <path d="M716 450 L728 456 L716 462 Z" stroke="none"/>
+      <line x1="700" y1="456" x2="722" y2="456" />
+      <path d="M722 450 L734 456 L722 462 Z" stroke="none" />
     </g>
     <g id="branch-base">
-      <rect x="728" y="420" width="150" height="72" fill="#003657"/>
-      <text x="803" y="446" font-size="14" fill="#D6CFC2" text-anchor="middle">Fee-cut model baseline</text>
-      <text x="803" y="476" font-size="22" font-weight="bold" fill="#FBF8F2" text-anchor="middle">$28.24m</text>
+      <rect x="734" y="418" width="140" height="76" fill="#003657" />
+      <text x="804" y="440" font-size="14" fill="#D6CFC2" text-anchor="middle">Fee-cut model<tspan x="804" dy="17">baseline</tspan></text>
+      <text x="804" y="482" font-weight="bold" fill="#FBF8F2" text-anchor="middle">$28.24m</text>
     </g>
 
     <g id="branch-connectors" fill="none" stroke-width="1.5">
-      <path d="M878 456 C910 456, 910 352, 940 352" stroke="#003657"/>
-      <path d="M878 456 L940 456" stroke="#0055FF"/>
-      <path d="M878 456 C910 456, 910 560, 940 560" stroke="#8AA1AC"/>
+      <path d="M874 456 C900 456, 900 352, 920 352" stroke="#003657" />
+      <path d="M874 456 L920 456" stroke="#0055FF" />
+      <path d="M874 456 C900 456, 900 560, 920 560" stroke="#8AA1AC" />
     </g>
 
     <g id="branch-a">
-      <rect x="940" y="316" width="276" height="72" fill="#FBF8F2" stroke="#003657" stroke-width="2"/>
-      <text x="956" y="338" font-size="14" font-weight="bold" fill="#003657">FIRST CHOICE · A</text>
-      <text x="956" y="356" font-size="14" fill="#5C6670">8% hurdle · no catch-up · 20% carry</text>
-      <text x="956" y="380" font-size="20" font-weight="bold" fill="#003657">$48.88m</text>
+      <rect x="920" y="316" width="296" height="72" fill="#FBF8F2" stroke="#003657" stroke-width="2" />
+      <text x="936" y="338" font-size="14" font-weight="bold" fill="#003657">FIRST CHOICE · A</text>
+      <text x="936" y="356" font-size="14" fill="#5C6670">8% hurdle · no catch-up · 20% carry</text>
+      <text x="936" y="380" font-size="20" font-weight="bold" fill="#003657">$48.88m</text>
     </g>
     <g id="branch-b">
-      <rect x="940" y="420" width="276" height="72" fill="#FBF8F2" stroke="#0055FF" stroke-width="2"/>
-      <text x="956" y="442" font-size="14" font-weight="bold" fill="#0055FF">SECOND CHOICE · B</text>
-      <text x="956" y="460" font-size="14" fill="#5C6670">8% hurdle · full catch-up · 15% carry</text>
-      <text x="956" y="484" font-size="20" font-weight="bold" fill="#0055FF">$47.55m</text>
+      <rect x="920" y="420" width="296" height="72" fill="#FBF8F2" stroke="#0055FF" stroke-width="2" />
+      <text x="936" y="442" font-size="14" font-weight="bold" fill="#0055FF">SECOND CHOICE · B</text>
+      <text x="936" y="460" font-size="14" fill="#5C6670">8% hurdle · full catch-up · 15% carry</text>
+      <text x="936" y="484" font-size="20" font-weight="bold" fill="#0055FF">$47.55m</text>
     </g>
     <g id="branch-fallback">
-      <rect x="940" y="524" width="276" height="72" fill="#FBF8F2" stroke="#8AA1AC" stroke-width="2"/>
-      <text x="956" y="546" font-size="14" font-weight="bold" fill="#5C6670">FALLBACK WHERE ABSENT</text>
-      <text x="956" y="564" font-size="14" fill="#5C6670">8% hurdle · full catch-up · 20% carry</text>
-      <text x="956" y="588" font-size="20" font-weight="bold" fill="#5C6670">$30.96m</text>
+      <rect x="920" y="524" width="296" height="72" fill="#FBF8F2" stroke="#8AA1AC" stroke-width="2" />
+      <text x="936" y="546" font-size="14" font-weight="bold" fill="#5C6670">FALLBACK WHERE ABSENT</text>
+      <text x="936" y="564" font-size="14" fill="#5C6670">8% hurdle · full catch-up · 20% carry</text>
+      <text x="936" y="588" font-size="20" font-weight="bold" fill="#5C6670">$30.96m</text>
     </g>
-    <text x="528" y="620" font-size="14" font-style="italic" fill="#5C6670">Branches are ranked alternatives, not cumulative demands.</text>
+    <text x="560" y="624" font-size="14" font-style="italic" fill="#5C6670">Branches are ranked alternatives, not cumulative demands.</text>
   </g>
 
-  <g id="chart-footer" data-pptx-bounds="64 634 1152 24">
-    <text x="64" y="650" font-size="14" font-style="italic" fill="#5C6670">All NPVs at model inception; 20% asset growth; 15% discount rate; actual TPG VI terms may differ. If a reference hurdle already exists, measure only the incremental improvement.</text>
+  <g id="chart-footer" data-pptx-bounds="64 636 1152 24">
+    <text x="64" y="652" font-size="14" font-style="italic" fill="#5C6670">All NPVs at model inception; 20% asset growth; 15% discount rate; actual TPG VI terms may differ. If a reference hurdle already exists, measure only the incremental improvement.</text>
   </g>
 
-  <g id="footer" data-pptx-bounds="64 668 1152 36">
-    <text x="64" y="680" font-size="14" fill="#5C6670">Source: Summary!B29:E29; Package B total = Summary!C29 + Q5 Analysis!G10; Q6 OPERF decision!D20. The isolated 15%-carry / no-hurdle case ($45.90m) remains an analytical<tspan x="64" dy="17">scenario, not the recommended package.</tspan></text>
-    <text x="1216" y="697" font-size="14" fill="#5C6670" text-anchor="end">51</text>
+  <g id="footer" data-pptx-bounds="64 668 1152 36" fill="#5C6670" font-size="14">
+    <text x="64" y="680">Source: Summary!B29:E29; Package B total = Summary!C29 + Q5 Analysis!G10; Q6 OPERF decision!D20. The isolated 15%-carry / no-hurdle case ($45.90m) remains an analytical<tspan x="64" dy="17">scenario, not the recommended package.</tspan></text>
+    <text x="1216" y="697" text-anchor="end">51</text>
   </g>
 </svg>

@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" data-pptx-page-role="content" font-family="Calibri, Arial, sans-serif" font-size="22">
-  <rect id="page-background" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FBF8F2"/>
+  <rect id="page-background" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FBF8F2" />
 
   <g id="kicker" data-pptx-bounds="64 58 500 26">
     <text x="64" y="72" font-size="16" font-weight="bold" letter-spacing="2" fill="#003657">SENSITIVITY ANALYSIS</text>
-    <line x1="64" y1="82" x2="120" y2="82" stroke="#BC9E60" stroke-width="2"/>
+    <line x1="64" y1="82" x2="120" y2="82" stroke="#BC9E60" stroke-width="2" />
   </g>
 
   <g id="title" data-pptx-bounds="64 90 1152 96">
@@ -14,37 +14,85 @@
     <text x="64" y="218" fill="#1E1E1E">At 10% growth, LP IRR falls below the 15% model benchmark while GP carry remains positive.</text>
   </g>
 
-  <g id="lp-irr-by-growth" data-pptx-bounds="64 240 540 240" data-pptx-replace-with="chart">
+  <g id="lp-irr-by-growth" data-pptx-bounds="64 240 540 240" data-pptx-replace-with="chart" data-pptx-fallback-sha256="fe75bd684de29f1e0774e3d05a27f1fc3716955bf300312f759f3b56b28e86d8">
     <metadata type="application/json">
-      {
-        "name": "lp-irr-by-growth",
-        "x": 64, "y": 240, "width": 540, "height": 240,
-        "type": "bar",
-        "grouping": "clustered",
-        "title": "LP IRR by asset growth",
-        "categories": ["0%", "10%", "20%"],
-        "series": [{"name": "LP IRR", "values": [-2.8741, 6.4191, 15.7226]}],
-        "gap_width": 54,
-        "plot_area": {"x": 170, "y": 296, "width": 370, "height": 148},
-        "axes": {
-          "category": {"position": "left", "label_position": "low"},
-          "value": {"position": "bottom", "minimum": -5, "maximum": 20, "major_unit": 5, "number_format": "0\"%\""}
-        },
-        "data_labels": {"show_value": true, "position": "outside_end", "number_format": "0.00\"%\""},
-        "style": {"colors": ["#003657"], "font_family": "Calibri", "text_color": "#003657", "axis_color": "#5C6670"},
-        "notes": [{"text": "Assumed model benchmark 15%", "width": 220}]
+{
+              "name": "lp-irr-by-growth",
+              "x": 64,
+              "y": 240,
+              "width": 540,
+              "height": 240,
+              "type": "bar",
+              "grouping": "clustered",
+              "title": "LP IRR by asset growth",
+              "categories": [
+                      "0%",
+                      "10%",
+                      "20%"
+              ],
+              "series": [
+                      {
+                              "name": "LP IRR",
+                              "values": [
+                                      -2.8741,
+                                      6.4191,
+                                      15.7226
+                              ]
+                      }
+              ],
+              "gap_width": 54,
+              "plot_area": {
+                      "x": 170,
+                      "y": 296,
+                      "width": 370,
+                      "height": 148
+              },
+              "axes": {
+                      "category": {
+                              "position": "left",
+                              "label_position": "low"
+                      },
+                      "value": {
+                              "position": "bottom",
+                              "minimum": -5,
+                              "maximum": 20,
+                              "major_unit": 5,
+                              "number_format": "0\"%\""
+                      }
+              },
+              "data_labels": {
+                      "show_value": true,
+                      "position": "outside_end",
+                      "number_format": "0.00\"%\""
+              },
+              "style": {
+                      "colors": [
+                              "#003657"
+                      ],
+                      "font_family": "Calibri",
+                      "text_color": "#003657",
+                      "axis_color": "#5C6670"
+              },
+              "notes": [
+                      {
+                              "text": "Assumed model benchmark 15%",
+                              "width": 220,
+                              "color": "#5C6670",
+                              "font_size": 14
+                      }
+              ]
       }
     </metadata>
     <text x="64" y="262" font-size="18" font-weight="bold" fill="#003657">LP IRR by asset growth</text>
     <g id="lp-irr-by-growth-chartArea">
       <g id="lp-irr-by-growth-axis" stroke="#5C6670" stroke-width="1.5">
-        <line x1="244" y1="296" x2="244" y2="444"/>
-        <line x1="170" y1="444" x2="540" y2="444"/>
+        <line x1="244" y1="296" x2="244" y2="444" />
+        <line x1="170" y1="444" x2="540" y2="444" />
       </g>
       <!-- chart-plot-area: object=lp-irr-by-growth | 170,296,540,444 -->
-      <rect x="201.5" y="304" width="42.5" height="32" fill="#003657"/>
-      <rect x="244" y="352" width="95" height="32" fill="#003657"/>
-      <rect x="244" y="400" width="232.7" height="32" fill="#003657"/>
+      <rect x="201.5" y="304" width="42.5" height="32" fill="#003657" />
+      <rect x="244" y="352" width="95" height="32" fill="#003657" />
+      <rect x="244" y="400" width="232.7" height="32" fill="#003657" />
       <g font-size="18" fill="#003657" text-anchor="end">
         <text x="158" y="326">0%</text>
         <text x="158" y="374" font-weight="bold">10%</text>
@@ -53,7 +101,7 @@
       <text x="195" y="326" font-size="18" fill="#003657" text-anchor="end">-2.87%</text>
       <text x="347" y="374" font-size="18" font-weight="bold" fill="#003657">6.42%</text>
       <text x="485" y="422" font-size="18" fill="#003657">15.72%</text>
-      <line id="lp-irr-by-growth-benchmark" x1="466" y1="296" x2="466" y2="444" stroke="#5C6670" stroke-width="2" stroke-dasharray="4,4"/>
+      <line id="lp-irr-by-growth-benchmark" x1="466" y1="296" x2="466" y2="444" stroke="#5C6670" stroke-width="2" stroke-dasharray="4,4" />
       <text x="540" y="290" font-size="14" fill="#5C6670" text-anchor="end">Assumed model benchmark 15%</text>
       <g font-size="14" fill="#5C6670" text-anchor="middle">
         <text x="170" y="466">-5%</text>
@@ -66,7 +114,7 @@
     </g>
   </g>
 
-  <g id="gp-receipts-by-growth" data-pptx-bounds="640 240 576 240" data-pptx-replace-with="chart">
+  <g id="gp-receipts-by-growth" data-pptx-bounds="640 240 576 240" data-pptx-replace-with="chart" data-pptx-fallback-sha256="b7c6f494afe325cf9bb94f9d2825105480e5f28ce2ed128021938868ba07b1b6">
     <metadata type="application/json">
       {
         "name": "gp-receipts-by-growth",
@@ -92,21 +140,21 @@
       }
     </metadata>
     <text x="640" y="262" font-size="18" font-weight="bold" fill="#003657">GP receipts, PV at 15% ($m)</text>
-    <rect x="760" y="274" width="14" height="14" fill="#BC9E60"/>
+    <rect x="760" y="274" width="14" height="14" fill="#BC9E60" />
     <text x="780" y="286" font-size="14" fill="#003657">Fee PV</text>
-    <rect x="860" y="274" width="14" height="14" fill="#0055FF"/>
+    <rect x="860" y="274" width="14" height="14" fill="#0055FF" />
     <text x="880" y="286" font-size="14" fill="#003657">Carry PV</text>
     <g id="gp-receipts-by-growth-chartArea">
       <g id="gp-receipts-by-growth-axis" stroke="#5C6670" stroke-width="1.5">
-        <line x1="760" y1="296" x2="760" y2="444"/>
-        <line x1="760" y1="444" x2="1176" y2="444"/>
+        <line x1="760" y1="296" x2="760" y2="444" />
+        <line x1="760" y1="444" x2="1176" y2="444" />
       </g>
       <!-- chart-plot-area: object=gp-receipts-by-growth | 760,296,1176,444 -->
-      <rect x="760" y="304" width="180.1" height="32" fill="#BC9E60"/>
-      <rect x="760" y="352" width="180.1" height="32" fill="#BC9E60"/>
-      <rect x="940.1" y="352" width="55.5" height="32" fill="#0055FF"/>
-      <rect x="760" y="400" width="180.1" height="32" fill="#BC9E60"/>
-      <rect x="940.1" y="400" width="191.9" height="32" fill="#0055FF"/>
+      <rect x="760" y="304" width="180.1" height="32" fill="#BC9E60" />
+      <rect x="760" y="352" width="180.1" height="32" fill="#BC9E60" />
+      <rect x="940.1" y="352" width="55.5" height="32" fill="#0055FF" />
+      <rect x="760" y="400" width="180.1" height="32" fill="#BC9E60" />
+      <rect x="940.1" y="400" width="191.9" height="32" fill="#0055FF" />
       <g font-size="18" fill="#003657" text-anchor="end">
         <text x="748" y="326">0%</text>
         <text x="748" y="374" font-weight="bold">10%</text>
@@ -130,13 +178,13 @@
     </g>
   </g>
 
-  <g id="scenario-caption" data-pptx-bounds="64 560 1152 60">
-    <text x="64" y="584" font-size="18" fill="#5C6670">Baseline model assumes no hurdle; TPG VI's exact preferred-return terms are not confirmed. 1.50% management fee.</text>
-    <text x="64" y="610" font-size="18" fill="#5C6670">GP receipts are PV at model inception, 15% assumed discount rate; TPG's co-investment and operating costs not modelled.</text>
+  <g id="scenario-caption" data-pptx-bounds="64 560 1152 60" fill="#5C6670" font-size="18">
+    <text x="64" y="584">Baseline model assumes no hurdle; TPG VI's exact preferred-return terms are not confirmed. 1.50% management fee.</text>
+    <text x="64" y="610">GP receipts are PV at model inception, 15% assumed discount rate; TPG's co-investment and operating costs not modelled.</text>
   </g>
 
-  <g id="footer" data-pptx-bounds="64 668 1152 36">
-    <text x="64" y="680" font-size="14" fill="#5C6670">Source: Q3 Analysis!A34:E34, A36:E36, A38:E38; Case pp. 4–5. The 10% case is still a positive IRR, not a nominal LP loss; 15% is not a contractual hurdle.<tspan x="64" dy="17">The no-hurdle model returns capital and then splits profit regardless of the LP's rate of return.</tspan></text>
-    <text x="1216" y="697" font-size="14" fill="#5C6670" text-anchor="end">30</text>
+  <g id="footer" data-pptx-bounds="64 668 1152 36" fill="#5C6670" font-size="14">
+    <text x="64" y="680">Source: Q3 Analysis!A34:E34, A36:E36, A38:E38; Case pp. 4–5. The 10% case is still a positive IRR, not a nominal LP loss; 15% is not a contractual hurdle.<tspan x="64" dy="17">The no-hurdle model returns capital and then splits profit regardless of the LP's rate of return.</tspan></text>
+    <text x="1216" y="697" text-anchor="end">30</text>
   </g>
 </svg>

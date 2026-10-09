@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" data-pptx-page-role="content" font-family="Calibri, Arial, sans-serif" font-size="22">
+  <defs>
+    <marker id="arrow-navy" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><polygon points="0,0 10,5 0,10" fill="#003657" /></marker>
+  </defs>
+  <rect id="page-background" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FBF8F2" />
+
+  <g id="kicker" data-pptx-bounds="64 58 500 26">
+    <text x="64" y="72" font-size="16" font-weight="bold" letter-spacing="2" fill="#003657">TPG'S MOTIVATION</text>
+    <line x1="64" y1="82" x2="120" y2="82" stroke="#BC9E60" stroke-width="2" />
+  </g>
+
+  <g id="title" data-pptx-bounds="64 90 1152 96">
+    <text font-size="40" fill="#003657" font-family="Cambria, Georgia, serif" font-weight="bold" x="64" y="124">LP support matters for both the current fund</text><text font-size="40" fill="#003657" font-family="Cambria, Georgia, serif" font-weight="bold" x="64" y="172">and future fundraising</text></g>
+
+  <g id="lp-support" data-pptx-bounds="64 236 1152 380">
+    <rect x="64" y="384" width="240" height="56" fill="#003657" />
+    <text x="184" y="419" font-weight="bold" fill="#FBF8F2" text-anchor="middle">LP support</text>
+
+    <g fill="none" stroke="#003657" stroke-width="2">
+      <line x1="304" y1="400" x2="456" y2="302" marker-end="url(#arrow-navy)" />
+      <line x1="304" y1="424" x2="456" y2="522" marker-end="url(#arrow-navy)" />
+      <line x1="700" y1="300" x2="770" y2="300" marker-end="url(#arrow-navy)" />
+      <line x1="700" y1="524" x2="770" y2="524" marker-end="url(#arrow-navy)" />
+    </g>
+
+    <rect x="460" y="272" width="240" height="56" fill="none" stroke="#003657" stroke-width="1.5" />
+    <text x="580" y="307" font-weight="bold" fill="#003657" text-anchor="middle">Current fund</text>
+    <text fill="#003657" x="790" y="296">Reliable capital calls support</text><text fill="#003657" x="790" y="326">investment execution</text><rect x="460" y="496" width="240" height="56" fill="none" stroke="#003657" stroke-width="1.5" stroke-dasharray="6,3" />
+    <text x="580" y="531" font-weight="bold" fill="#003657" text-anchor="middle">Future funds</text>
+    <text x="580" y="580" font-size="16" font-style="italic" fill="#5C6670" text-anchor="middle">Possible future effect</text>
+    <text fill="#003657" x="790" y="520">LP willingness to reinvest affects</text><text fill="#003657" x="790" y="550">access to new capital</text></g>
+
+  <g id="footer" data-pptx-bounds="64 668 1152 36" fill="#5C6670" font-size="14">
+    <text x="64" y="680">Source: Case p. 1 (Schmitz's view of the fundraising environment). Protecting future capital is a possible motive, not a confirmed management</text><text x="64" y="697">intention or fundraising result.</text><text x="1216" y="697" text-anchor="end">12</text>
+  </g>
+</svg>

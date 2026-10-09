@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" data-pptx-page-role="content" font-family="Calibri, Arial, sans-serif" font-size="22">
+  <rect id="page-background" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FBF8F2" />
+
+  <g id="kicker" data-pptx-bounds="64 58 500 26">
+    <text x="64" y="72" font-size="16" font-weight="bold" letter-spacing="2" fill="#003657">THE DECISION AT HAND</text>
+    <line x1="64" y1="82" x2="120" y2="82" stroke="#BC9E60" stroke-width="2" />
+  </g>
+
+  <g id="title" data-pptx-bounds="64 90 1152 96">
+    <text font-size="40" fill="#003657" font-family="Cambria, Georgia, serif" font-weight="bold" x="64" y="124">Should OPERF reduce its commitment</text><text font-size="40" fill="#003657" font-family="Cambria, Georgia, serif" font-weight="bold" x="64" y="172">and seek better terms?</text></g>
+
+  <g id="december-offer-table" data-pptx-bounds="136 236 1008 304" data-pptx-replace-with="table" data-pptx-fallback-sha256="92fbf382e56b8a66e8019b3e7538f3ff6ade1f61822ff732125ffed1f454c82d">
+    <metadata type="application/json">
+      {
+        "schema": "ppt-master.semantic-table.v2",
+        "name": "december-offer-table",
+        "x": 136, "y": 236, "width": 1008, "height": 304,
+        "strict_grid": true,
+        "column_widths": [454, 554],
+        "row_heights": [48, 72, 72, 112],
+        "style": {
+          "font_family": "Calibri",
+          "font_size": 20,
+          "header_fill": "#003657",
+          "header_text": "#FBF8F2",
+          "body_text": "#1E1E1E",
+          "band_row": false,
+          "valign": "middle"
+        },
+        "defaults": {
+          "cell": {
+            "padding": {"left": 16, "right": 16, "top": 6, "bottom": 6},
+            "borders": {
+              "left": {"style": "none"}, "right": {"style": "none"},
+              "top": {"style": "solid", "color": "#D6CFC2", "width": 1},
+              "bottom": {"style": "solid", "color": "#D6CFC2", "width": 1}
+            }
+          }
+        },
+        "columns": [
+          {"text": "December offer", "bold": true, "align": "l"},
+          {"text": "Implication for OPERF", "bold": true, "align": "l"}
+        ],
+        "rows": [
+          [
+            {"text": "Optional 10% commitment reduction"},
+            {"paragraphs": [{"runs": [{"text": "$750m → "}, {"text": "$675m", "bold": true}, {"text": " if accepted"}]}]}
+          ],
+          [
+            {"text": "Fee reduction for all LPs", "fill": "#F1ECE2"},
+            {"paragraphs": [{"runs": [{"text": "1.50% → "}, {"text": "1.35%", "bold": true}]}], "fill": "#F1ECE2"}
+          ],
+          [
+            {"text": "Advisory committee approval required for calls above 30% of commitments in the following year"},
+            {"text": "A conditional limit on capital calls (not an absolute cap)"}
+          ]
+        ]
+      }
+    </metadata>
+    <rect x="136" y="236" width="1008" height="48" fill="#003657" />
+    <rect x="136" y="356" width="1008" height="72" fill="#F1ECE2" />
+    <g stroke="#D6CFC2" stroke-width="1">
+      <line x1="136" y1="356" x2="1144" y2="356" />
+      <line x1="136" y1="428" x2="1144" y2="428" />
+      <line x1="136" y1="540" x2="1144" y2="540" />
+    </g>
+    <g font-size="20" font-weight="bold" fill="#FBF8F2">
+      <text x="152" y="267">December offer</text>
+      <text x="606" y="267">Implication for OPERF</text>
+    </g>
+    <g font-size="20" fill="#1E1E1E">
+      <text x="152" y="327">Optional 10% commitment reduction</text>
+      <text x="606" y="327">$750m → <tspan font-weight="bold">$675m</tspan> if accepted</text>
+      <text x="152" y="399">Fee reduction for all LPs</text>
+      <text x="606" y="399">1.50% → <tspan font-weight="bold">1.35%</tspan></text>
+      <text x="152" y="462">Advisory committee approval required </text><text x="152" y="488">for calls above 30% of commitments </text><text x="152" y="514">in the following year</text><text x="606" y="475">A conditional limit on capital calls </text><text x="606" y="501">(not an absolute cap)</text></g>
+  </g>
+
+  <g id="footer" data-pptx-bounds="64 668 1152 36" fill="#5C6670" font-size="14">
+    <text x="64" y="680">Source: Case p. 1 and footnote 1 (report of 23 Dec 2008). 750 × 10% = 75; 750 − 75 = 675. The 30% threshold is a proposed future arrangement with a</text><text x="64" y="697">committee-approval exception, not an actual call result.</text><text x="1216" y="697" text-anchor="end">7</text>
+  </g>
+</svg>

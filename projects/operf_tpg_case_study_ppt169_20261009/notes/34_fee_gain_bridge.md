@@ -1,0 +1,3 @@
+After the fee cut, more money stays in the fund and keeps growing, so future distributions rise. OPERF's share of those additional gross distributions is worth about $8.02 million in present value. The extra carry on that profit costs about $1.47 million in present value, and the net gain is the $6.55 million. The retained fees are already counted inside the additional distributions, so the direct saving must not be added again.
+
+Detail. 8.019301 minus 1.465723 equals 6.553578. The present value of the direct fee saving, Q4 Analysis cell C22, is $6.49 million and is an alternative view only. The $1.47 million is not simply 20% of $8.02 million, because the timing of capital return and carry changes period by period. Sources are Q4 Analysis cells C23 to C25.

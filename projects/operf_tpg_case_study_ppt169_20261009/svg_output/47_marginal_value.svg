@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" data-pptx-page-role="content" font-family="Calibri, Arial, sans-serif" font-size="22">
-  <rect id="page-background" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FBF8F2"/>
+  <rect id="page-background" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FBF8F2" />
 
   <g id="kicker" data-pptx-bounds="64 58 700 26">
     <text x="64" y="72" font-size="16" font-weight="bold" letter-spacing="2" fill="#003657">COMMITMENT DECISION · EVIDENCE FROM Q3, Q4 AND Q5</text>
-    <line x1="64" y1="82" x2="120" y2="82" stroke="#BC9E60" stroke-width="2"/>
+    <line x1="64" y1="82" x2="120" y2="82" stroke="#BC9E60" stroke-width="2" />
   </g>
 
   <g id="title" data-pptx-bounds="64 90 1152 96">
@@ -14,40 +14,115 @@
     <text x="64" y="206" fill="#003657">After the offered fee cut, the hypothetical marginal $75m inception commitment has <tspan font-weight="bold">+$2.82m NPV</tspan>.<tspan x="64" dy="30">Negotiated improvements could increase this value, but they are not yet secured.</tspan></text>
   </g>
 
-  <g id="marginal-npv-bars" data-pptx-bounds="64 262 760 310" data-pptx-replace-with="chart">
+  <g id="marginal-npv-bars" data-pptx-bounds="64 262 760 318" data-pptx-replace-with="chart" data-pptx-fallback-sha256="9cc706748af9829f2b53b591168d92a9650525457e81d6d3ae8663e6fbf94a71">
     <metadata type="application/json">
-      {
-        "name": "marginal-npv-bars",
-        "x": 64, "y": 262, "width": 760, "height": 310,
-        "type": "bar",
-        "grouping": "clustered",
-        "title": "NPV of a hypothetical $75m inception commitment, $m",
-        "categories": ["Q3: 1.50% fee, 20% carry, no hurdle assumed", "Q4: 1.35% fee, 20% carry, no hurdle assumed", "Q5 Package A: 1.35% fee, 8% hurdle, no catch-up, 20% carry", "Q5 Package B: 1.35% fee, 8% hurdle, full catch-up, 15% carry"],
-        "series": [{"name": "Marginal $75m inception NPV ($m)", "values": [2.168314, 2.823672, 4.888269, 4.754964], "point_colors": ["#8AA1AC", "#003657", "#BFCDD5", "#BFD4FF"]}],
-        "gap_width": 56,
-        "plot_area": {"x": 420, "y": 300, "width": 380, "height": 230},
-        "axes": {
-          "category": {"position": "left"},
-          "value": {"position": "bottom", "minimum": 0, "maximum": 6, "major_unit": 2, "number_format": "0"}
-        },
-        "style": {"font_family": "Calibri", "text_color": "#003657", "axis_color": "#5C6670"},
-        "notes": [
-          {"text": "+2.17", "width": 60}, {"text": "+2.82", "width": 60}, {"text": "+4.89", "width": 60}, {"text": "+4.75", "width": 60},
-          {"text": "base case", "width": 80}, {"text": "conditional on obtaining the package", "width": 260}
-        ]
+{
+              "name": "marginal-npv-bars",
+              "x": 64,
+              "y": 262,
+              "width": 760,
+              "height": 318,
+              "type": "bar",
+              "grouping": "clustered",
+              "title": "NPV of a hypothetical $75m inception commitment, $m",
+              "categories": [
+                      "Q3: 1.50% fee, 20% carry, no hurdle assumed",
+                      "Q4: 1.35% fee, 20% carry, no hurdle assumed",
+                      "Q5 Package A: 1.35% fee, 8% hurdle, no catch-up, 20% carry",
+                      "Q5 Package B: 1.35% fee, 8% hurdle, full catch-up, 15% carry"
+              ],
+              "series": [
+                      {
+                              "name": "Marginal $75m inception NPV ($m)",
+                              "values": [
+                                      2.168314,
+                                      2.823672,
+                                      4.888269,
+                                      4.754964
+                              ],
+                              "point_colors": [
+                                      "#8AA1AC",
+                                      "#003657",
+                                      "#BFCDD5",
+                                      "#BFD4FF"
+                              ]
+                      }
+              ],
+              "gap_width": 56,
+              "plot_area": {
+                      "x": 420,
+                      "y": 300,
+                      "width": 380,
+                      "height": 230
+              },
+              "axes": {
+                      "category": {
+                              "position": "left"
+                      },
+                      "value": {
+                              "position": "bottom",
+                              "minimum": 0,
+                              "maximum": 6,
+                              "major_unit": 2,
+                              "number_format": "0"
+                      }
+              },
+              "style": {
+                      "font_family": "Calibri",
+                      "text_color": "#003657",
+                      "axis_color": "#5C6670"
+              },
+              "notes": [
+                      {
+                              "text": "+2.17",
+                              "width": 60,
+                              "bold": true,
+                              "font_size": 18
+                      },
+                      {
+                              "text": "+2.82",
+                              "width": 60,
+                              "bold": true,
+                              "font_size": 18
+                      },
+                      {
+                              "text": "+4.89",
+                              "width": 60,
+                              "bold": true,
+                              "font_size": 18
+                      },
+                      {
+                              "text": "+4.75",
+                              "width": 60,
+                              "bold": true,
+                              "font_size": 18
+                      },
+                      {
+                              "text": "base case",
+                              "width": 80,
+                              "color": "#5C6670",
+                              "font_size": 14
+                      },
+                      {
+                              "text": "conditional on obtaining the package",
+                              "width": 260,
+                              "color": "#5C6670",
+                              "font_size": 14
+                      }
+              ]
       }
     </metadata>
     <text x="64" y="284" font-size="18" font-weight="bold" fill="#003657">NPV of a hypothetical $75m inception commitment, $m</text>
     <g id="marginal-npv-bars-chartArea">
       <g id="marginal-npv-bars-axis" stroke="#5C6670" stroke-width="1.5">
-        <line x1="420" y1="300" x2="420" y2="530"/>
-        <line x1="420" y1="530" x2="800" y2="530"/>
+        <line x1="420" y1="300" x2="420" y2="530" />
+        <line x1="420" y1="530" x2="800" y2="530" />
       </g>
       <!-- chart-plot-area: object=marginal-npv-bars | 420,300,800,530 -->
-      <rect x="420" y="306" width="137.3" height="36" fill="#8AA1AC"/>
-      <rect x="420" y="362" width="178.8" height="36" fill="#003657"/>
-      <rect x="420" y="418" width="309.6" height="36" fill="#BFCDD5" stroke="#003657" stroke-width="1.5" stroke-dasharray="4,3"/>
-      <rect x="420" y="474" width="301.1" height="36" fill="#BFD4FF" stroke="#0055FF" stroke-width="1.5" stroke-dasharray="4,3"/>
+      <rect x="420" y="306" width="137.3" height="36" fill="#8AA1AC" />
+      <rect x="420" y="362" width="178.8" height="36" fill="#003657" />
+      <rect x="420" y="418" width="309.6" height="36" fill="#BFCDD5" stroke="#003657" stroke-width="1.5" stroke-dasharray="4,3" />
+      <rect x="420" y="474" width="301.1" height="36" fill="#BFD4FF" stroke="#0055FF" stroke-width="1.5" stroke-dasharray="4,3" />
       <g font-size="16" fill="#003657" text-anchor="end">
         <text x="408" y="320">Q3: 1.50% fee, 20% carry, <tspan x="408" dy="20">no hurdle assumed</tspan></text>
         <text x="408" y="376" font-weight="bold">Q4: 1.35% fee, 20% carry, <tspan x="408" dy="20" font-weight="normal">no hurdle assumed</tspan></text>
@@ -72,7 +147,7 @@
   </g>
 
   <g id="sign-callout" data-pptx-bounds="840 262 376 310">
-    <rect x="840" y="268" width="376" height="300" fill="#F1ECE2"/>
+    <rect x="840" y="268" width="376" height="300" fill="#F1ECE2" />
     <text x="864" y="298" font-size="18" font-weight="bold" fill="#003657">Sign convention</text>
     <text x="864" y="330" font-size="18" fill="#1E1E1E">The workbook's −$2.82m is the NPV<tspan x="864" dy="24">change from reducing. The value of</tspan><tspan x="864" dy="24">retaining the extra commitment</tspan><tspan x="864" dy="24">is +$2.82m.</tspan></text>
     <text x="864" y="444" font-size="16" fill="#5C6670">$25.413m − $28.237m = −$2.824m</text>
@@ -88,8 +163,8 @@
     <text x="64" y="636" font-size="18" fill="#5C6670">All values scale the $750m model by 10%, holding fund size, investment timing and proportional cash-flow rights fixed.</text>
   </g>
 
-  <g id="footer" data-pptx-bounds="64 668 1152 36">
-    <text x="64" y="680" font-size="14" fill="#5C6670">Source: Summary!B29, C29, D29 × Inputs!C27; Package B = (Summary!C29 + Q5 Analysis!G10) × Inputs!C27; fee gain Q4 Analysis!C25 × Inputs!C27; sign check<tspan x="64" dy="17">Q6 OPERF decision!B20:D20. The workbook's first OPERF contribution is $150m, while the case reports $79.9m to date; a December valuation must preserve sunk contributions.</tspan></text>
-    <text x="1216" y="697" font-size="14" fill="#5C6670" text-anchor="end">47</text>
+  <g id="footer" data-pptx-bounds="64 668 1152 36" fill="#5C6670" font-size="14">
+    <text x="64" y="680">Source: Summary!B29, C29, D29 × Inputs!C27; Package B = (Summary!C29 + Q5 Analysis!G10) × Inputs!C27; fee gain Q4 Analysis!C25 × Inputs!C27; sign check<tspan x="64" dy="17">Q6 OPERF decision!B20:D20. The workbook's first OPERF contribution is $150m, while the case reports $79.9m to date; a December valuation must preserve sunk contributions.</tspan></text>
+    <text x="1216" y="697" text-anchor="end">47</text>
   </g>
 </svg>

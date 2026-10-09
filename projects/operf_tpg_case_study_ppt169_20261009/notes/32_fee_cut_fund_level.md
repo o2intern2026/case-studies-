@@ -1,0 +1,3 @@
+Question 4 changes one thing: the management fee goes from 1.50% to 1.35%. At the fund level that is $30 million less fee each year. Working through investable capital and distributions, LP IRR rises from 15.72% to 15.94%, about 21 basis points, and fund LP NPV at 15% rises by about $174.76 million, from $578.22 million to $752.98 million. The 15 basis points of fee rate and the 21.36 basis points of IRR are two different measures of the same change. Next we convert this into OPERF's own amounts.
+
+Detail. The IRR change is computed at full precision, 21.3581 basis points. OPERF's 3.75% share scales amounts only, never the IRR. Sources are Inputs cells C6 and C18 to C19 and Q4 Analysis cells B6 to D7.

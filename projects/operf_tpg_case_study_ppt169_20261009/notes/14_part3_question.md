@@ -1,0 +1,1 @@
+Part 3 asks whether management fees and carry align GP and LP interests. This is the incentive question, Question 2, and Li presents it. We look at what each form of compensation is for, how the fee base creates its own incentive, and how the GP's own capital changes the picture.

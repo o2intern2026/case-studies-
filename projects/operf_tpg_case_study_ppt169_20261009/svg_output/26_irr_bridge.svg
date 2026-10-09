@@ -1,56 +1,117 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" data-pptx-page-role="content" font-family="Calibri, Arial, sans-serif" font-size="22">
-  <rect id="page-background" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FBF8F2"/>
+  <rect id="page-background" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FBF8F2" />
 
   <g id="kicker" data-pptx-bounds="64 58 500 26">
     <text x="64" y="72" font-size="16" font-weight="bold" letter-spacing="2" fill="#003657">RETURN ATTRIBUTION</text>
-    <line x1="64" y1="82" x2="120" y2="82" stroke="#BC9E60" stroke-width="2"/>
+    <line x1="64" y1="82" x2="120" y2="82" stroke="#BC9E60" stroke-width="2" />
   </g>
 
   <g id="title" data-pptx-bounds="64 90 1152 48">
     <text x="64" y="124" font-family="Cambria, Georgia, serif" font-size="40" font-weight="bold" fill="#003657">Fees and carry reduce LP IRR to 15.72%</text>
   </g>
 
-  <g id="irr-bridge" data-pptx-bounds="64 180 1152 440" data-pptx-replace-with="chart">
+  <g id="irr-bridge" data-pptx-bounds="64 180 1152 440" data-pptx-replace-with="chart" data-pptx-fallback-sha256="a161bac1906ecf846fc3f612454fcac6b8c83040945235e1c4131e874cb0074a">
     <metadata type="application/json">
-      {
-        "name": "irr-bridge",
-        "x": 64, "y": 180, "width": 1152, "height": 440,
-        "type": "waterfall",
-        "categories": ["No fees or carry", "Management fees", "Carry", "Net LP IRR"],
-        "values": [20.0, -2.195108, -2.082333, 15.722559],
-        "subtotal_indices": [3],
-        "style": {"colors": ["#003657", "#A33D3D", "#A33D3D", "#003657"], "font_family": "Calibri", "text_color": "#003657"},
-        "notes": [
-          {"text": "Total modeled reduction: about 428 bps", "width": 400},
-          {"text": "20.00%", "width": 100},
-          {"text": "about −220 bps", "width": 160},
-          {"text": "17.80%", "width": 100},
-          {"text": "about −208 bps", "width": 160},
-          {"text": "15.72%", "width": 100},
-          {"text": "Sequential scenario differences: management fees added first, then carry. LP IRR, %.", "width": 800}
-        ]
+{
+              "name": "irr-bridge",
+              "x": 64,
+              "y": 180,
+              "width": 1152,
+              "height": 440,
+              "type": "waterfall",
+              "categories": [
+                      "No fees or carry",
+                      "Management fees",
+                      "Carry",
+                      "Net LP IRR"
+              ],
+              "values": [
+                      20.0,
+                      -2.195108,
+                      -2.082333,
+                      15.722559
+              ],
+              "subtotal_indices": [
+                      3
+              ],
+              "style": {
+                      "colors": [
+                              "#003657",
+                              "#A33D3D",
+                              "#A33D3D",
+                              "#003657"
+                      ],
+                      "font_family": "Calibri",
+                      "text_color": "#003657"
+              },
+              "notes": [
+                      {
+                              "text": "Total modeled reduction: about 428 bps",
+                              "width": 400,
+                              "bold": true,
+                              "font_size": 18
+                      },
+                      {
+                              "text": "20.00%",
+                              "width": 100,
+                              "bold": true,
+                              "font_size": 18
+                      },
+                      {
+                              "text": "about −220 bps",
+                              "width": 160,
+                              "color": "#A33D3D",
+                              "bold": true,
+                              "font_size": 16
+                      },
+                      {
+                              "text": "17.80%",
+                              "width": 100,
+                              "bold": true,
+                              "font_size": 18
+                      },
+                      {
+                              "text": "about −208 bps",
+                              "width": 160,
+                              "color": "#A33D3D",
+                              "bold": true,
+                              "font_size": 16
+                      },
+                      {
+                              "text": "15.72%",
+                              "width": 100,
+                              "bold": true,
+                              "font_size": 18
+                      },
+                      {
+                              "text": "Sequential scenario differences: management fees added first, then carry. LP IRR, %.",
+                              "width": 800,
+                              "color": "#5C6670",
+                              "font_size": 14
+                      }
+              ]
       }
     </metadata>
     <text x="64" y="206" font-size="18" font-weight="bold" fill="#003657">Total modeled reduction: about 428 bps</text>
     <g id="irr-bridge-chartArea">
       <g id="irr-bridge-grid" stroke="#E6E0D4" stroke-width="1">
-        <line x1="120" y1="263.6" x2="1180" y2="263.6"/>
-        <line x1="120" y1="332.7" x2="1180" y2="332.7"/>
-        <line x1="120" y1="401.8" x2="1180" y2="401.8"/>
-        <line x1="120" y1="470.9" x2="1180" y2="470.9"/>
+        <line x1="120" y1="263.6" x2="1180" y2="263.6" />
+        <line x1="120" y1="332.7" x2="1180" y2="332.7" />
+        <line x1="120" y1="401.8" x2="1180" y2="401.8" />
+        <line x1="120" y1="470.9" x2="1180" y2="470.9" />
       </g>
       <g id="irr-bridge-axis" stroke="#5C6670" stroke-width="1.5">
-        <line x1="120" y1="540" x2="1180" y2="540"/>
+        <line x1="120" y1="540" x2="1180" y2="540" />
       </g>
       <!-- chart-plot-area: object=irr-bridge | 120,236,1180,540 -->
-      <rect x="180" y="263.6" width="160" height="276.4" fill="#003657"/>
-      <rect x="440" y="263.6" width="160" height="30.3" fill="#A33D3D"/>
-      <rect x="700" y="293.9" width="160" height="28.8" fill="#A33D3D"/>
-      <rect x="960" y="322.7" width="160" height="217.3" fill="#003657"/>
+      <rect x="180" y="263.6" width="160" height="276.4" fill="#003657" />
+      <rect x="440" y="263.6" width="160" height="30.3" fill="#A33D3D" />
+      <rect x="700" y="293.9" width="160" height="28.8" fill="#A33D3D" />
+      <rect x="960" y="322.7" width="160" height="217.3" fill="#003657" />
       <g stroke="#5C6670" stroke-width="1" stroke-dasharray="4,4">
-        <line x1="340" y1="263.6" x2="440" y2="263.6"/>
-        <line x1="600" y1="293.9" x2="700" y2="293.9"/>
-        <line x1="860" y1="322.7" x2="960" y2="322.7"/>
+        <line x1="340" y1="263.6" x2="440" y2="263.6" />
+        <line x1="600" y1="293.9" x2="700" y2="293.9" />
+        <line x1="860" y1="322.7" x2="960" y2="322.7" />
       </g>
       <g font-size="18" font-weight="bold" fill="#003657" text-anchor="middle">
         <text x="260" y="252">20.00%</text>
@@ -71,8 +132,8 @@
     </g>
   </g>
 
-  <g id="footer" data-pptx-bounds="64 668 1152 36">
-    <text x="64" y="680" font-size="14" fill="#5C6670">Source: Q3 Analysis!B18:B20, C19:C21. Step heights come from recomputed IRRs (−219.51 bps, −208.23 bps; total −427.74 bps), not from the 1.50% or<tspan x="64" dy="17">20% contract rates. The split depends on the order in which fees and carry are added; 15.72% is after both.</tspan></text>
-    <text x="1216" y="697" font-size="14" fill="#5C6670" text-anchor="end">26</text>
+  <g id="footer" data-pptx-bounds="64 668 1152 36" fill="#5C6670" font-size="14">
+    <text x="64" y="680">Source: Q3 Analysis!B18:B20, C19:C21. Step heights come from recomputed IRRs (−219.51 bps, −208.23 bps; total −427.74 bps), not from the 1.50% or<tspan x="64" dy="17">20% contract rates. The split depends on the order in which fees and carry are added; 15.72% is after both.</tspan></text>
+    <text x="1216" y="697" text-anchor="end">26</text>
   </g>
 </svg>

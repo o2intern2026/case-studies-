@@ -1,0 +1,3 @@
+Management fees are about 30% of the GP's nominal receipts over the ten years, but about 48% once everything is discounted at 15%. The reason is timing: fees start at t equals 0, while the baseline carry first appears at the end of Year 8. Each bar is 100% of its own total, and the two bars are separate measures. This shows how much cash-flow timing matters; it is not a GP profit share, not an estimate of the GP's own cost of capital, and it is before operating costs.
+
+Detail. Nominal fees $3,000.00 million against carry $7,017.63 million, total $10,017.63 million, so fees are 29.95%. Present values are $1,731.48 million and $1,845.49 million, total $3,576.97 million, so fees are 48.41%. Sources are Q3 Base case cells C55 to C60, C62 and B44 to L45.

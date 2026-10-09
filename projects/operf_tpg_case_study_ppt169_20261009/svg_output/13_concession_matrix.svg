@@ -1,16 +1,16 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" data-pptx-page-role="content" font-family="Calibri, Arial, sans-serif" font-size="22">
-  <rect id="page-background" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FBF8F2"/>
+  <rect id="page-background" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FBF8F2" />
 
   <g id="kicker" data-pptx-bounds="64 58 500 26">
     <text x="64" y="72" font-size="16" font-weight="bold" letter-spacing="2" fill="#003657">PROPOSED RESTRUCTURING</text>
-    <line x1="64" y1="82" x2="120" y2="82" stroke="#BC9E60" stroke-width="2"/>
+    <line x1="64" y1="82" x2="120" y2="82" stroke="#BC9E60" stroke-width="2" />
   </g>
 
   <g id="title" data-pptx-bounds="64 90 1152 96">
     <text x="64" y="124" font-family="Cambria, Georgia, serif" font-size="40" font-weight="bold" fill="#003657">Limited concessions can protect<tspan x="64" dy="48">the fund's ability to operate</tspan></text>
   </g>
 
-  <g id="concession-matrix" data-pptx-bounds="64 236 1152 300" data-pptx-replace-with="table">
+  <g id="concession-matrix" data-pptx-bounds="64 236 1152 300" data-pptx-replace-with="table" data-pptx-fallback-sha256="e4110561c350ea916477b5b17d8cdb4caddc3feef447a161bec8a3421c53988a">
     <metadata type="application/json">
       {
         "schema": "ppt-master.semantic-table.v2",
@@ -62,12 +62,12 @@
         ]
       }
     </metadata>
-    <rect x="64" y="236" width="1152" height="48" fill="#003657"/>
-    <rect x="352" y="284" width="461" height="252" fill="#F1ECE2"/>
+    <rect x="64" y="236" width="1152" height="48" fill="#003657" />
+    <rect x="352" y="284" width="461" height="252" fill="#F1ECE2" />
     <g stroke="#D6CFC2" stroke-width="1">
-      <line x1="64" y1="368" x2="1216" y2="368"/>
-      <line x1="64" y1="452" x2="1216" y2="452"/>
-      <line x1="64" y1="536" x2="1216" y2="536"/>
+      <line x1="64" y1="368" x2="1216" y2="368" />
+      <line x1="64" y1="452" x2="1216" y2="452" />
+      <line x1="64" y1="536" x2="1216" y2="536" />
     </g>
     <g font-size="20" font-weight="bold" fill="#FBF8F2">
       <text x="80" y="267">Concession</text>
@@ -95,8 +95,8 @@
     <text x="64" y="596" font-size="26" fill="#003657">TPG could accept limited economic concessions to preserve reliable LP support.</text>
   </g>
 
-  <g id="footer" data-pptx-bounds="64 668 1152 36">
-    <text x="64" y="680" font-size="14" fill="#5C6670">Source: Case letter terms (p. 1), read with the evidence on slides 9–12. A possible explanation: it does not prove defaults were avoided, confidence<tspan x="64" dy="17">restored or fundraising improved, nor that every LP will take the reduction.</tspan></text>
-    <text x="1216" y="697" font-size="14" fill="#5C6670" text-anchor="end">13</text>
+  <g id="footer" data-pptx-bounds="64 668 1152 36" fill="#5C6670" font-size="14">
+    <text x="64" y="680">Source: Case letter terms (p. 1), read with the evidence on slides 9–12. A possible explanation: it does not prove defaults were avoided, confidence<tspan x="64" dy="17">restored or fundraising improved, nor that every LP will take the reduction.</tspan></text>
+    <text x="1216" y="697" text-anchor="end">13</text>
   </g>
 </svg>

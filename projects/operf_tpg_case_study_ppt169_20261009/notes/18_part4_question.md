@@ -1,0 +1,1 @@
+Part 4 asks what the financial consequences are for OPERF and TPG. This is the economic question, covering Questions 3 and 4, and Alex presents it. We turn the mechanisms Li described into ten years of cash flows and put numbers on the LP's return, the GP's compensation and the value of the offered fee cut.

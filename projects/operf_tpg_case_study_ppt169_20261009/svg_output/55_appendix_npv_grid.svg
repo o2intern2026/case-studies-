@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" data-pptx-page-role="content" font-family="Calibri, Arial, sans-serif" font-size="22">
-  <rect id="page-background" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FBF8F2"/>
+  <rect id="page-background" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FBF8F2" />
 
   <g id="kicker" data-pptx-bounds="64 58 500 26">
     <text x="64" y="72" font-size="16" font-weight="bold" letter-spacing="2" fill="#003657">APPENDIX · A2</text>
-    <line x1="64" y1="82" x2="120" y2="82" stroke="#BC9E60" stroke-width="2"/>
+    <line x1="64" y1="82" x2="120" y2="82" stroke="#BC9E60" stroke-width="2" />
   </g>
 
   <g id="title" data-pptx-bounds="64 90 1152 96">
@@ -14,7 +14,7 @@
     <text x="64" y="206" font-size="18" fill="#5C6670">NPV in $m. Columns are assumed discount rates, not independently established OPERF required returns.<tspan x="64" dy="24">Positive favours retaining within the model; negative favours the hypothetical lower inception commitment.</tspan></text>
   </g>
 
-  <g id="marginal-npv-grid" data-pptx-bounds="64 248 1152 400" data-pptx-replace-with="table">
+  <g id="marginal-npv-grid" data-pptx-bounds="64 248 1152 400" data-pptx-replace-with="table" data-pptx-fallback-sha256="963123531dc1cfc4feeede11d1a7c663d6c891bea2e6d4184a8678e99503d0a6">
     <metadata type="application/json">
 {
       "schema": "ppt-master.semantic-table.v2",
@@ -427,8 +427,8 @@
       ]
 }
     </metadata>
-    <rect x="64" y="248" width="1152" height="40" fill="#003657"/>
-    <rect x="688" y="248" width="176" height="40" fill="#BC9E60"/>
+    <rect x="64" y="248" width="1152" height="40" fill="#003657" />
+    <rect x="688" y="248" width="176" height="40" fill="#BC9E60" />
     <g font-size="20" font-weight="bold" fill="#FBF8F2">
       <text x="80" y="275">Annual asset growth</text>
       <g text-anchor="end">
@@ -469,7 +469,7 @@
     <text x="848" y="475" font-size="20" fill="#A33D3D" text-anchor="end">−2.7</text>
     <text x="1024" y="475" font-size="20" fill="#A33D3D" text-anchor="end">−9.9</text>
     <text x="1200" y="475" font-size="20" fill="#A33D3D" text-anchor="end">−13.7</text>
-    <rect x="64" y="488" width="1152" height="40" fill="#F1ECE2"/>
+    <rect x="64" y="488" width="1152" height="40" fill="#F1ECE2" />
     <text x="80" y="515" font-size="20" font-weight="bold" fill="#003657">20% · base case</text>
     <text x="496" y="515" font-size="20" font-weight="bold" fill="#003657" text-anchor="end">+22.8</text>
     <text x="672" y="515" font-size="20" font-weight="bold" fill="#003657" text-anchor="end">+13.7</text>
@@ -495,21 +495,21 @@
     <text x="1024" y="635" font-size="20" fill="#003657" text-anchor="end">+24.8</text>
     <text x="1200" y="635" font-size="20" fill="#003657" text-anchor="end">+16.5</text>
     <g stroke="#D6CFC2" stroke-width="1">
-      <line x1="64" y1="328" x2="1216" y2="328"/>
-      <line x1="64" y1="368" x2="1216" y2="368"/>
-      <line x1="64" y1="408" x2="1216" y2="408"/>
-      <line x1="64" y1="448" x2="1216" y2="448"/>
-      <line x1="64" y1="488" x2="1216" y2="488"/>
-      <line x1="64" y1="528" x2="1216" y2="528"/>
-      <line x1="64" y1="568" x2="1216" y2="568"/>
-      <line x1="64" y1="608" x2="1216" y2="608"/>
-      <line x1="64" y1="648" x2="1216" y2="648"/>
-      <line x1="64" y1="648" x2="1216" y2="648"/>
+      <line x1="64" y1="328" x2="1216" y2="328" />
+      <line x1="64" y1="368" x2="1216" y2="368" />
+      <line x1="64" y1="408" x2="1216" y2="408" />
+      <line x1="64" y1="448" x2="1216" y2="448" />
+      <line x1="64" y1="488" x2="1216" y2="488" />
+      <line x1="64" y1="528" x2="1216" y2="528" />
+      <line x1="64" y1="568" x2="1216" y2="568" />
+      <line x1="64" y1="608" x2="1216" y2="608" />
+      <line x1="64" y1="648" x2="1216" y2="648" />
+      <line x1="64" y1="648" x2="1216" y2="648" />
     </g>
   </g>
 
-  <g id="footer" data-pptx-bounds="64 668 1152 36">
-    <text x="64" y="688" font-size="14" fill="#5C6670">Source: Q6 OPERF decision!A39:F48. Inception-date values; explain the limitation if applied directly to the December 2008 cancellation. Red = negative; navy = positive.</text>
-    <text x="1216" y="697" font-size="14" fill="#5C6670" text-anchor="end">55</text>
+  <g id="footer" data-pptx-bounds="64 668 1152 36" fill="#5C6670" font-size="14">
+    <text x="64" y="688">Source: Q6 OPERF decision!A39:F48. Inception-date values; explain the limitation if applied directly to the December 2008 cancellation. Red = negative; navy = positive.</text>
+    <text x="1216" y="697" text-anchor="end">55</text>
   </g>
 </svg>

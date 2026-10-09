@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" data-pptx-page-role="content" font-family="Calibri, Arial, sans-serif" font-size="22">
+  <defs>
+    <marker id="arrow-navy" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><polygon points="0,0 10,5 0,10" fill="#003657" /></marker>
+  </defs>
+  <rect id="page-background" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FBF8F2" />
+
+  <g id="kicker" data-pptx-bounds="64 58 500 26">
+    <text x="64" y="72" font-size="16" font-weight="bold" letter-spacing="2" fill="#003657">THE 2008 CRISIS</text>
+    <line x1="64" y1="82" x2="120" y2="82" stroke="#BC9E60" stroke-width="2" />
+  </g>
+
+  <g id="title" data-pptx-bounds="64 90 1152 96">
+    <text font-size="40" fill="#003657" font-family="Cambria, Georgia, serif" font-weight="bold" x="64" y="124">Ability to fund calls does not settle</text><text font-size="40" fill="#003657" font-family="Cambria, Georgia, serif" font-weight="bold" x="64" y="172">the allocation decision</text></g>
+
+  <g id="liquidity" data-pptx-bounds="64 228 580 300">
+    <text x="64" y="256" font-weight="bold" fill="#003657">Liquidity</text>
+    <line x1="64" y1="266" x2="112" y2="266" stroke="#BC9E60" stroke-width="2" />
+    <rect x="64" y="288" width="270" height="56" fill="#F1ECE2" />
+    <text text-anchor="middle" font-size="18" fill="#003657" x="199" y="312">Less predictable</text><text text-anchor="middle" font-size="18" fill="#003657" x="199" y="334">distributions</text><rect x="64" y="360" width="270" height="56" fill="#F1ECE2" />
+    <text x="199" y="394" font-size="18" fill="#003657" text-anchor="middle">Binding commitments</text>
+    <g fill="none" stroke="#003657" stroke-width="2">
+      <line x1="334" y1="316" x2="418" y2="324" marker-end="url(#arrow-navy)" />
+      <line x1="334" y1="388" x2="418" y2="344" marker-end="url(#arrow-navy)" />
+    </g>
+    <rect x="420" y="300" width="200" height="64" fill="#003657" />
+    <text text-anchor="middle" font-size="18" fill="#FBF8F2" font-weight="bold" x="520" y="326">Potential funding</text><text text-anchor="middle" font-size="18" fill="#FBF8F2" font-weight="bold" x="520" y="348">strain</text><text x="64" y="470" font-style="italic" fill="#5C6670">OPERF: the team believed it could meet calls.</text>
+    <line x1="640" y1="228" x2="640" y2="528" stroke="#D6CFC2" stroke-width="1" />
+  </g>
+
+  <g id="allocation" data-pptx-bounds="680 228 536 300">
+    <text x="680" y="256" font-weight="bold" fill="#003657">Allocation</text>
+    <line x1="680" y1="266" x2="728" y2="266" stroke="#BC9E60" stroke-width="2" />
+    <text x="680" y="304" font-weight="bold" fill="#003657">PE weight = PE value ÷ Total portfolio value</text>
+    <rect x="680" y="330" width="536" height="48" fill="#F1ECE2" />
+    <text x="948" y="360" font-size="18" fill="#003657" text-anchor="middle">Public assets fall faster than PE marks</text>
+    <line x1="948" y1="378" x2="948" y2="406" fill="none" stroke="#003657" stroke-width="2" marker-end="url(#arrow-navy)" />
+    <rect x="680" y="410" width="536" height="48" fill="#003657" />
+    <text x="948" y="440" font-size="18" font-weight="bold" fill="#FBF8F2" text-anchor="middle">PE weight may rise</text>
+    <text x="680" y="500" font-size="18" fill="#5C6670">A qualitative mechanism: no fixed PE value is assumed.</text>
+  </g>
+
+  <g id="closing-line" data-pptx-bounds="64 548 1152 40">
+    <text x="640" y="576" font-size="26" fill="#003657" text-anchor="middle">Payment capacity and portfolio allocation are separate decisions.</text>
+  </g>
+
+  <g id="footer" data-pptx-bounds="64 668 1152 36" fill="#5C6670" font-size="14">
+    <text x="64" y="680">Source: Case p. 5. The team's judgment is not a guarantee of later payment; the denominator effect does not mean PE values were unchanged or that</text><text x="64" y="697">OPERF was over-allocated by a confirmed amount.</text><text x="1216" y="697" text-anchor="end">11</text>
+  </g>
+</svg>

@@ -1,0 +1,3 @@
+Fees are charged on the full $20 billion of commitments every year, so the annual fee is $300 million, and the fee base includes uncalled commitments. Of the first $4 billion call, only $3.7 billion goes into the investment pool after the fee; at 20% growth that becomes $4.44 billion by year-end. Management fees therefore remove capital and also remove the growth that capital would have earned. This is the first layer of the reduction in net returns that follows.
+
+Detail. $300 million divided by $4,000 million is 7.5%, but that is the share of the first call used for the fee, not the fee rate; the contractual model rate stays 1.50%. Sources are Inputs cells C6 and C18, and Q3 Base case cells C15 to C17 and C20 to C21.

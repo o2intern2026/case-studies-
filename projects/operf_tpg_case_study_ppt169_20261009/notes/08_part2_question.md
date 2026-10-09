@@ -1,0 +1,1 @@
+Part 2 asks why TPG is revising its terms amid the 2008 crisis. This is the strategic question, Question 1, and Li continues. We will look at the crisis, at one specific investment, at the investors' own pressures, and then at what each concession does for TPG.

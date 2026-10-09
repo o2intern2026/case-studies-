@@ -1,0 +1,1 @@
+Part 1 asks what is at stake in OPERF's decision on TPG. Li presents this Part. Before anyone can judge TPG's offer, we need to know who the parties are, how large the fund is, how it works, and exactly what the December letter changes.

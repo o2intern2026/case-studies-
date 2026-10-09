@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" data-pptx-page-role="content" font-family="Calibri, Arial, sans-serif" font-size="22">
+  <defs>
+    <marker id="arrow-navy" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><polygon points="0,0 10,5 0,10" fill="#003657" /></marker>
+  </defs>
+  <rect id="page-background" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FBF8F2" />
+
+  <g id="kicker" data-pptx-bounds="64 58 500 26">
+    <text x="64" y="72" font-size="16" font-weight="bold" letter-spacing="2" fill="#003657">THE 2008 CRISIS</text>
+    <line x1="64" y1="82" x2="120" y2="82" stroke="#BC9E60" stroke-width="2" />
+  </g>
+
+  <g id="title" data-pptx-bounds="64 90 1152 96">
+    <text font-size="40" fill="#003657" font-family="Cambria, Georgia, serif" font-weight="bold" x="64" y="124">The crisis constrained both</text><text font-size="40" fill="#003657" font-family="Cambria, Georgia, serif" font-weight="bold" x="64" y="172">deal financing and exits</text></g>
+
+  <g id="financing-channel" data-pptx-bounds="64 236 1152 110">
+    <rect x="64" y="240" width="400" height="96" fill="#F1ECE2" />
+    <text x="264" y="296" font-weight="bold" fill="#003657" text-anchor="middle">Credit contraction</text>
+    <line x1="480" y1="288" x2="556" y2="288" stroke="#003657" stroke-width="2" marker-end="url(#arrow-navy)" />
+    <text fill="#003657" x="580" y="280">Harder to finance acquisitions</text><text fill="#003657" x="580" y="310">and refinance debt</text><text x="1216" y="294" font-size="16" font-weight="bold" letter-spacing="2" fill="#5C6670" text-anchor="end">FINANCING CHANNEL</text>
+  </g>
+
+  <g id="exit-channel" data-pptx-bounds="64 380 1152 124">
+    <rect x="64" y="384" width="400" height="112" fill="#F1ECE2" />
+    <text text-anchor="middle" fill="#003657" font-weight="bold" x="264" y="432">Falling public-market valuations</text><text text-anchor="middle" fill="#003657" font-weight="bold" x="264" y="462">+ uncertain economic outlook</text><line x1="480" y1="440" x2="556" y2="440" stroke="#003657" stroke-width="2" marker-end="url(#arrow-navy)" />
+    <text fill="#003657" x="580" y="432">Weaker sale valuations, IPO prospects</text><text fill="#003657" x="580" y="462">and exit timing</text><text x="1216" y="446" font-size="16" font-weight="bold" letter-spacing="2" fill="#5C6670" text-anchor="end">EXIT CHANNEL</text>
+  </g>
+
+  <g id="channel-note" data-pptx-bounds="64 540 1152 30">
+    <text x="64" y="562" font-size="18" fill="#5C6670">Industry-level shocks: tight credit limited what funds could buy and refinance; falling markets made exits later and less valuable.</text>
+  </g>
+
+  <g id="footer" data-pptx-bounds="64 668 1152 36" fill="#5C6670" font-size="14">
+    <text x="64" y="680">Source: Case p. 5; Federal Reserve FOMC statement, 16 Dec 2008 (credit conditions and weaker outlook). The transmission mechanism is the team's</text><text x="64" y="697">analysis; not based on Exhibit 8's full-year IPO statistics.</text><text x="1216" y="697" text-anchor="end">9</text>
+  </g>
+</svg>

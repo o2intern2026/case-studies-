@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" data-pptx-page-role="cover" font-family="Calibri, Arial, sans-serif" font-size="22">
+  <rect id="page-background" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FBF8F2" />
+
+  <g id="cover-field" data-pptx-bounds="0 0 460 720">
+    <rect x="0" y="0" width="460" height="720" fill="#003657" />
+    <text x="56" y="150" font-size="16" font-weight="bold" letter-spacing="2" fill="#BC9E60">THE DECISION</text>
+    <text font-size="72" fill="#FBF8F2" font-family="Cambria, Georgia, serif" font-weight="bold" x="56" y="268">December</text><text font-size="72" fill="#FBF8F2" font-family="Cambria, Georgia, serif" font-weight="bold" x="56" y="346">2008</text><line x1="56" y1="384" x2="136" y2="384" stroke="#BC9E60" stroke-width="2" />
+    <text font-size="26" fill="#FBF8F2" x="56" y="438">A $750 million commitment,</text><text font-size="26" fill="#FBF8F2" x="56" y="476">a fee cut on the table,</text><text font-size="26" fill="#FBF8F2" x="56" y="514">and a 10% way out.</text></g>
+
+  <g id="cover-title" data-pptx-bounds="520 288 696 156">
+    <text font-size="40" fill="#003657" font-family="Cambria, Georgia, serif" font-weight="bold" x="520" y="328">OPERF and TPG Partners VI:</text><text font-size="40" fill="#003657" font-family="Cambria, Georgia, serif" font-weight="bold" x="520" y="376">Push and Pull Over</text><text font-size="40" fill="#003657" font-family="Cambria, Georgia, serif" font-weight="bold" x="520" y="424">GP/LP Compensation</text></g>
+
+  <g id="cover-subtitle" data-pptx-bounds="520 450 696 40">
+    <text x="520" y="476" font-size="28" fill="#5C6670">Case analysis — Preparation Questions Q1 to Q6</text>
+  </g>
+
+  <g id="cover-presenters" data-pptx-bounds="520 512 696 60">
+    <line x1="520" y1="520" x2="1216" y2="520" stroke="#D6CFC2" stroke-width="1" />
+    <text x="520" y="560" fill="#003657"><tspan font-weight="bold">Li</tspan> · Parts 1–3     <tspan font-weight="bold">Alex</tspan> · Part 4     <tspan font-weight="bold">Jimmy</tspan> · Part 5</text>
+  </g>
+
+  <g id="cover-footnote" data-pptx-bounds="520 666 696 22">
+    <text x="520" y="680" font-size="14" fill="#5C6670">Based on Darden case UV5622 and the team's analysis workbook (OPERF_Analysis_Jimmy.xlsx)</text>
+  </g>
+</svg>

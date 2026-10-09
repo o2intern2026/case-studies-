@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" data-pptx-page-role="content" font-family="Calibri, Arial, sans-serif" font-size="22">
-  <rect id="page-background" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FBF8F2"/>
+  <rect id="page-background" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FBF8F2" />
 
   <g id="kicker" data-pptx-bounds="64 58 760 26">
     <text x="64" y="72" font-size="16" font-weight="bold" letter-spacing="2" fill="#003657">COMMITMENT DECISION · FROM EARLIER FINDINGS TO THIS DECISION</text>
-    <line x1="64" y1="82" x2="120" y2="82" stroke="#BC9E60" stroke-width="2"/>
+    <line x1="64" y1="82" x2="120" y2="82" stroke="#BC9E60" stroke-width="2" />
   </g>
 
   <g id="title" data-pptx-bounds="64 90 1152 48">
@@ -14,7 +14,7 @@
     <text x="64" y="206" fill="#003657">Positive modeled value is the economic case. Cash availability is a feasibility condition;<tspan x="64" dy="30">allocation pressure requires a comparison with other uses of capacity.</tspan></text>
   </g>
 
-  <g id="portfolio-checks-table" data-pptx-bounds="64 262 1152 300" data-pptx-replace-with="table">
+  <g id="portfolio-checks-table" data-pptx-bounds="64 262 1152 300" data-pptx-replace-with="table" data-pptx-fallback-sha256="557fd244cfbb9221385ad1860b452984b8f9c381e7f8c5b9e770cab8e798ea7d">
     <metadata type="application/json">
       {
         "schema": "ppt-master.semantic-table.v2",
@@ -62,16 +62,16 @@
         ]
       }
     </metadata>
-    <rect x="64" y="262" width="1152" height="40" fill="#003657"/>
+    <rect x="64" y="262" width="1152" height="40" fill="#003657" />
     <g font-size="18" font-weight="bold" fill="#FBF8F2">
       <text x="76" y="288">Earlier finding</text>
       <text x="412" y="288">What it means for retaining the extra $75m</text>
     </g>
-    <rect x="64" y="392" width="1152" height="90" fill="#F1ECE2"/>
+    <rect x="64" y="392" width="1152" height="90" fill="#F1ECE2" />
     <g stroke="#D6CFC2" stroke-width="1">
-      <line x1="64" y1="392" x2="1216" y2="392"/>
-      <line x1="64" y1="482" x2="1216" y2="482"/>
-      <line x1="64" y1="562" x2="1216" y2="562"/>
+      <line x1="64" y1="392" x2="1216" y2="392" />
+      <line x1="64" y1="482" x2="1216" y2="482" />
+      <line x1="64" y1="562" x2="1216" y2="562" />
     </g>
     <g font-size="18" font-weight="bold" fill="#003657">
       <text x="76" y="347">PE is 21.9%, above the 16% target</text>
@@ -79,23 +79,23 @@
       <text x="76" y="516">The inception model gives <tspan x="76" dy="22">+$2.82m marginal value</tspan></text>
     </g>
     <g font-size="18" fill="#1E1E1E">
-      <text x="412" y="320">Treat capacity for additional PE exposure as scarce. Compare the incremental TPG opportunity with other <tspan x="412" dy="22">investments and with manager and asset-class concentration. A cut frees future capacity; it does not </tspan><tspan x="412" dy="22">immediately reduce current PE NAV by $75m.</tspan></text>
-      <text x="412" y="410">Funding is feasible on the case's expected-call statement. Separately stress pension payments and <tspan x="412" dy="22">all-manager calls against weak distributions and falling liquid assets. Ability to pay does not make the </tspan><tspan x="412" dy="22">investment attractive.</tspan></text>
-      <text x="412" y="505">Validate actual future cash-flow differences under the cancellation terms and use a defensible <tspan x="412" dy="22">opportunity-cost benchmark. Preserve the $79.9m already contributed and count only agreed compensation terms.</tspan></text>
+      <text x="412" y="320">Treat capacity for additional PE exposure as scarce. Compare the incremental TPG <tspan x="412" dy="22">opportunity with other investments and with manager and asset-class concentration. </tspan><tspan x="412" dy="22">A cut frees future capacity; it does not immediately reduce current PE NAV by $75m.</tspan></text>
+      <text x="412" y="410">Funding is feasible on the case's expected-call statement. Separately stress pension <tspan x="412" dy="22">payments and all-manager calls against weak distributions and falling liquid assets. </tspan><tspan x="412" dy="22">Ability to pay does not make the investment attractive.</tspan></text>
+      <text x="412" y="503">Validate actual future cash-flow differences under the cancellation terms and use a <tspan x="412" dy="22">defensible opportunity-cost benchmark. Preserve the $79.9m already contributed and </tspan><tspan x="412" dy="22">count only agreed compensation terms.</tspan></text>
     </g>
   </g>
 
-  <g id="comparison" data-pptx-bounds="64 572 1152 44">
+  <g id="comparison" data-pptx-bounds="64 572 1152 48">
     <text x="64" y="590" font-size="18" fill="#003657"><tspan font-weight="bold">Comparison to complete: </tspan>keeping versus taking the reduction and preserving flexibility or using capacity elsewhere, on a consistent<tspan x="64" dy="22">valuation date and a defensible basis for risk, liquidity and timing — without implying a superior alternative has already been found.</tspan></text>
   </g>
 
-  <g id="limits-strip" data-pptx-bounds="64 624 1152 36">
-    <rect x="64" y="624" width="1152" height="36" fill="#F1ECE2"/>
-    <text x="76" y="647" font-size="14" fill="#5C6670">Limitations: 20% growth and 15% discounting are prescribed assumptions; deployment and exits are fixed; actual cancellation and waterfall terms remain unverified; the workbook starts at inception.</text>
+  <g id="limits-strip" data-pptx-bounds="64 624 1152 40">
+    <rect x="64" y="624" width="1152" height="40" fill="#F1ECE2" />
+    <text x="76" y="640" font-size="14" fill="#5C6670">Limitations: 20% growth and 15% discounting are prescribed assumptions; deployment and exits are fixed;<tspan x="76" dy="16">actual cancellation and waterfall terms remain unverified; the workbook starts at inception.</tspan></text>
   </g>
 
-  <g id="footer" data-pptx-bounds="64 668 1152 36">
-    <text x="64" y="680" font-size="14" fill="#5C6670">Source: Inputs!C8:C9, C28, C34:C35; Guide!B28:B35; Q6 OPERF decision!B25:L28, C64:C71 (approximate $2.70bn PE overweight = (21.9% − 16%) × $45.8bn; the case's rounded<tspan x="64" dy="17">$9.8bn does not reconcile exactly to 21.9%); Case pp. 4–6.</tspan></text>
-    <text x="1216" y="697" font-size="14" fill="#5C6670" text-anchor="end">49</text>
+  <g id="footer" data-pptx-bounds="64 668 1152 36" fill="#5C6670" font-size="14">
+    <text x="64" y="680">Source: Inputs!C8:C9, C28, C34:C35; Guide!B28:B35; Q6 OPERF decision!B25:L28, C64:C71 (approximate $2.70bn PE overweight = (21.9% − 16%) × $45.8bn; the case's rounded<tspan x="64" dy="17">$9.8bn does not reconcile exactly to 21.9%); Case pp. 4–6.</tspan></text>
+    <text x="1216" y="697" text-anchor="end">49</text>
   </g>
 </svg>

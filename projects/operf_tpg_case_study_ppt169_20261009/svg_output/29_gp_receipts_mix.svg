@@ -1,53 +1,123 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" data-pptx-page-role="content" font-family="Calibri, Arial, sans-serif" font-size="22">
-  <rect id="page-background" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FBF8F2"/>
+  <rect id="page-background" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FBF8F2" />
 
   <g id="kicker" data-pptx-bounds="64 58 500 26">
     <text x="64" y="72" font-size="16" font-weight="bold" letter-spacing="2" fill="#003657">RETURN ATTRIBUTION</text>
-    <line x1="64" y1="82" x2="120" y2="82" stroke="#BC9E60" stroke-width="2"/>
+    <line x1="64" y1="82" x2="120" y2="82" stroke="#BC9E60" stroke-width="2" />
   </g>
 
   <g id="title" data-pptx-bounds="64 90 1152 48">
     <text x="64" y="124" font-family="Cambria, Georgia, serif" font-size="40" font-weight="bold" fill="#003657">Early fees account for 48% of GP receipt value</text>
   </g>
 
-  <g id="gp-receipts-mix" data-pptx-bounds="64 180 1152 300" data-pptx-replace-with="chart">
+  <g id="gp-receipts-mix" data-pptx-bounds="64 180 1152 300" data-pptx-replace-with="chart" data-pptx-fallback-sha256="23edb9362630584d2aaf643d0c60d86f6a62eae93597136f773faafdf9effbb6">
     <metadata type="application/json">
-      {
-        "name": "gp-receipts-mix",
-        "x": 64, "y": 180, "width": 1152, "height": 300,
-        "type": "bar",
-        "grouping": "percentStacked",
-        "categories": ["Nominal receipts", "Present value at 15%"],
-        "series": [
-          {"name": "Management fees", "values": [3000, 1731.475176]},
-          {"name": "Carry", "values": [7017.630216, 1845.493736]}
-        ],
-        "gap_width": 75,
-        "plot_area": {"x": 300, "y": 250, "width": 800, "height": 168},
-        "show_legend": true,
-        "legend_position": "top",
-        "axes": {
-          "category": {"position": "left"},
-          "value": {"position": "bottom", "visible": false}
-        },
-        "style": {"colors": ["#BC9E60", "#0055FF"], "font_family": "Calibri", "text_color": "#003657"},
-        "notes": [
-          {"text": "30%", "width": 60}, {"text": "70%", "width": 60},
-          {"text": "48%", "width": 60}, {"text": "52%", "width": 60},
-          {"text": "$10,017.63m", "width": 140}, {"text": "$3,576.97m", "width": 140}
-        ]
+{
+              "name": "gp-receipts-mix",
+              "x": 64,
+              "y": 180,
+              "width": 1152,
+              "height": 300,
+              "type": "bar",
+              "grouping": "percentStacked",
+              "categories": [
+                      "Nominal receipts",
+                      "Present value at 15%"
+              ],
+              "series": [
+                      {
+                              "name": "Management fees",
+                              "values": [
+                                      3000,
+                                      1731.475176
+                              ]
+                      },
+                      {
+                              "name": "Carry",
+                              "values": [
+                                      7017.630216,
+                                      1845.493736
+                              ]
+                      }
+              ],
+              "gap_width": 75,
+              "plot_area": {
+                      "x": 300,
+                      "y": 250,
+                      "width": 800,
+                      "height": 168
+              },
+              "show_legend": true,
+              "legend_position": "top",
+              "axes": {
+                      "category": {
+                              "position": "left"
+                      },
+                      "value": {
+                              "position": "bottom",
+                              "visible": false
+                      }
+              },
+              "style": {
+                      "colors": [
+                              "#BC9E60",
+                              "#0055FF"
+                      ],
+                      "font_family": "Calibri",
+                      "text_color": "#003657"
+              },
+              "notes": [
+                      {
+                              "text": "30%",
+                              "width": 60,
+                              "color": "#FBF8F2",
+                              "bold": true,
+                              "font_size": 18
+                      },
+                      {
+                              "text": "70%",
+                              "width": 60,
+                              "color": "#FBF8F2",
+                              "bold": true,
+                              "font_size": 18
+                      },
+                      {
+                              "text": "48%",
+                              "width": 60,
+                              "color": "#FBF8F2",
+                              "bold": true,
+                              "font_size": 18
+                      },
+                      {
+                              "text": "52%",
+                              "width": 60,
+                              "color": "#FBF8F2",
+                              "bold": true,
+                              "font_size": 18
+                      },
+                      {
+                              "text": "$10,017.63m",
+                              "width": 140,
+                              "font_size": 18
+                      },
+                      {
+                              "text": "$3,576.97m",
+                              "width": 140,
+                              "font_size": 18
+                      }
+              ]
       }
     </metadata>
-    <rect x="300" y="204" width="16" height="16" fill="#BC9E60"/>
+    <rect x="300" y="204" width="16" height="16" fill="#BC9E60" />
     <text x="324" y="218" font-size="18" fill="#003657">Management fees</text>
-    <rect x="490" y="204" width="16" height="16" fill="#0055FF"/>
+    <rect x="490" y="204" width="16" height="16" fill="#0055FF" />
     <text x="514" y="218" font-size="18" fill="#003657">Carry</text>
     <g id="gp-receipts-mix-chartArea">
       <!-- chart-plot-area: object=gp-receipts-mix | 300,250,1100,418 -->
-      <rect x="300" y="250" width="239.6" height="48" fill="#BC9E60"/>
-      <rect x="539.6" y="250" width="560.4" height="48" fill="#0055FF"/>
-      <rect x="300" y="334" width="387.3" height="48" fill="#BC9E60"/>
-      <rect x="687.3" y="334" width="412.7" height="48" fill="#0055FF"/>
+      <rect x="300" y="250" width="239.6" height="48" fill="#BC9E60" />
+      <rect x="539.6" y="250" width="560.4" height="48" fill="#0055FF" />
+      <rect x="300" y="334" width="387.3" height="48" fill="#BC9E60" />
+      <rect x="687.3" y="334" width="412.7" height="48" fill="#0055FF" />
       <g font-size="18" fill="#003657" text-anchor="end">
         <text x="288" y="280">Nominal receipts</text>
         <text x="288" y="364">Present value at 15%</text>
@@ -69,13 +139,13 @@
     <text x="64" y="526" fill="#003657">Fees begin at t = 0; carry first appears at the end of Year 8.</text>
   </g>
 
-  <g id="measure-caption" data-pptx-bounds="64 556 1152 56">
-    <text x="64" y="580" font-size="18" fill="#5C6670">Fund GP receipts. Nominal amounts and PV at model inception are separate measures; each bar is 100% of its own total.</text>
-    <text x="64" y="606" font-size="18" fill="#5C6670">PV uses a 15% assumed discount rate. Before operating costs.</text>
+  <g id="measure-caption" data-pptx-bounds="64 556 1152 56" fill="#5C6670" font-size="18">
+    <text x="64" y="580">Fund GP receipts. Nominal amounts and PV at model inception are separate measures; each bar is 100% of its own total.</text>
+    <text x="64" y="606">PV uses a 15% assumed discount rate. Before operating costs.</text>
   </g>
 
-  <g id="footer" data-pptx-bounds="64 668 1152 36">
-    <text x="64" y="680" font-size="14" fill="#5C6670">Source: Q3 Base case!C55:C60, C62, B44:L45. Fees 3,000.00 / PV 1,731.48; carry 7,017.63 / PV 1,845.49; 3,000 ÷ 10,017.63 = 29.95%; 1,731.48 ÷ 3,576.97 = 48.41%.<tspan x="64" dy="17">Not a GP profit share and not an estimate of TPG's own cost of capital.</tspan></text>
-    <text x="1216" y="697" font-size="14" fill="#5C6670" text-anchor="end">29</text>
+  <g id="footer" data-pptx-bounds="64 668 1152 36" fill="#5C6670" font-size="14">
+    <text x="64" y="680">Source: Q3 Base case!C55:C60, C62, B44:L45. Fees 3,000.00 / PV 1,731.48; carry 7,017.63 / PV 1,845.49; 3,000 ÷ 10,017.63 = 29.95%; 1,731.48 ÷ 3,576.97 = 48.41%.<tspan x="64" dy="17">Not a GP profit share and not an estimate of TPG's own cost of capital.</tspan></text>
+    <text x="1216" y="697" text-anchor="end">29</text>
   </g>
 </svg>

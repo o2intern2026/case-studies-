@@ -1,16 +1,16 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" data-pptx-page-role="content" font-family="Calibri, Arial, sans-serif" font-size="22">
-  <rect id="page-background" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FBF8F2"/>
+  <rect id="page-background" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FBF8F2" />
 
   <g id="kicker" data-pptx-bounds="64 58 500 26">
     <text x="64" y="72" font-size="16" font-weight="bold" letter-spacing="2" fill="#003657">COMPENSATION STRUCTURE</text>
-    <line x1="64" y1="82" x2="120" y2="82" stroke="#BC9E60" stroke-width="2"/>
+    <line x1="64" y1="82" x2="120" y2="82" stroke="#BC9E60" stroke-width="2" />
   </g>
 
   <g id="title" data-pptx-bounds="64 90 1152 96">
     <text x="64" y="124" font-family="Cambria, Georgia, serif" font-size="40" font-weight="bold" fill="#003657">Management fees fund operations<tspan x="64" dy="48">and carry rewards profits</tspan></text>
   </g>
 
-  <g id="fee-vs-carry-table" data-pptx-bounds="64 236 1152 236" data-pptx-replace-with="table">
+  <g id="fee-vs-carry-table" data-pptx-bounds="64 236 1152 236" data-pptx-replace-with="table" data-pptx-fallback-sha256="7b396bf982d409e6b1f334b41842581e5ef71c6a25dd31c41ea03baa9c46c4c6">
     <metadata type="application/json">
       {
         "schema": "ppt-master.semantic-table.v2",
@@ -62,12 +62,12 @@
         ]
       }
     </metadata>
-    <rect x="64" y="236" width="1152" height="44" fill="#003657"/>
-    <rect x="64" y="344" width="1152" height="64" fill="#F1ECE2"/>
+    <rect x="64" y="236" width="1152" height="44" fill="#003657" />
+    <rect x="64" y="344" width="1152" height="64" fill="#F1ECE2" />
     <g stroke="#D6CFC2" stroke-width="1">
-      <line x1="64" y1="344" x2="1216" y2="344"/>
-      <line x1="64" y1="408" x2="1216" y2="408"/>
-      <line x1="64" y1="472" x2="1216" y2="472"/>
+      <line x1="64" y1="344" x2="1216" y2="344" />
+      <line x1="64" y1="408" x2="1216" y2="408" />
+      <line x1="64" y1="472" x2="1216" y2="472" />
     </g>
     <g font-size="20" font-weight="bold" fill="#FBF8F2">
       <text x="80" y="265">Feature</text>
@@ -92,13 +92,13 @@
   <g id="waterfall-steps" data-pptx-bounds="64 492 1152 124">
     <text x="64" y="508" font-size="18" font-weight="bold" fill="#003657">Illustrative whole-fund waterfall</text>
     <g id="p15-step-1" data-pptx-authoring="preset" data-pptx-object="shape" data-pptx-prst="chevron" data-pptx-frame="64 520 376 56" fill="#F1ECE2" stroke="none">
-<path d="M 64 520 L 412 520 L 440 548 L 412 576 L 64 576 L 92 548 Z"/>
+<path d="M 64 520 L 412 520 L 440 548 L 412 576 L 64 576 L 92 548 Z" />
 </g>
     <g id="p15-step-2" data-pptx-authoring="preset" data-pptx-object="shape" data-pptx-prst="chevron" data-pptx-frame="448 520 376 56" fill="#F1ECE2" stroke="none">
-<path d="M 448 520 L 796 520 L 824 548 L 796 576 L 448 576 L 476 548 Z"/>
+<path d="M 448 520 L 796 520 L 824 548 L 796 576 L 448 576 L 476 548 Z" />
 </g>
     <g id="p15-step-3" data-pptx-authoring="preset" data-pptx-object="shape" data-pptx-prst="chevron" data-pptx-frame="832 520 376 56" fill="#F1ECE2" stroke="none">
-<path d="M 832 520 L 1180 520 L 1208 548 L 1180 576 L 832 576 L 860 548 Z"/>
+<path d="M 832 520 L 1180 520 L 1208 548 L 1180 576 L 832 576 L 860 548 Z" />
 </g>
     <g font-size="18" fill="#003657" text-anchor="middle">
       <text x="260" y="554"><tspan font-weight="bold">1</tspan>  Return contributed capital</text>
@@ -108,8 +108,8 @@
     <text x="644" y="604" font-size="16" font-style="italic" fill="#5C6670" text-anchor="middle">Any preferred return, catch-up and other provisions depend on the LPA</text>
   </g>
 
-  <g id="footer" data-pptx-bounds="64 668 1152 36">
-    <text x="64" y="680" font-size="14" fill="#5C6670">Source: Metrick &amp; Yasuda, The Economics of Private Equity Funds, working paper, 1 Jul 2007, pp. 8–12. The actual fee base and waterfall follow the<tspan x="64" dy="17">LPA; the illustration does not confirm TPG VI's specific terms.</tspan></text>
-    <text x="1216" y="697" font-size="14" fill="#5C6670" text-anchor="end">15</text>
+  <g id="footer" data-pptx-bounds="64 668 1152 36" fill="#5C6670" font-size="14">
+    <text x="64" y="680">Source: Metrick &amp; Yasuda, The Economics of Private Equity Funds, working paper, 1 Jul 2007, pp. 8–12. The actual fee base and waterfall follow the<tspan x="64" dy="17">LPA; the illustration does not confirm TPG VI's specific terms.</tspan></text>
+    <text x="1216" y="697" text-anchor="end">15</text>
   </g>
 </svg>

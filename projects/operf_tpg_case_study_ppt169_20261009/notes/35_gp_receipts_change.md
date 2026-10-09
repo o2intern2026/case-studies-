@@ -1,0 +1,3 @@
+The fee savings that stay in the pool also raise the GP's carry. But over the ten years, in nominal whole-fund terms, the GP gives up $300 million of management fees and gains only about $140 million of carry, so its total receipts fall by about $160 million. Extra carry offsets only part of the fee concession, so a rise in carry does not mean the GP earns more overall. Note the switch in measure on this page: whole-fund nominal amounts over ten years, before GP operating costs.
+
+Detail. Negative 300.00 plus 140.216831 equals negative 159.783169. Sources are Q4 Analysis cells B10 to D11.

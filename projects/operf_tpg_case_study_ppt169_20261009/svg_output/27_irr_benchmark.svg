@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" data-pptx-page-role="content" font-family="Calibri, Arial, sans-serif" font-size="22">
-  <rect id="page-background" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FBF8F2"/>
+  <rect id="page-background" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FBF8F2" />
 
   <g id="kicker" data-pptx-bounds="64 58 500 26">
     <text x="64" y="72" font-size="16" font-weight="bold" letter-spacing="2" fill="#003657">RETURN ATTRIBUTION</text>
-    <line x1="64" y1="82" x2="120" y2="82" stroke="#BC9E60" stroke-width="2"/>
+    <line x1="64" y1="82" x2="120" y2="82" stroke="#BC9E60" stroke-width="2" />
   </g>
 
   <g id="title" data-pptx-bounds="64 90 1152 96">
@@ -18,15 +18,15 @@
     <g id="irr-benchmark-dot-chartArea">
       <!-- chart-plot-area: object=irr-benchmark-dot | 100,300,780,400 -->
       <g id="irr-benchmark-dot-axis" stroke="#5C6670" stroke-width="1.5">
-        <line x1="100" y1="400" x2="780" y2="400"/>
+        <line x1="100" y1="400" x2="780" y2="400" />
       </g>
       <g stroke="#5C6670" stroke-width="1">
-        <line x1="100" y1="400" x2="100" y2="410"/>
-        <line x1="236" y1="400" x2="236" y2="410"/>
-        <line x1="372" y1="400" x2="372" y2="410"/>
-        <line x1="508" y1="400" x2="508" y2="410"/>
-        <line x1="644" y1="400" x2="644" y2="410"/>
-        <line x1="780" y1="400" x2="780" y2="410"/>
+        <line x1="100" y1="400" x2="100" y2="410" />
+        <line x1="236" y1="400" x2="236" y2="410" />
+        <line x1="372" y1="400" x2="372" y2="410" />
+        <line x1="508" y1="400" x2="508" y2="410" />
+        <line x1="644" y1="400" x2="644" y2="410" />
+        <line x1="780" y1="400" x2="780" y2="410" />
       </g>
       <g font-size="14" fill="#5C6670" text-anchor="middle">
         <text x="100" y="430">14.0%</text>
@@ -36,29 +36,29 @@
         <text x="644" y="430">16.0%</text>
         <text x="780" y="430">16.5%</text>
       </g>
-      <line x1="372" y1="356" x2="372" y2="400" stroke="#5C6670" stroke-width="2" stroke-dasharray="4,4"/>
+      <line x1="372" y1="356" x2="372" y2="400" stroke="#5C6670" stroke-width="2" stroke-dasharray="4,4" />
       <text x="372" y="346" font-size="16" fill="#5C6670" text-anchor="middle">Assumed discount rate 15.00%</text>
-      <line x1="372" y1="400" x2="568.5" y2="400" stroke="#003657" stroke-width="4"/>
+      <line x1="372" y1="400" x2="568.5" y2="400" stroke="#003657" stroke-width="4" />
       <text x="470" y="320" font-size="18" font-weight="bold" fill="#003657" text-anchor="middle">+0.72 percentage points</text>
-      <circle cx="568.5" cy="400" r="10" fill="#003657"/>
+      <circle cx="568.5" cy="400" r="10" fill="#003657" />
       <text x="568.5" y="376" font-size="18" font-weight="bold" fill="#003657" text-anchor="middle">Net LP IRR 15.72%</text>
     </g>
   </g>
 
   <g id="hero-npv" data-pptx-bounds="850 280 366 180">
-    <line x1="856" y1="280" x2="856" y2="460" stroke="#D6CFC2" stroke-width="1"/>
-    <text x="888" y="386" font-family="Cambria, Georgia, serif" font-size="72" font-weight="bold" fill="#003657">+$21.68m</text>
-    <text x="888" y="426" fill="#003657">OPERF NPV at 15%</text>
+    <line x1="856" y1="280" x2="856" y2="460" stroke="#D6CFC2" stroke-width="1" />
+    <text x="888" y="386" font-family="Cambria, Georgia, serif" font-size="72" font-weight="bold" fill="#003657">$21.68m</text>
+    <text x="888" y="426" fill="#003657">Positive OPERF NPV at 15%</text>
   </g>
 
-  <g id="benchmark-notes" data-pptx-bounds="64 520 1152 90">
-    <text x="64" y="544" font-size="18" fill="#003657">LP IRR 15.72% versus the 15.00% assumed discount rate; margin about 0.72 percentage points (72.26 bps).</text>
-    <text x="64" y="572" font-size="18" fill="#5C6670">NPV at model inception; 15% assumed discount rate.</text>
-    <text x="64" y="598" font-size="18" fill="#5C6670">The 15% rate is a preparation-question assumption, not OPERF's actual policy requirement.</text>
+  <g id="benchmark-notes" data-pptx-bounds="64 520 1152 90" font-size="18">
+    <text x="64" y="544" fill="#003657">LP IRR 15.72% versus the 15.00% assumed discount rate; margin about 0.72 percentage points (72.26 bps).</text>
+    <text x="64" y="572" fill="#5C6670">NPV at model inception; 15% assumed discount rate.</text>
+    <text x="64" y="598" fill="#5C6670">The 15% rate is a preparation-question assumption, not OPERF's actual policy requirement.</text>
   </g>
 
-  <g id="footer" data-pptx-bounds="64 668 1152 36">
-    <text x="64" y="688" font-size="14" fill="#5C6670">Source: Q3 Base case!C50:C51, C63:C64; Inputs!C9. OPERF's 3.75% model share scales amounts, not the IRR; NPV is not nominal profit or recovered principal.</text>
-    <text x="1216" y="697" font-size="14" fill="#5C6670" text-anchor="end">27</text>
+  <g id="footer" data-pptx-bounds="64 668 1152 36" fill="#5C6670" font-size="14">
+    <text x="64" y="688">Source: Q3 Base case!C50:C51, C63:C64; Inputs!C9. OPERF's 3.75% model share scales amounts, not the IRR; NPV is not nominal profit or recovered principal.</text>
+    <text x="1216" y="697" text-anchor="end">27</text>
   </g>
 </svg>

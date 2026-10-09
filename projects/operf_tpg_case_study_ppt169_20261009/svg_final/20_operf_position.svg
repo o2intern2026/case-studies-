@@ -1,0 +1,140 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" data-pptx-page-role="content" font-family="Calibri, Arial, sans-serif" font-size="22">
+  <rect id="page-background" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FBF8F2" />
+
+  <g id="kicker" data-pptx-bounds="64 58 500 26">
+    <text x="64" y="72" font-size="16" font-weight="bold" letter-spacing="2" fill="#003657">OPERF'S POSITION</text>
+    <line x1="64" y1="82" x2="120" y2="82" stroke="#BC9E60" stroke-width="2" />
+  </g>
+
+  <g id="title" data-pptx-bounds="64 90 1152 48">
+    <text x="64" y="124" font-family="Cambria, Georgia, serif" font-size="40" font-weight="bold" fill="#003657">OPERF's allocation and funding position</text>
+  </g>
+
+  <g id="pe-allocation-bullet" data-pptx-bounds="64 196 560 300">
+    <text x="64" y="222" font-size="18" font-weight="bold" fill="#003657">Private equity allocation, 4Q 2008</text>
+    <g id="pe-allocation-bullet-chartArea">
+      
+      <g id="pe-allocation-bullet-axis" stroke="#5C6670" stroke-width="1.5">
+        <line x1="64" y1="346" x2="544" y2="346" />
+      </g>
+      <rect x="64" y="280" width="420.5" height="48" fill="#003657" />
+      <text x="492" y="310" font-size="18" font-weight="bold" fill="#003657">21.9%</text>
+      <line x1="371.2" y1="262" x2="371.2" y2="346" stroke="#5C6670" stroke-width="2" stroke-dasharray="4,4" />
+      <text x="371" y="254" font-size="18" fill="#5C6670" text-anchor="middle">Actual allocation target 16.0%</text>
+      <g font-size="14" fill="#5C6670" text-anchor="middle">
+        <text x="64" y="368" text-anchor="start">0%</text>
+        <text x="160" y="368">5%</text>
+        <text x="256" y="368">10%</text>
+        <text x="352" y="368">15%</text>
+        <text x="448" y="368">20%</text>
+        <text x="544" y="368">25%</text>
+      </g>
+      <text x="64" y="404" font-size="18" fill="#003657">Actual allocation 21.9%, against a 16.0% target.</text>
+    </g>
+    <line x1="620" y1="196" x2="620" y2="496" stroke="#D6CFC2" stroke-width="1" />
+  </g>
+
+  <g id="commitment-bars" data-pptx-bounds="640 196 576 300" data-pptx-replace-with="chart" data-pptx-fallback-sha256="e3658650fefbb949c20203bd93eb6e618c30bf90b8517d4209dbb4cc8b70b3fb">
+    <metadata type="application/json">
+{
+              "name": "commitment-bars",
+              "x": 640,
+              "y": 196,
+              "width": 576,
+              "height": 300,
+              "type": "bar",
+              "grouping": "clustered",
+              "title": "OPERF commitments to TPG funds, $m",
+              "categories": [
+                      "Funds II–V (each)",
+                      "Fund VI"
+              ],
+              "series": [
+                      {
+                              "name": "Commitment ($m)",
+                              "values": [
+                                      300,
+                                      750
+                              ],
+                              "point_colors": [
+                                      "#8AA1AC",
+                                      "#003657"
+                              ]
+                      }
+              ],
+              "gap_width": 75,
+              "plot_area": {
+                      "x": 800,
+                      "y": 262,
+                      "width": 376,
+                      "height": 168
+              },
+              "axes": {
+                      "category": {
+                              "position": "left"
+                      },
+                      "value": {
+                              "position": "bottom",
+                              "minimum": 0,
+                              "maximum": 800,
+                              "major_unit": 200,
+                              "number_format": "0"
+                      }
+              },
+              "data_labels": {
+                      "show_value": true,
+                      "position": "outside_end",
+                      "number_format": "0"
+              },
+              "style": {
+                      "font_family": "Calibri",
+                      "text_color": "#003657",
+                      "axis_color": "#5C6670"
+              },
+              "notes": [
+                      {
+                              "text": "2.5× the earlier commitments",
+                              "width": 260,
+                              "color": "#5C6670",
+                              "font_size": 14
+                      }
+              ]
+      }
+    </metadata>
+    <text x="656" y="222" font-size="18" font-weight="bold" fill="#003657">OPERF commitments to TPG funds, $m</text>
+    <g id="commitment-bars-chartArea">
+      <g id="commitment-bars-axis" stroke="#5C6670" stroke-width="1.5">
+        <line x1="800" y1="262" x2="800" y2="430" />
+        <line x1="800" y1="430" x2="1176" y2="430" />
+      </g>
+      
+      <rect x="800" y="262" width="141" height="48" fill="#8AA1AC" />
+      <rect x="800" y="346" width="352.5" height="48" fill="#003657" />
+      <g font-size="18" fill="#003657" text-anchor="end">
+        <text x="790" y="281">Funds II–V </text><text x="790" y="303">(each)</text><text x="790" y="376">Fund VI</text>
+      </g>
+      <g font-size="18" font-weight="bold" fill="#003657">
+        <text x="949" y="292">300</text>
+        <text x="1160" y="376">750</text>
+      </g>
+      <text x="800" y="418" font-size="14" font-style="italic" fill="#5C6670">2.5× the earlier commitments</text>
+      <g font-size="14" fill="#5C6670" text-anchor="middle">
+        <text x="800" y="452">0</text>
+        <text x="894" y="452">200</text>
+        <text x="988" y="452">400</text>
+        <text x="1082" y="452">600</text>
+        <text x="1176" y="452">800</text>
+      </g>
+    </g>
+  </g>
+
+  <g id="funding-line" data-pptx-bounds="64 540 1152 70">
+    <text x="64" y="570" fill="#003657">The case reports sufficient cash to meet future capital calls.</text>
+    <text x="64" y="600" font-size="18" fill="#5C6670">Payment capacity is a feasibility condition; the investment's value is judged separately.</text>
+  </g>
+
+  <g id="footer" data-pptx-bounds="64 668 1152 36" fill="#5C6670" font-size="14">
+    <text x="64" y="688">Source: Case p. 5; Case p. 13, Exhibit 7 ($300m committed to each of Funds II–V); Inputs!C26, C34:C35; 750 ÷ 300 = 2.5. The two charts use independent scales.</text>
+    <text x="1216" y="697" text-anchor="end">20</text>
+  </g>
+</svg>

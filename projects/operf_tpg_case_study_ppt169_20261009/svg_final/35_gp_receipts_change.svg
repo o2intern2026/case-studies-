@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" data-pptx-page-role="content" font-family="Calibri, Arial, sans-serif" font-size="22">
+  <rect id="page-background" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FBF8F2" />
+
+  <g id="kicker" data-pptx-bounds="64 58 500 26">
+    <text x="64" y="72" font-size="16" font-weight="bold" letter-spacing="2" fill="#003657">FEE REDUCTION IMPACT</text>
+    <line x1="64" y1="82" x2="120" y2="82" stroke="#BC9E60" stroke-width="2" />
+  </g>
+
+  <g id="title" data-pptx-bounds="64 90 1152 48">
+    <text x="64" y="124" font-family="Cambria, Georgia, serif" font-size="40" font-weight="bold" fill="#003657">GP carry rises, while total GP receipts fall</text>
+  </g>
+
+  <g id="gp-receipts-change" data-pptx-bounds="64 180 1152 300" data-pptx-replace-with="chart" data-pptx-fallback-sha256="08dec1639354e60a4716c33bacd3bfe5137e17333d2955c82a7560076966f2f5">
+    <metadata type="application/json">
+{
+              "name": "gp-receipts-change",
+              "x": 64,
+              "y": 180,
+              "width": 1152,
+              "height": 300,
+              "type": "bar",
+              "grouping": "clustered",
+              "title": "Fund GP receipts, ten-year nominal change ($m)",
+              "categories": [
+                      "Management fees",
+                      "Carry"
+              ],
+              "series": [
+                      {
+                              "name": "Ten-year nominal change ($m)",
+                              "values": [
+                                      -300,
+                                      140.216831
+                              ],
+                              "point_colors": [
+                                      "#BC9E60",
+                                      "#0055FF"
+                              ]
+                      }
+              ],
+              "gap_width": 75,
+              "plot_area": {
+                      "x": 200,
+                      "y": 250,
+                      "width": 960,
+                      "height": 180
+              },
+              "axes": {
+                      "category": {
+                              "position": "left",
+                              "label_position": "low"
+                      },
+                      "value": {
+                              "position": "bottom",
+                              "minimum": -400,
+                              "maximum": 200,
+                              "major_unit": 100,
+                              "number_format": "0"
+                      }
+              },
+              "style": {
+                      "font_family": "Calibri",
+                      "text_color": "#5C6670",
+                      "axis_color": "#5C6670"
+              },
+              "notes": [
+                      {
+                              "text": "−300.00",
+                              "width": 100,
+                              "color": "#BC9E60",
+                              "bold": true,
+                              "font_size": 18
+                      },
+                      {
+                              "text": "+140.22",
+                              "width": 100,
+                              "color": "#0055FF",
+                              "bold": true,
+                              "font_size": 18
+                      }
+              ]
+      }
+    </metadata>
+    <text x="64" y="206" font-size="18" font-weight="bold" fill="#003657">Fund GP receipts, ten-year nominal change ($m)</text>
+    <g id="gp-receipts-change-chartArea">
+      <g id="gp-receipts-change-axis" stroke="#5C6670" stroke-width="1.5">
+        <line x1="200" y1="430" x2="1160" y2="430" />
+        <line x1="840" y1="250" x2="840" y2="430" />
+      </g>
+      
+      <rect x="360" y="262" width="480" height="48" fill="#BC9E60" />
+      <rect x="840" y="346" width="224.3" height="48" fill="#0055FF" />
+      <g font-size="18" fill="#003657" text-anchor="end">
+        <text x="188" y="282">Management </text><text x="188" y="302">fees</text><text x="188" y="376">Carry</text>
+      </g>
+      <text x="352" y="292" font-size="18" font-weight="bold" fill="#BC9E60" text-anchor="end">−300.00</text>
+      <text x="1072" y="376" font-size="18" font-weight="bold" fill="#0055FF">+140.22</text>
+      <g font-size="14" fill="#5C6670" text-anchor="middle">
+        <text x="200" y="452">-400</text>
+        <text x="360" y="452">-300</text>
+        <text x="520" y="452">-200</text>
+        <text x="680" y="452">-100</text>
+        <text x="840" y="452">0</text>
+        <text x="1000" y="452">100</text>
+        <text x="1160" y="452">200</text>
+      </g>
+    </g>
+  </g>
+
+  <g id="net-change" data-pptx-bounds="64 496 1152 50">
+    <line x1="64" y1="502" x2="1216" y2="502" stroke="#D6CFC2" stroke-width="1" />
+    <text x="64" y="536" font-size="26" font-weight="bold" fill="#003657">Net change −$159.78m</text>
+  </g>
+
+  <g id="takeaway" data-pptx-bounds="64 560 1152 60">
+    <text x="64" y="584" fill="#003657">Extra carry offsets only part of the reduction in fees.</text>
+    <text x="64" y="612" font-size="18" fill="#5C6670">Whole-fund nominal amounts over ten years; before GP operating costs. The −300 − 140.22 arithmetic gives −159.78.</text>
+  </g>
+
+  <g id="footer" data-pptx-bounds="64 668 1152 36" fill="#5C6670" font-size="14">
+    <text x="64" y="688">Source: Q4 Analysis!B10:D11; −300.00 + 140.216831 = −159.783169. GP operating costs not deducted.</text>
+    <text x="1216" y="697" text-anchor="end">35</text>
+  </g>
+</svg>

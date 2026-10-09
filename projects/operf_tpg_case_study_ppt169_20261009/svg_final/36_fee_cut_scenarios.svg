@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" data-pptx-page-role="content" font-family="Calibri, Arial, sans-serif" font-size="22">
+  <rect id="page-background" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FBF8F2" />
+
+  <g id="kicker" data-pptx-bounds="64 58 500 26">
+    <text x="64" y="72" font-size="16" font-weight="bold" letter-spacing="2" fill="#003657">SENSITIVITY ANALYSIS</text>
+    <line x1="64" y1="82" x2="120" y2="82" stroke="#BC9E60" stroke-width="2" />
+  </g>
+
+  <g id="title" data-pptx-bounds="64 90 1152 96">
+    <text font-size="40" fill="#003657" font-family="Cambria, Georgia, serif" font-weight="bold" x="64" y="124">Lower fees improve each tested case,</text><text font-size="40" fill="#003657" font-family="Cambria, Georgia, serif" font-weight="bold" x="64" y="172">with different IRR and NPV gains</text></g>
+
+  <g id="npv-gain-by-growth" data-pptx-bounds="64 196 680 340" data-pptx-replace-with="chart" data-pptx-fallback-sha256="b00a8040b319c43015c59ec3e5f502aab5e40bcbd2c4cd733cc8c984bc3d83f4">
+    <metadata type="application/json">
+      {
+        "name": "npv-gain-by-growth",
+        "x": 64, "y": 196, "width": 680, "height": 340,
+        "type": "column",
+        "grouping": "clustered",
+        "title": "OPERF NPV gain from the fee cut, $m",
+        "categories": ["0%", "10%", "20%", "30%"],
+        "series": [{"name": "OPERF NPV gain ($m)", "values": [3.546595, 4.440571, 6.553578, 9.994462], "point_colors": ["#8AA1AC", "#8AA1AC", "#003657", "#8AA1AC"]}],
+        "gap_width": 88,
+        "plot_area": {"x": 120, "y": 260, "width": 600, "height": 220},
+        "axes": {
+          "category": {"position": "bottom"},
+          "value": {"position": "left", "minimum": 0, "maximum": 12, "major_unit": 4, "major_gridlines": true, "number_format": "0"}
+        },
+        "axis_titles": {"category": "Asset growth"},
+        "data_labels": {"show_value": true, "position": "outside_end", "number_format": "0.00"},
+        "style": {"font_family": "Calibri", "text_color": "#5C6670", "axis_color": "#5C6670", "grid_color": "#E6E0D4"}
+      }
+    </metadata>
+    <text x="64" y="218" font-size="18" font-weight="bold" fill="#003657">OPERF NPV gain from the fee cut, $m</text>
+    <g id="npv-gain-by-growth-chartArea">
+      <g id="npv-gain-by-growth-grid" stroke="#E6E0D4" stroke-width="1">
+        <line x1="120" y1="260" x2="720" y2="260" />
+        <line x1="120" y1="333.3" x2="720" y2="333.3" />
+        <line x1="120" y1="406.7" x2="720" y2="406.7" />
+      </g>
+      <g id="npv-gain-by-growth-axis" stroke="#5C6670" stroke-width="1.5">
+        <line x1="120" y1="260" x2="120" y2="480" />
+        <line x1="120" y1="480" x2="720" y2="480" />
+      </g>
+      
+      <rect x="155" y="415" width="80" height="65" fill="#8AA1AC" />
+      <rect x="305" y="398.6" width="80" height="81.4" fill="#8AA1AC" />
+      <rect x="455" y="359.9" width="80" height="120.1" fill="#003657" />
+      <rect x="605" y="296.8" width="80" height="183.2" fill="#8AA1AC" />
+      <g font-size="18" fill="#003657" text-anchor="middle">
+        <text x="195" y="405">3.55</text>
+        <text x="345" y="388">4.44</text>
+        <text x="495" y="350" font-weight="bold">6.55</text>
+        <text x="645" y="287">9.99</text>
+      </g>
+      <g font-size="14" fill="#5C6670" text-anchor="end">
+        <text x="110" y="265">12</text>
+        <text x="110" y="338">8</text>
+        <text x="110" y="411">4</text>
+        <text x="110" y="485">0</text>
+      </g>
+      <g font-size="14" fill="#5C6670" text-anchor="middle">
+        <text x="195" y="502">0%</text>
+        <text x="345" y="502">10%</text>
+        <text x="495" y="502">20%</text>
+        <text x="645" y="502">30%</text>
+        <text x="420" y="528">Asset growth</text>
+      </g>
+    </g>
+  </g>
+
+  <g id="irr-gain-by-growth" data-pptx-bounds="760 196 456 340">
+    <text x="760" y="218" font-size="18" font-weight="bold" fill="#003657">LP IRR gain from the fee cut, bps</text>
+    <g id="irr-gain-by-growth-chartArea">
+      <g id="irr-gain-by-growth-grid" stroke="#E6E0D4" stroke-width="1">
+        <line x1="800" y1="291.4" x2="1200" y2="291.4" />
+        <line x1="800" y1="354.3" x2="1200" y2="354.3" />
+        <line x1="800" y1="417.1" x2="1200" y2="417.1" />
+      </g>
+      <g id="irr-gain-by-growth-axis" stroke="#5C6670" stroke-width="1.5">
+        <line x1="800" y1="260" x2="800" y2="480" />
+        <line x1="800" y1="480" x2="1200" y2="480" />
+      </g>
+      
+      <g stroke="#003657" stroke-width="3" fill="#FBF8F2">
+        <circle cx="850" cy="284.2" r="9" />
+        <circle cx="950" cy="336.4" r="9" />
+        <circle cx="1150" cy="351.4" r="9" />
+      </g>
+      <circle cx="1050" cy="345.7" r="9" fill="#003657" />
+      <g font-size="18" fill="#003657" text-anchor="middle">
+        <text x="850" y="268">31.15</text>
+        <text x="950" y="320">22.84</text>
+        <text x="1050" y="329" font-weight="bold">21.36</text>
+        <text x="1150" y="382">20.46</text>
+      </g>
+      <g font-size="14" fill="#5C6670" text-anchor="end">
+        <text x="790" y="296">30</text>
+        <text x="790" y="359">20</text>
+        <text x="790" y="422">10</text>
+        <text x="790" y="485">0</text>
+      </g>
+      <g font-size="14" fill="#5C6670" text-anchor="middle">
+        <text x="850" y="502">0%</text>
+        <text x="950" y="502">10%</text>
+        <text x="1050" y="502">20%</text>
+        <text x="1150" y="502">30%</text>
+        <text x="1000" y="528">Asset growth</text>
+      </g>
+    </g>
+  </g>
+
+  <g id="conclusion" data-pptx-bounds="64 544 1152 36">
+    <text x="64" y="568" fill="#003657">NPV gain rises across the displayed cases, while the IRR gain falls.</text>
+  </g>
+
+  <g id="scenario-notes" data-pptx-bounds="64 586 1152 56" fill="#5C6670" font-size="18">
+    <text x="64" y="606">At 10% growth, LP IRR improves from 6.42% to 6.65% — still below the 15% model benchmark.</text>
+    <text x="64" y="632">1.50% versus 1.35% fee; single-variable scenarios, other assumptions fixed; NPV at model inception, 15% discount rate.</text>
+  </g>
+
+  <g id="footer" data-pptx-bounds="64 668 1152 36" fill="#5C6670" font-size="14">
+    <text x="64" y="688">Source: Q4 Analysis!A37:E37, A39:E39, A41:E41, A43:E43. Scenarios are not probabilities; the model does not test whether a fee cut changes GP behaviour.</text>
+    <text x="1216" y="697" text-anchor="end">36</text>
+  </g>
+</svg>

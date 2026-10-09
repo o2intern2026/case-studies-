@@ -1,52 +1,95 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" data-pptx-page-role="content" font-family="Calibri, Arial, sans-serif" font-size="22">
-  <rect id="page-background" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FBF8F2"/>
+  <rect id="page-background" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FBF8F2" />
 
   <g id="kicker" data-pptx-bounds="64 58 500 26">
     <text x="64" y="72" font-size="16" font-weight="bold" letter-spacing="2" fill="#003657">FEE REDUCTION IMPACT</text>
-    <line x1="64" y1="82" x2="120" y2="82" stroke="#BC9E60" stroke-width="2"/>
+    <line x1="64" y1="82" x2="120" y2="82" stroke="#BC9E60" stroke-width="2" />
   </g>
 
   <g id="title" data-pptx-bounds="64 90 1152 96">
     <text x="64" y="124" font-family="Cambria, Georgia, serif" font-size="40" font-weight="bold" fill="#003657">Reinvested fee savings create<tspan x="64" dy="48">additional LP value</tspan></text>
   </g>
 
-  <g id="fee-gain-bridge" data-pptx-bounds="64 180 1152 440" data-pptx-replace-with="chart">
+  <g id="fee-gain-bridge" data-pptx-bounds="64 188 1152 432" data-pptx-replace-with="chart" data-pptx-fallback-sha256="39c022f8e73f5f93100b93fc2078c0f1e81cecc515998a44ff48b4828363bb42">
     <metadata type="application/json">
-      {
-        "name": "fee-gain-bridge",
-        "x": 64, "y": 180, "width": 1152, "height": 440,
-        "type": "waterfall",
-        "title": "Lower fees leave more capital invested",
-        "categories": ["Additional gross distributions", "Additional carry deduction", "Net OPERF NPV gain"],
-        "values": [8.019301, -1.465723, 6.553578],
-        "subtotal_indices": [2],
-        "style": {"colors": ["#2E7D5B", "#A33D3D", "#003657"], "font_family": "Calibri", "text_color": "#003657"},
-        "notes": [
-          {"text": "+8.02", "width": 100},
-          {"text": "−1.47", "width": 100},
-          {"text": "+6.55", "width": 100},
-          {"text": "OPERF share of incremental cash flows, $m PV at 15%; NPV at model inception.", "width": 700}
-        ]
+{
+              "name": "fee-gain-bridge",
+              "x": 64,
+              "y": 188,
+              "width": 1152,
+              "height": 432,
+              "type": "waterfall",
+              "title": "Lower fees leave more capital invested",
+              "categories": [
+                      "Additional gross distributions",
+                      "Additional carry deduction",
+                      "Net OPERF NPV gain"
+              ],
+              "values": [
+                      8.019301,
+                      -1.465723,
+                      6.553578
+              ],
+              "subtotal_indices": [
+                      2
+              ],
+              "style": {
+                      "colors": [
+                              "#2E7D5B",
+                              "#A33D3D",
+                              "#003657"
+                      ],
+                      "font_family": "Calibri",
+                      "text_color": "#003657"
+              },
+              "notes": [
+                      {
+                              "text": "+8.02",
+                              "width": 100,
+                              "color": "#2E7D5B",
+                              "bold": true,
+                              "font_size": 18
+                      },
+                      {
+                              "text": "−1.47",
+                              "width": 100,
+                              "color": "#A33D3D",
+                              "bold": true,
+                              "font_size": 18
+                      },
+                      {
+                              "text": "+6.55",
+                              "width": 100,
+                              "bold": true,
+                              "font_size": 18
+                      },
+                      {
+                              "text": "OPERF share of incremental cash flows, $m PV at 15%; NPV at model inception.",
+                              "width": 700,
+                              "color": "#5C6670",
+                              "font_size": 14
+                      }
+              ]
       }
     </metadata>
     <text x="64" y="206" font-size="18" font-weight="bold" fill="#003657">Lower fees leave more capital invested</text>
     <g id="fee-gain-bridge-chartArea">
       <g id="fee-gain-bridge-grid" stroke="#E6E0D4" stroke-width="1">
-        <line x1="120" y1="260" x2="1160" y2="260"/>
-        <line x1="120" y1="330" x2="1160" y2="330"/>
-        <line x1="120" y1="400" x2="1160" y2="400"/>
-        <line x1="120" y1="470" x2="1160" y2="470"/>
+        <line x1="120" y1="260" x2="1160" y2="260" />
+        <line x1="120" y1="330" x2="1160" y2="330" />
+        <line x1="120" y1="400" x2="1160" y2="400" />
+        <line x1="120" y1="470" x2="1160" y2="470" />
       </g>
       <g id="fee-gain-bridge-axis" stroke="#5C6670" stroke-width="1.5">
-        <line x1="120" y1="540" x2="1160" y2="540"/>
+        <line x1="120" y1="540" x2="1160" y2="540" />
       </g>
       <!-- chart-plot-area: object=fee-gain-bridge | 120,260,1160,540 -->
-      <rect x="220" y="315.5" width="200" height="224.5" fill="#2E7D5B"/>
-      <rect x="540" y="315.5" width="200" height="41" fill="#A33D3D"/>
-      <rect x="860" y="356.5" width="200" height="183.5" fill="#003657"/>
+      <rect x="220" y="315.5" width="200" height="224.5" fill="#2E7D5B" />
+      <rect x="540" y="315.5" width="200" height="41" fill="#A33D3D" />
+      <rect x="860" y="356.5" width="200" height="183.5" fill="#003657" />
       <g stroke="#5C6670" stroke-width="1" stroke-dasharray="4,4">
-        <line x1="420" y1="315.5" x2="540" y2="315.5"/>
-        <line x1="740" y1="356.5" x2="860" y2="356.5"/>
+        <line x1="420" y1="315.5" x2="540" y2="315.5" />
+        <line x1="740" y1="356.5" x2="860" y2="356.5" />
       </g>
       <g font-size="18" font-weight="bold" text-anchor="middle">
         <text x="320" y="303" fill="#2E7D5B">+8.02</text>
@@ -62,8 +105,8 @@
     </g>
   </g>
 
-  <g id="footer" data-pptx-bounds="64 668 1152 36">
-    <text x="64" y="680" font-size="14" fill="#5C6670">Source: Q4 Analysis!C23:C25; 8.019301 − 1.465723 = 6.553578. The PV of the direct fee saving (Q4 Analysis!C22 = $6.49m) is an alternative view and is not<tspan x="64" dy="17">added on top; the −1.47 is not simply 20% of 8.02, because capital-return and carry timing change period by period.</tspan></text>
-    <text x="1216" y="697" font-size="14" fill="#5C6670" text-anchor="end">34</text>
+  <g id="footer" data-pptx-bounds="64 668 1152 36" fill="#5C6670" font-size="14">
+    <text x="64" y="680">Source: Q4 Analysis!C23:C25; 8.019301 − 1.465723 = 6.553578. The PV of the direct fee saving (Q4 Analysis!C22 = $6.49m) is an alternative view and is not<tspan x="64" dy="17">added on top; the −1.47 is not simply 20% of 8.02, because capital-return and carry timing change period by period.</tspan></text>
+    <text x="1216" y="697" text-anchor="end">34</text>
   </g>
 </svg>
