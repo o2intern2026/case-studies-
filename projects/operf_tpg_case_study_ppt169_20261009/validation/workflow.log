@@ -11,3 +11,49 @@ stdout:
 
 === 2026-10-09T06:51:48.623Z NOTE id=4ce14d6d24f2 ===
 Stage 1 confirmed in chat (cloud session; Confirm UI page not reachable): communication contract as recommended, en-US, ppt169, free_design, title page + table of contents added by user.
+
+=== 2026-10-09T07:04:11.676Z NOTE id=a85a5f337a69 ===
+Stage 2 confirmed in chat: direction B (editorial, Case Journal) with OPERF navy #003657 (LP) + TPG blue #0055FF / gold #BC9E60 (GP); 56 pages; balanced; body 22px; notes on; animations off; narration off; images none; tabler-outline icons; native charts/tables export on; continuous; depth complete; refine_spec off.
+
+=== 2026-10-09T07:08:16.042Z PYTHON run=37c88b751852 ===
+cwd: /home/user/case-studies-
+argv: ["/usr/bin/python3", "skills/ppt-master/scripts/icon_sync.py", "projects/operf_tpg_case_study_ppt169_20261009", "tabler-outline/building-bank", "tabler-outline/briefcase", "tabler-outline/users", "tabler-outline/chart-pie", "tabler-outline/alert-triangle", "tabler-outline/scale", "tabler-outline/calculator", "tabler-outline/heart-handshake", "tabler-outline/flag", "tabler-outline/presentation", "tabler-outline/trending-down", "tabler-outline/arrow-right", "tabler-outline/coins", "tabler-outline/clock", "tabler-outline/circle-check", "tabler-outline/circle-x", "tabler-outline/file-text", "tabler-outline/target", "tabler-outline/arrows-exchange"]
+stderr:
+  [OK] 19 icon(s) in projects/operf_tpg_case_study_ppt169_20261009/icons:
+       + tabler-outline/building-bank
+       + tabler-outline/briefcase
+       + tabler-outline/users
+       + tabler-outline/chart-pie
+       + tabler-outline/alert-triangle
+       + tabler-outline/scale
+       + tabler-outline/calculator
+       + tabler-outline/heart-handshake
+stderr-tail:
+       + tabler-outline/circle-x
+       + tabler-outline/file-text
+       + tabler-outline/target
+       + tabler-outline/arrows-exchange
+=== 2026-10-09T07:08:16.053Z END run=37c88b751852 elapsed_ms=10 output_lines=20 retained=13 omitted=7 ===
+
+=== 2026-10-09T07:18:37.363Z PYTHON run=a98fe2e14fb9 ===
+cwd: /home/user/case-studies-
+argv: ["/usr/bin/python3", "skills/ppt-master/scripts/project_manager.py", "validate", "projects/operf_tpg_case_study_ppt169_20261009"]
+stdout:
+  [WARN]
+  [OK] Project structure is valid, with warnings.
+=== 2026-10-09T07:18:37.975Z END run=a98fe2e14fb9 elapsed_ms=612 output_lines=5 retained=2 omitted=3 ===
+
+=== 2026-10-09T07:19:03.113Z PYTHON run=52a23a2b9b8c ===
+cwd: /home/user/case-studies-
+argv: ["/usr/bin/python3", "skills/ppt-master/scripts/text_measure.py", "calibrate", "projects/operf_tpg_case_study_ppt169_20261009", "--outline"]
+=== 2026-10-09T07:19:04.025Z END run=52a23a2b9b8c elapsed_ms=912 output_lines=19 retained=0 omitted=19 ===
+
+=== 2026-10-09T07:19:04.837Z PYTHON run=9b20fffaf488 ===
+cwd: /home/user/case-studies-
+argv: ["/usr/bin/python3", "skills/ppt-master/scripts/svg_editor/server.py", "projects/operf_tpg_case_study_ppt169_20261009", "--live", "--daemon"]
+stderr:
+  [07:19:05] [INFO] svg_editor: started live preview in background: http://127.0.0.1:6060 (pid=1726)
+  [07:19:05] [INFO] svg_editor: log: /home/user/case-studies-/projects/operf_tpg_case_study_ppt169_20261009/live_preview/server.log
+  [07:19:05] [WARNING] svg_editor: browser launch failed: no browser accepted the URL; open http://127.0.0.1:6060 manually
+  [07:19:05] [INFO] svg_editor: browser did not auto-open; open http://127.0.0.1:6060 manually
+=== 2026-10-09T07:19:05.456Z END run=9b20fffaf488 elapsed_ms=618 output_lines=4 retained=4 omitted=0 ===

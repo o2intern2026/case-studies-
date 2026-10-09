@@ -1,0 +1,142 @@
+{
+  "roles": {
+    "body": {
+      "family": "Calibri, Arial, sans-serif",
+      "size": 22.0,
+      "weight": "normal",
+      "cjk_chars_per_100px": 4.3,
+      "latin_chars_per_100px": 10.6,
+      "caps_chars_per_100px": 9.0,
+      "digits_chars_per_100px": 8.5,
+      "citation_chars_per_100px": 10.1,
+      "script_clusters_per_100px": {},
+      "longest_planned_line": {
+        "px": 3893.4,
+        "slide": "P52",
+        "text": "Sequence: 1 Accept the fee reduction av…"
+      }
+    },
+    "title": {
+      "family": "Cambria, Georgia, serif",
+      "size": 40.0,
+      "weight": "normal",
+      "cjk_chars_per_100px": 2.2,
+      "latin_chars_per_100px": 5.1,
+      "caps_chars_per_100px": 3.7,
+      "digits_chars_per_100px": 4.0,
+      "citation_chars_per_100px": 4.7,
+      "script_clusters_per_100px": {},
+      "longest_planned_line": {
+        "px": 1471.4,
+        "slide": "P27",
+        "text": "LP IRR exceeds the 15% model benchmark …"
+      }
+    },
+    "subtitle": {
+      "family": "Calibri, Arial, sans-serif",
+      "size": 28.0,
+      "weight": "normal",
+      "cjk_chars_per_100px": 3.4,
+      "latin_chars_per_100px": 8.3,
+      "caps_chars_per_100px": 7.1,
+      "digits_chars_per_100px": 6.6,
+      "citation_chars_per_100px": 7.9,
+      "script_clusters_per_100px": {},
+      "longest_planned_line": {
+        "px": 2646.1,
+        "slide": "P30",
+        "text": "At 10% growth the LP earns 6.42% — well…"
+      }
+    },
+    "annotation": {
+      "family": "Calibri, Arial, sans-serif",
+      "size": 18.0,
+      "weight": "normal",
+      "cjk_chars_per_100px": 5.2,
+      "latin_chars_per_100px": 12.9,
+      "caps_chars_per_100px": 11.1,
+      "digits_chars_per_100px": 10.3,
+      "citation_chars_per_100px": 12.4,
+      "script_clusters_per_100px": {},
+      "longest_planned_line": null
+    },
+    "data": {
+      "family": "Calibri, Arial, sans-serif",
+      "size": 20.0,
+      "weight": "normal",
+      "cjk_chars_per_100px": 4.7,
+      "latin_chars_per_100px": 11.6,
+      "caps_chars_per_100px": 9.9,
+      "digits_chars_per_100px": 9.3,
+      "citation_chars_per_100px": 11.1,
+      "script_clusters_per_100px": {},
+      "longest_planned_line": null
+    },
+    "display": {
+      "family": "Cambria, Georgia, serif",
+      "size": 72.0,
+      "weight": "normal",
+      "cjk_chars_per_100px": 1.2,
+      "latin_chars_per_100px": 2.8,
+      "caps_chars_per_100px": 2.1,
+      "digits_chars_per_100px": 2.2,
+      "citation_chars_per_100px": 2.6,
+      "script_clusters_per_100px": {},
+      "longest_planned_line": null
+    },
+    "footnote": {
+      "family": "Calibri, Arial, sans-serif",
+      "size": 14.0,
+      "weight": "normal",
+      "cjk_chars_per_100px": 6.7,
+      "latin_chars_per_100px": 16.6,
+      "caps_chars_per_100px": 14.2,
+      "digits_chars_per_100px": 13.3,
+      "citation_chars_per_100px": 15.9,
+      "script_clusters_per_100px": {},
+      "longest_planned_line": null
+    },
+    "kicker": {
+      "family": "Calibri, Arial, sans-serif",
+      "size": 16.0,
+      "weight": "normal",
+      "cjk_chars_per_100px": 5.9,
+      "latin_chars_per_100px": 14.5,
+      "caps_chars_per_100px": 12.4,
+      "digits_chars_per_100px": 11.6,
+      "citation_chars_per_100px": 13.9,
+      "script_clusters_per_100px": {},
+      "longest_planned_line": null
+    },
+    "lead": {
+      "family": "Calibri, Arial, sans-serif",
+      "size": 26.0,
+      "weight": "normal",
+      "cjk_chars_per_100px": 3.6,
+      "latin_chars_per_100px": 8.9,
+      "caps_chars_per_100px": 7.7,
+      "digits_chars_per_100px": 7.2,
+      "citation_chars_per_100px": 8.6,
+      "script_clusters_per_100px": {},
+      "longest_planned_line": null
+    },
+    "question": {
+      "family": "Cambria, Georgia, serif",
+      "size": 48.0,
+      "weight": "normal",
+      "cjk_chars_per_100px": 1.9,
+      "latin_chars_per_100px": 4.2,
+      "caps_chars_per_100px": 3.1,
+      "digits_chars_per_100px": 3.4,
+      "citation_chars_per_100px": 3.9,
+      "script_clusters_per_100px": {},
+      "longest_planned_line": null
+    }
+  },
+  "script_samples": {},
+  "source": "spec_lock.md",
+  "generated_at": "2026-10-09T07:19:04Z",
+  "notes": [
+    "every role is measured at normal weight; recalibrate a role realized as bold deck-wide with --role NAME:FAMILY:SIZE:bold: bold widens Latin and digits about 7%, while the bundled advance table gives CJK one width for both weights"
+  ]
+}
