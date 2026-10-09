@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" data-pptx-page-role="content" font-family="Calibri, Arial, sans-serif" font-size="22">
+  <rect id="page-background" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FBF8F2"/>
+
+  <g id="kicker" data-pptx-bounds="64 58 500 26">
+    <text x="64" y="72" font-size="16" font-weight="bold" letter-spacing="2" fill="#003657">THE 2008 CRISIS</text>
+    <line x1="64" y1="82" x2="120" y2="82" stroke="#BC9E60" stroke-width="2"/>
+  </g>
+
+  <g id="title" data-pptx-bounds="64 90 1152 48">
+    <text x="64" y="124" font-family="Cambria, Georgia, serif" font-size="40" font-weight="bold" fill="#003657">WaMu brought manager judgment into focus</text>
+  </g>
+
+  <g id="timeline-investment" data-pptx-bounds="60 290 380 310">
+    <line x1="120" y1="380" x2="440" y2="380" stroke="#D6CFC2" stroke-width="2"/>
+    <circle cx="240" cy="380" r="12" fill="#003657"/>
+    <text x="240" y="338" font-weight="bold" fill="#003657" text-anchor="middle">11 Apr 2008</text>
+    <text x="240" y="424" font-weight="bold" fill="#003657" text-anchor="middle">Investment agreement</text>
+    <text x="240" y="456" font-size="18" fill="#5C6670" text-anchor="middle">Washington Mutual, Inc. disclosed an<tspan x="240" dy="24">investment agreement naming TPG VI.</tspan></text>
+    <text x="240" y="524" font-size="16" font-style="italic" fill="#5C6670" text-anchor="middle">Washington Mutual, Inc.</text>
+  </g>
+
+  <g id="timeline-closure" data-pptx-bounds="440 290 400 310">
+    <line x1="440" y1="380" x2="840" y2="380" stroke="#D6CFC2" stroke-width="2"/>
+    <circle cx="640" cy="380" r="12" fill="#003657"/>
+    <text x="640" y="338" font-weight="bold" fill="#003657" text-anchor="middle">25 Sep 2008</text>
+    <text x="640" y="424" font-weight="bold" fill="#003657" text-anchor="middle">Bank closure</text>
+    <text x="640" y="456" font-size="18" fill="#5C6670" text-anchor="middle">Washington Mutual Bank was closed.</text>
+    <text x="640" y="524" font-size="16" font-style="italic" fill="#5C6670" text-anchor="middle">Washington Mutual Bank</text>
+  </g>
+
+  <g id="timeline-assessment" data-pptx-bounds="840 290 376 310">
+    <line x1="840" y1="380" x2="1160" y2="380" stroke="#D6CFC2" stroke-width="2"/>
+    <circle cx="1040" cy="380" r="12" fill="#FBF8F2" stroke="#A33D3D" stroke-width="3"/>
+    <text x="1040" y="310" font-size="16" font-weight="bold" letter-spacing="2" fill="#A33D3D" text-anchor="middle">ANALYSIS</text>
+    <text x="1040" y="338" font-weight="bold" fill="#003657" text-anchor="middle">December assessment</text>
+    <text x="1040" y="424" font-weight="bold" fill="#003657" text-anchor="middle">Scrutiny of manager judgment</text>
+    <text x="1040" y="456" font-size="18" fill="#5C6670" text-anchor="middle">LPs had reason to scrutinise investment<tspan x="1040" dy="24">selection and risk assessment.</tspan></text>
+  </g>
+
+  <g id="timeline-note" data-pptx-bounds="64 604 600 26">
+    <text x="64" y="622" font-size="18" font-style="italic" fill="#5C6670">Sequence of events; not to scale.</text>
+  </g>
+
+  <g id="footer" data-pptx-bounds="64 668 1152 36">
+    <text x="64" y="680" font-size="14" fill="#5C6670">Source: Washington Mutual, Inc. Form 8-K, 11 Apr 2008, Item 1.01 and Exhibit 10.1; FDIC press release PR-85-2008, 25 Sep 2008. The holding company and<tspan x="64" dy="17">the bank are different entities; the filings do not give TPG VI's exact loss.</tspan></text>
+    <text x="1216" y="697" font-size="14" fill="#5C6670" text-anchor="end">10</text>
+  </g>
+</svg>

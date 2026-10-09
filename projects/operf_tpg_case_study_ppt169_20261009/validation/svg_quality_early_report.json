@@ -1,0 +1,450 @@
+{
+  "schema": "ppt-master.svg-quality-report.v1",
+  "stage": "early",
+  "target": "/home/user/case-studies-/projects/operf_tpg_case_study_ppt169_20261009",
+  "source_fingerprint": {
+    "algorithm": "sha256",
+    "digest": "cba12074332c732c3e1097f17ba6617aff0cbb5ef1954cc2441955b50a791854",
+    "file_count": 5,
+    "files": [
+      {
+        "file": "01_cover.svg",
+        "sha256": "507c02fa0b14bd8c3cd289ff5306428a66a1553f851dbe5cc48e74918707f6f2"
+      },
+      {
+        "file": "02_contents.svg",
+        "sha256": "35356fd630d0f8d3bf336ac1f8ac5660ebe25c9d961cac4c7c66737b1dab7ba9"
+      },
+      {
+        "file": "03_part1_question.svg",
+        "sha256": "5046b204ace771e4f7d9d605b7a189045915d83c8625756b90bbf5206a74d16c"
+      },
+      {
+        "file": "04_operf_and_tpg.svg",
+        "sha256": "98a3fd947075d10f69f22188a4a09bff41082949a0f30b93d31472bb7f49b216"
+      },
+      {
+        "file": "05_tpg_vi_size.svg",
+        "sha256": "65b74823ca758d018187ab65cbd98553729f38e881f4642cf60f98d085f9e5a7"
+      }
+    ]
+  },
+  "summary": {
+    "total": 5,
+    "passed": 3,
+    "warnings": 2,
+    "errors": 0
+  },
+  "issue_types": {},
+  "categories": {
+    "blocking": {
+      "count": 0,
+      "issues": []
+    },
+    "introduced": {
+      "count": 6,
+      "issues": [
+        {
+          "file": "04_operf_and_tpg.svg",
+          "message": "Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (12 change(s)); examples (group:attr None -> value hoists the shared value onto that group; child:attr value -> None drops the copy the child now inherits): g[22]:stroke None -> '#FBF8F2'; g[22]:stroke-width None -> '2'; path[23]:stroke '#FBF8F2' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)"
+        },
+        {
+          "file": "04_operf_and_tpg.svg",
+          "message": "Noncanonical compact authoring: Authoring SVG contains safely compactable page-space metadata (1 attribute(s)); examples: g[22]:transform 'translate(860, 372)' -> 'translate(860 372)' (advisory; normalize with `python3 scripts/compact_svg_coordinates.py <svg_output> --inplace --keep-native-frames`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)"
+        },
+        {
+          "file": "04_operf_and_tpg.svg",
+          "message": "<text> (x=64, y=124; text='OPERF committed long…') exceeds <g id=\"title\"> data-pptx-bounds on the horizontal axis: content (64.0, 90.0)-(1232.2, 138.0), container (64.0, 90.0)-(1216.0, 138.0), overflow horizontal 1.4%, vertical 0.0% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text; ≈26.5 px per Latin char at 40px incl. headroom; ≈43 chars fit in 1152 px"
+        },
+        {
+          "file": "05_tpg_vi_size.svg",
+          "message": "Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (12 change(s)); examples (group:attr None -> value hoists the shared value onto that group; child:attr value -> None drops the copy the child now inherits): g[22]:stroke None -> '#FBF8F2'; g[22]:stroke-width None -> '2'; path[23]:stroke '#FBF8F2' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)"
+        },
+        {
+          "file": "05_tpg_vi_size.svg",
+          "message": "Noncanonical compact authoring: Authoring SVG contains safely compactable page-space metadata (1 attribute(s)); examples: g[22]:transform 'translate(860, 372)' -> 'translate(860 372)' (advisory; normalize with `python3 scripts/compact_svg_coordinates.py <svg_output> --inplace --keep-native-frames`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)"
+        },
+        {
+          "file": "05_tpg_vi_size.svg",
+          "message": "<text> (x=860, y=616; text='Global buyout funds …') exceeds <g id=\"pie-total\"> data-pptx-bounds on the horizontal axis: content (571.0, 597.3)-(1149.0, 623.7), container (592.0, 594.0)-(1216.0, 624.0), overflow horizontal 3.4%, vertical 0.0% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text; ≈11.3 px per Latin char at 22px incl. headroom; ≈55 chars fit in 624 px"
+        }
+      ]
+    },
+    "inherited": {
+      "count": 0,
+      "issues": []
+    },
+    "source-import": {
+      "count": 0,
+      "summary": {
+        "warning_count": 0,
+        "by_code": {}
+      }
+    }
+  },
+  "drift": {
+    "colors": {},
+    "fonts": {},
+    "sizes": {}
+  },
+  "carrier_receipt": {
+    "scope": "informational-not-a-quota",
+    "pages": 5,
+    "totals": {
+      "text_elements": 62,
+      "image_placements": 0,
+      "icons": 5,
+      "svg_geometry_elements": 28,
+      "preset_shapes": 0,
+      "page_frame_elements": 5,
+      "marker_uses": 0,
+      "inline_emphasis_runs": 4,
+      "gradient_uses": 0,
+      "filter_uses": 0,
+      "text_effects": 0
+    },
+    "pages_with": {
+      "images": 0,
+      "icons": 1,
+      "presets": 0,
+      "charts": 2,
+      "tables": 0,
+      "formulas": 0,
+      "inline_emphasis_runs": 2,
+      "gradient_uses": 0,
+      "filter_uses": 0,
+      "text_effects": 0
+    },
+    "relationship_pages": 49,
+    "geometry_elements": {
+      "circle": 0,
+      "ellipse": 0,
+      "line": 18,
+      "path": 4,
+      "polygon": 0,
+      "polyline": 0,
+      "rect": 6
+    },
+    "preset_names": {},
+    "native_objects": {
+      "chart": 2,
+      "formula_block": 0,
+      "formula_inline": 0,
+      "other": 0,
+      "table": 0
+    },
+    "image_page_max_frame_share_range": []
+  },
+  "project_issues": {
+    "template": [],
+    "animation": [],
+    "illustration": [],
+    "communication_trace": [],
+    "pptx_structure": []
+  },
+  "files": [
+    {
+      "file": "01_cover.svg",
+      "path": "projects/operf_tpg_case_study_ppt169_20261009/svg_output/01_cover.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 7,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 3,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 2,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 2,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Calibri, Arial, sans-serif",
+          "Cambria, Georgia, serif"
+        ],
+        "text_elements": 7,
+        "tspan_elements": 8
+      },
+      "passed": true,
+      "source_sha256": "507c02fa0b14bd8c3cd289ff5306428a66a1553f851dbe5cc48e74918707f6f2"
+    },
+    {
+      "file": "02_contents.svg",
+      "path": "projects/operf_tpg_case_study_ppt169_20261009/svg_output/02_contents.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 25,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 5,
+          "effects": {
+            "inline_emphasis_runs": 1,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 1,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 7,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Calibri, Arial, sans-serif",
+          "Cambria, Georgia, serif"
+        ],
+        "text_elements": 25,
+        "tspan_elements": 3
+      },
+      "passed": true,
+      "source_sha256": "35356fd630d0f8d3bf336ac1f8ac5660ebe25c9d961cac4c7c66737b1dab7ba9"
+    },
+    {
+      "file": "03_part1_question.svg",
+      "path": "projects/operf_tpg_case_study_ppt169_20261009/svg_output/03_part1_question.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 3,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 1,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 1,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Calibri, Arial, sans-serif",
+          "Cambria, Georgia, serif"
+        ],
+        "text_elements": 3,
+        "tspan_elements": 1
+      },
+      "passed": true,
+      "source_sha256": "5046b204ace771e4f7d9d605b7a189045915d83c8625756b90bbf5206a74d16c"
+    },
+    {
+      "file": "04_operf_and_tpg.svg",
+      "path": "projects/operf_tpg_case_study_ppt169_20261009/svg_output/04_operf_and_tpg.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (12 change(s)); examples (group:attr None -> value hoists the shared value onto that group; child:attr value -> None drops the copy the child now inherits): g[22]:stroke None -> '#FBF8F2'; g[22]:stroke-width None -> '2'; path[23]:stroke '#FBF8F2' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)",
+        "Noncanonical compact authoring: Authoring SVG contains safely compactable page-space metadata (1 attribute(s)); examples: g[22]:transform 'translate(860, 372)' -> 'translate(860 372)' (advisory; normalize with `python3 scripts/compact_svg_coordinates.py <svg_output> --inplace --keep-native-frames`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)",
+        "<text> (x=64, y=124; text='OPERF committed long…') exceeds <g id=\"title\"> data-pptx-bounds on the horizontal axis: content (64.0, 90.0)-(1232.2, 138.0), container (64.0, 90.0)-(1216.0, 138.0), overflow horizontal 1.4%, vertical 0.0% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text; ≈26.5 px per Latin char at 40px incl. headroom; ≈43 chars fit in 1152 px"
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 13,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 1,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 4,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 2
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 1,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Calibri, Arial, sans-serif",
+          "Cambria, Georgia, serif"
+        ],
+        "text_elements": 13,
+        "tspan_elements": 2
+      },
+      "passed": true,
+      "source_sha256": "98a3fd947075d10f69f22188a4a09bff41082949a0f30b93d31472bb7f49b216"
+    },
+    {
+      "file": "05_tpg_vi_size.svg",
+      "path": "projects/operf_tpg_case_study_ppt169_20261009/svg_output/05_tpg_vi_size.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (12 change(s)); examples (group:attr None -> value hoists the shared value onto that group; child:attr value -> None drops the copy the child now inherits): g[22]:stroke None -> '#FBF8F2'; g[22]:stroke-width None -> '2'; path[23]:stroke '#FBF8F2' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)",
+        "Noncanonical compact authoring: Authoring SVG contains safely compactable page-space metadata (1 attribute(s)); examples: g[22]:transform 'translate(860, 372)' -> 'translate(860 372)' (advisory; normalize with `python3 scripts/compact_svg_coordinates.py <svg_output> --inplace --keep-native-frames`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)",
+        "<text> (x=860, y=616; text='Global buyout funds …') exceeds <g id=\"pie-total\"> data-pptx-bounds on the horizontal axis: content (571.0, 597.3)-(1149.0, 623.7), container (592.0, 594.0)-(1216.0, 624.0), overflow horizontal 3.4%, vertical 0.0% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text; ≈11.3 px per Latin char at 22px incl. headroom; ≈55 chars fit in 624 px"
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 14,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 1,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 4,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 2
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 1,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Calibri, Arial, sans-serif",
+          "Cambria, Georgia, serif"
+        ],
+        "text_elements": 14,
+        "tspan_elements": 2
+      },
+      "passed": true,
+      "source_sha256": "65b74823ca758d018187ab65cbd98553729f38e881f4642cf60f98d085f9e5a7"
+    }
+  ]
+}

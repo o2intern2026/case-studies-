@@ -57,3 +57,33 @@ stderr:
   [07:19:05] [WARNING] svg_editor: browser launch failed: no browser accepted the URL; open http://127.0.0.1:6060 manually
   [07:19:05] [INFO] svg_editor: browser did not auto-open; open http://127.0.0.1:6060 manually
 === 2026-10-09T07:19:05.456Z END run=9b20fffaf488 elapsed_ms=618 output_lines=4 retained=4 omitted=0 ===
+
+=== 2026-10-09T07:24:41.384Z PYTHON run=b6d1b0f79607 ===
+cwd: /home/user/case-studies-
+argv: ["/usr/bin/python3", "skills/ppt-master/scripts/stamp_native_fallbacks.py", "projects/operf_tpg_case_study_ppt169_20261009/svg_output", "--write"]
+=== 2026-10-09T07:24:41.399Z END run=b6d1b0f79607 elapsed_ms=15 output_lines=6 retained=0 omitted=6 ===
+
+=== 2026-10-09T07:24:41.554Z PYTHON run=3df16926cef4 ===
+cwd: /home/user/case-studies-
+argv: ["/usr/bin/python3", "skills/ppt-master/scripts/svg_quality_checker.py", "projects/operf_tpg_case_study_ppt169_20261009", "--canonical-authoring", "--stage", "early", "--json"]
+stdout:
+  [OK] 01_cover.svg - Passed
+  [WARN] 04_operf_and_tpg.svg - Passed (with warnings)
+     [WARN] Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (12 change(s)); examples (group:attr None -> value hoists the shared value onto that group; child:attr value -> None drops the copy the child now inherits): g[22]:stroke None -> '#FBF8F2'; g[22]:stroke-width None -> '2'; path[23]:stroke '#FBF8F2' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)
+     [WARN] Noncanonical compact authoring: Authoring SVG contains safely compactable page-space metadata (1 attribute(s)); examples: g[22]:transform 'translate(860, 372)' -> 'translate(860 372)' (advisory; normalize with `python3 scripts/compact_svg_coordinates.py <svg_output> --inplace --keep-native-frames`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)
+     [WARN] <text> (x=64, y=124; text='OPERF committed long…') exceeds <g id="title"> data-pptx-bounds on the horizontal axis: content (64.0, 90.0)-(1232.2, 138.0), container (64.0, 90.0)-(1216.0, 138.0), overflow horizontal 1.4%, vertical 0.0% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text; ≈26.5 px per Latin char at 40px incl. headroom; ≈43 chars fit in 1152 px
+  [SUMMARY] Check Summary
+  Total files: 5
+    [OK] Fully passed: 3 (60%)
+    [WARN] With warnings: 2 (40%)
+    [ERROR] With errors: 0 (0%)
+  Provenance categories:
+    blocking: 0          hard findings; gate also requires exit 0
+    introduced: 6        advisory; new or changed
+    inherited: 0         informational; prototype-identical
+    source-import: 0     informational; source-conversion loss
+  [CARRIERS] Actual-use receipt (informational; not a quota)
+    Pages: 5 | text: 62 | images: 0 | icons: 5
+    Geometry: SVG elements 28 | native presets 0 | page-frame elements 5 | marker uses 0
+  [REPORT] JSON quality report exported: projects/operf_tpg_case_study_ppt169_20261009/validation/svg_quality_early_report.json
+=== 2026-10-09T07:24:42.593Z END run=3df16926cef4 elapsed_ms=1039 output_lines=44 retained=19 omitted=25 ===

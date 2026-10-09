@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" data-pptx-page-role="section" font-family="Calibri, Arial, sans-serif" font-size="22">
+  <rect id="page-background" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#003657"/>
+
+  <g id="section-kicker" data-pptx-bounds="96 164 1088 24">
+    <text x="96" y="180" font-size="16" font-weight="bold" letter-spacing="2" fill="#BC9E60">THE STRATEGIC QUESTION</text>
+  </g>
+
+  <g id="section-question" data-pptx-bounds="96 258 1088 150">
+    <text x="96" y="300" font-family="Cambria, Georgia, serif" font-size="48" fill="#FBF8F2">Why is TPG revising its terms<tspan x="96" dy="58">amid the 2008 crisis?</tspan></text>
+    <line x1="96" y1="404" x2="1184" y2="404" stroke="#BC9E60" stroke-width="2"/>
+  </g>
+
+  <g id="section-part" data-pptx-bounds="96 622 1088 28">
+    <text x="96" y="640" font-size="18" fill="#D6CFC2">Part 2 · The 2008 crisis and TPG's motivation · Q1 · Li</text>
+  </g>
+</svg>
