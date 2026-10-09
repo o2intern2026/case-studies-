@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" data-pptx-page-role="content" font-family="Calibri, Arial, sans-serif" font-size="22">
+  <rect id="page-background" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FBF8F2"/>
+
+  <g id="kicker" data-pptx-bounds="64 58 700 26">
+    <text x="64" y="72" font-size="16" font-weight="bold" letter-spacing="2" fill="#003657">HURDLE &amp; CARRY · TEST 1: VARY THE HURDLE</text>
+    <line x1="64" y1="82" x2="120" y2="82" stroke="#BC9E60" stroke-width="2"/>
+  </g>
+
+  <g id="title" data-pptx-bounds="64 90 1152 48">
+    <text x="64" y="124" font-family="Cambria, Georgia, serif" font-size="40" font-weight="bold" fill="#003657">Hurdle-rate sensitivity</text>
+  </g>
+
+  <g id="lead" data-pptx-bounds="64 186 1152 64">
+    <text x="64" y="206" fill="#003657">Higher hurdles increase or preserve investor value.<tspan x="64" dy="30">The catch-up clause determines how much of the benefit investors retain.</tspan></text>
+  </g>
+
+  <g id="table-caption" data-pptx-bounds="64 252 832 50">
+    <text x="64" y="268" font-size="18" fill="#5C6670">Additional LP NPV per $100 committed. Illustrative inputs: 20% asset growth,<tspan x="64" dy="24">15% discount rate, 1.35% fee and workbook timing. Carry stays at 20%.</tspan></text>
+  </g>
+
+  <g id="hurdle-sensitivity-table" data-pptx-bounds="64 310 832 296" data-pptx-replace-with="table">
+    <metadata type="application/json">
+      {
+        "schema": "ppt-master.semantic-table.v2",
+        "name": "hurdle-sensitivity-table",
+        "x": 64, "y": 310, "width": 832, "height": 296,
+        "strict_grid": true,
+        "column_widths": [278, 277, 277],
+        "row_heights": [44, 42, 42, 42, 42, 42, 42],
+        "style": {
+          "font_family": "Calibri",
+          "font_size": 20,
+          "header_fill": "#003657",
+          "header_text": "#FBF8F2",
+          "body_text": "#1E1E1E",
+          "band_row": false,
+          "valign": "middle"
+        },
+        "defaults": {
+          "cell": {
+            "padding": {"left": 16, "right": 16, "top": 4, "bottom": 4},
+            "borders": {
+              "left": {"style": "none"}, "right": {"style": "none"},
+              "top": {"style": "solid", "color": "#D6CFC2", "width": 1},
+              "bottom": {"style": "solid", "color": "#D6CFC2", "width": 1}
+            }
+          }
+        },
+        "columns": [
+          {"text": "Annual hurdle rate", "bold": true, "align": "l"},
+          {"text": "Full catch-up: NPV gain", "bold": true, "align": "r"},
+          {"text": "No catch-up: NPV gain", "bold": true, "align": "r"}
+        ],
+        "rows": [
+          [{"text": "0%", "fill": "#F1ECE2"}, {"text": "$0.00", "align": "r", "fill": "#F1ECE2"}, {"text": "$0.00", "align": "r", "fill": "#F1ECE2"}],
+          [{"text": "4%"}, {"text": "$0.00", "align": "r"}, {"text": "$1.23", "align": "r"}],
+          [{"text": "8%"}, {"text": "$0.36", "align": "r"}, {"text": "$2.75", "align": "r"}],
+          [{"text": "12%"}, {"text": "$0.58", "align": "r"}, {"text": "$4.76", "align": "r"}],
+          [{"text": "16%"}, {"text": "$0.58", "align": "r"}, {"text": "$7.58", "align": "r"}],
+          [{"text": "20%"}, {"text": "$9.42", "align": "r"}, {"text": "$9.42", "align": "r"}]
+        ]
+      }
+    </metadata>
+    <rect x="64" y="310" width="832" height="44" fill="#003657"/>
+    <rect x="64" y="354" width="832" height="42" fill="#F1ECE2"/>
+    <g stroke="#D6CFC2" stroke-width="1">
+      <line x1="64" y1="396" x2="896" y2="396"/>
+      <line x1="64" y1="438" x2="896" y2="438"/>
+      <line x1="64" y1="480" x2="896" y2="480"/>
+      <line x1="64" y1="522" x2="896" y2="522"/>
+      <line x1="64" y1="564" x2="896" y2="564"/>
+      <line x1="64" y1="606" x2="896" y2="606"/>
+    </g>
+    <g font-size="20" font-weight="bold" fill="#FBF8F2">
+      <text x="80" y="339">Annual hurdle rate</text>
+      <text x="603" y="339" text-anchor="end">Full catch-up: NPV gain</text>
+      <text x="880" y="339" text-anchor="end">No catch-up: NPV gain</text>
+    </g>
+    <g font-size="20" fill="#1E1E1E">
+      <text x="80" y="382">0%</text>
+      <text x="80" y="424">4%</text>
+      <text x="80" y="466">8%</text>
+      <text x="80" y="508">12%</text>
+      <text x="80" y="550">16%</text>
+      <text x="80" y="592">20%</text>
+    </g>
+    <g font-size="20" fill="#1E1E1E" text-anchor="end">
+      <text x="603" y="382">$0.00</text>
+      <text x="880" y="382">$0.00</text>
+      <text x="603" y="424">$0.00</text>
+      <text x="880" y="424">$1.23</text>
+      <text x="603" y="466">$0.36</text>
+      <text x="880" y="466">$2.75</text>
+      <text x="603" y="508">$0.58</text>
+      <text x="880" y="508">$4.76</text>
+      <text x="603" y="550">$0.58</text>
+      <text x="880" y="550">$7.58</text>
+      <text x="603" y="592">$9.42</text>
+      <text x="880" y="592">$9.42</text>
+    </g>
+  </g>
+
+  <g id="sidebar" data-pptx-bounds="920 252 296 354">
+    <line x1="920" y1="252" x2="920" y2="606" stroke="#D6CFC2" stroke-width="1"/>
+    <text x="944" y="272" font-size="16" font-weight="bold" letter-spacing="2" fill="#5C6670">HOW TO READ</text>
+    <text x="944" y="304" font-size="18" fill="#1E1E1E">Baseline: no hurdle and 20%<tspan x="944" dy="24">carry, using the same</tspan><tspan x="944" dy="24">investment inputs.</tspan></text>
+    <text x="944" y="400" font-size="18" fill="#1E1E1E">Dollar values are NPV gains<tspan x="944" dy="24">at inception, not returns or</tspan><tspan x="944" dy="24">total NPVs.</tspan></text>
+    <text x="944" y="496" font-size="18" fill="#1E1E1E">The shaded row is the<tspan x="944" dy="24">baseline; the 8% row is</tspan><tspan x="944" dy="24">Q5's test point, used on</tspan><tspan x="944" dy="24">slide 43.</tspan></text>
+  </g>
+
+  <g id="takeaway" data-pptx-bounds="64 620 1152 30">
+    <text x="64" y="640" font-size="18" fill="#003657">Higher hurdles can reach a plateau once carry becomes zero. The model does not identify 8% as a unique optimum.</text>
+  </g>
+
+  <g id="footer" data-pptx-bounds="64 668 1152 36">
+    <text x="64" y="680" font-size="14" fill="#5C6670">Source: Inputs!C13:L14, C19:C23; the team's Q5 sensitivity analysis (reproduced full-catch-up and no-catch-up waterfalls; 0.25-point rate steps).<tspan x="64" dy="17">Cross-checks: 8% no catch-up $2.75 × 7.5 ≈ $20.65m (Q5 Analysis!C10); 8% full catch-up $0.36 × 7.5 ≈ $2.73m (Q5 Analysis!D10). Carry disappears at about an 18.03% hurdle.</tspan></text>
+    <text x="1216" y="697" font-size="14" fill="#5C6670" text-anchor="end">41</text>
+  </g>
+</svg>

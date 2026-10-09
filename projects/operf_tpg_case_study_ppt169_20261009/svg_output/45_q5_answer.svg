@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" data-pptx-page-role="content" font-family="Calibri, Arial, sans-serif" font-size="22">
+  <rect id="page-background" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#003657"/>
+
+  <g id="kicker" data-pptx-bounds="64 58 760 26">
+    <text x="64" y="72" font-size="16" font-weight="bold" letter-spacing="2" fill="#BC9E60">NEGOTIATION LEVERS · FINAL NEGOTIATING PRIORITY</text>
+    <line x1="64" y1="82" x2="120" y2="82" stroke="#BC9E60" stroke-width="2"/>
+  </g>
+
+  <g id="title" data-pptx-bounds="64 90 1152 48">
+    <text x="64" y="124" font-family="Cambria, Georgia, serif" font-size="40" font-weight="bold" fill="#FBF8F2">Protect 8% first; request A, then B</text>
+  </g>
+
+  <g id="lead" data-pptx-bounds="64 186 1152 64">
+    <text x="64" y="206" fill="#FBF8F2">Preserve or seek the 8% preferred return. Lead with A; if A is refused, pursue B.<tspan x="64" dy="30">Use the standard hurdle as a fallback request only where it is absent.</tspan></text>
+  </g>
+
+  <g id="negotiation-ladder" data-pptx-bounds="64 262 1152 312" data-pptx-replace-with="table">
+    <metadata type="application/json">
+      {
+        "schema": "ppt-master.semantic-table.v2",
+        "name": "negotiation-ladder",
+        "x": 64, "y": 262, "width": 1152, "height": 312,
+        "strict_grid": true,
+        "column_widths": [300, 480, 372],
+        "row_heights": [40, 68, 68, 68, 68],
+        "style": {
+          "font_family": "Calibri",
+          "font_size": 18,
+          "header_text": "#BC9E60",
+          "body_text": "#FBF8F2",
+          "band_row": false,
+          "valign": "middle"
+        },
+        "defaults": {
+          "cell": {
+            "padding": {"left": 12, "right": 12, "top": 4, "bottom": 4},
+            "borders": {
+              "left": {"style": "none"}, "right": {"style": "none"},
+              "top": {"style": "solid", "color": "#BC9E60", "width": 1},
+              "bottom": {"style": "solid", "color": "#BC9E60", "width": 1}
+            }
+          }
+        },
+        "columns": [
+          {"text": "Priority", "bold": true, "align": "l"},
+          {"text": "Specific request", "bold": true, "align": "l"},
+          {"text": "What makes it a concession?", "bold": true, "align": "l"}
+        ],
+        "rows": [
+          [
+            {"text": "Foundation: 8% protection", "bold": true},
+            {"text": "Confirm annual compounding, return of contributed capital including fees, and the existing catch-up clause. Preserve stronger existing protection."},
+            {"text": "An existing hurdle is not a new concession."}
+          ],
+          [
+            {"text": "1 — Lead with A", "bold": true},
+            {"text": "8% preferred return, no GP catch-up, 20% carry."},
+            {"text": "First economic choice at the assigned 20% growth; +$17.92m if the reference hurdle already exists."}
+          ],
+          [
+            {"text": "2 — If A is refused, pursue B", "bold": true},
+            {"text": "Retain the 8% preferred return; full catch-up targeting 15%; 15% carry."},
+            {"text": "Acceptable alternative; +$16.59m on the same conditional comparison."}
+          ],
+          [
+            {"text": "Fallback request where absent", "bold": true},
+            {"text": "8% preferred return, full catch-up, 20% carry."},
+            {"text": "Adds protection only if not already provided; otherwise the status quo."}
+          ]
+        ]
+      }
+    </metadata>
+    <g stroke="#BC9E60" stroke-width="1">
+      <line x1="64" y1="302" x2="1216" y2="302"/>
+      <line x1="64" y1="370" x2="1216" y2="370"/>
+      <line x1="64" y1="438" x2="1216" y2="438"/>
+      <line x1="64" y1="506" x2="1216" y2="506"/>
+      <line x1="64" y1="574" x2="1216" y2="574"/>
+    </g>
+    <g font-size="18" font-weight="bold" fill="#BC9E60">
+      <text x="76" y="288">Priority</text>
+      <text x="376" y="288">Specific request</text>
+      <text x="856" y="288">What makes it a concession?</text>
+    </g>
+    <g font-size="18" font-weight="bold" fill="#FBF8F2">
+      <text x="76" y="342">Foundation: 8% protection</text>
+      <text x="76" y="410">1 — Lead with A</text>
+      <text x="76" y="478">2 — If A is refused, pursue B</text>
+      <text x="76" y="546">Fallback request where absent</text>
+    </g>
+    <g font-size="18" fill="#FBF8F2">
+      <text x="376" y="320">Confirm annual compounding, return of contributed <tspan x="376" dy="22">capital including fees, and the existing catch-up </tspan><tspan x="376" dy="22">clause. Preserve stronger existing protection.</tspan></text>
+      <text x="376" y="410">8% preferred return, no GP catch-up, 20% carry.</text>
+      <text x="376" y="467">Retain the 8% preferred return; full catch-up <tspan x="376" dy="22">targeting 15%; 15% carry.</tspan></text>
+      <text x="376" y="546">8% preferred return, full catch-up, 20% carry.</text>
+      <text x="856" y="342">An existing hurdle is not a new concession.</text>
+      <text x="856" y="388">First economic choice at the assigned 20% <tspan x="856" dy="22">growth; +$17.92m if the reference hurdle </tspan><tspan x="856" dy="22">already exists.</tspan></text>
+      <text x="856" y="467">Acceptable alternative; +$16.59m on the <tspan x="856" dy="22">same conditional comparison.</tspan></text>
+      <text x="856" y="535">Adds protection only if not already <tspan x="856" dy="22">provided; otherwise the status quo.</tspan></text>
+    </g>
+  </g>
+
+  <g id="boundary" data-pptx-bounds="64 584 1152 70">
+    <text x="64" y="604" font-size="18" font-weight="bold" fill="#BC9E60">Do not surrender an existing preferred return to obtain 15% carry. Do not count the already-offered 1.35% fee as a new negotiating win.</text>
+    <text x="64" y="632" font-size="16" fill="#D6CFC2">Why this order: an effective preferred return has stronger contemporary market support; A creates $1.33m more inception NPV at 20% growth; the small gap makes an achievable B valuable.<tspan x="64" dy="20">If TPG refuses amendments: keep existing protection, accept the fee cut available to all LPs, seek better terms in future funds, and decide the $75m question separately on the available terms.</tspan></text>
+  </g>
+
+  <g id="footer" data-pptx-bounds="64 668 1152 36">
+    <text x="64" y="688" font-size="14" fill="#D6CFC2">Source: Case pp. 1, 4–6; Q5 Analysis!C10, D10, G10; Metrick &amp; Yasuda (2007); Apollo S-1 (2008). No acceptance probabilities are modelled; above about 20.9% growth B leads A.</text>
+    <text x="1216" y="697" font-size="14" fill="#D6CFC2" text-anchor="end">45</text>
+  </g>
+</svg>

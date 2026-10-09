@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" data-pptx-page-role="content" font-family="Calibri, Arial, sans-serif" font-size="22">
+  <rect id="page-background" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FBF8F2"/>
+
+  <g id="kicker" data-pptx-bounds="64 58 500 26">
+    <text x="64" y="72" font-size="16" font-weight="bold" letter-spacing="2" fill="#003657">APPENDIX · A3</text>
+    <line x1="64" y1="82" x2="120" y2="82" stroke="#BC9E60" stroke-width="2"/>
+  </g>
+
+  <g id="title" data-pptx-bounds="64 90 1152 48">
+    <text x="64" y="124" font-family="Cambria, Georgia, serif" font-size="40" font-weight="bold" fill="#003657">TPG's record in the case snapshot</text>
+  </g>
+
+  <g id="lead" data-pptx-bounds="64 176 1152 64">
+    <text x="64" y="196" fill="#003657">Earlier TPG funds returned multiples of capital. Funds V and VI are early, mostly unrealised<tspan x="64" dy="30">and currently below cost, which warrants scrutiny without determining future returns.</tspan></text>
+  </g>
+
+  <g id="tpg-tvpi-columns" data-pptx-bounds="64 252 700 360" data-pptx-replace-with="chart">
+    <metadata type="application/json">
+      {
+        "name": "tpg-tvpi-columns",
+        "x": 64, "y": 252, "width": 700, "height": 360,
+        "type": "column",
+        "grouping": "clustered",
+        "title": "Total value to paid-in (TVPI) by TPG fund, case Exhibit 7",
+        "categories": ["Fund I", "Fund II", "Fund III", "Fund IV", "Fund V", "Fund VI"],
+        "series": [{"name": "TVPI (×)", "values": [3.530214, 1.687844, 2.282601, 1.286880, 0.710391, 0.602003], "point_colors": ["#003657", "#003657", "#003657", "#003657", "#003657", "#BC9E60"]}],
+        "gap_width": 80,
+        "plot_area": {"x": 120, "y": 300, "width": 640, "height": 260},
+        "data_labels": {"enabled": true, "position": "outEnd", "number_format": "0.00\"×\"", "font_size": 16, "bold": true},
+        "axes": {
+          "category": {"position": "bottom"},
+          "value": {"position": "left", "minimum": 0, "maximum": 4, "major_unit": 1, "number_format": "0.0\"×\"", "gridlines": true}
+        },
+        "style": {"font_family": "Calibri", "text_color": "#003657", "axis_color": "#5C6670", "gridline_color": "#D6CFC2"},
+        "notes": [
+          {"text": "1.0× = capital returned", "width": 170}
+        ]
+      }
+    </metadata>
+    <text x="64" y="274" font-size="18" font-weight="bold" fill="#003657">Total value to paid-in (TVPI) by TPG fund, case Exhibit 7</text>
+    <g id="tpg-tvpi-columns-chartArea">
+      <g id="tpg-tvpi-columns-grid" stroke="#D6CFC2" stroke-width="1">
+        <line x1="120" y1="300" x2="760" y2="300"/>
+        <line x1="120" y1="365" x2="760" y2="365"/>
+        <line x1="120" y1="430" x2="760" y2="430"/>
+      </g>
+      <line x1="120" y1="495" x2="760" y2="495" stroke="#BC9E60" stroke-width="1.5" stroke-dasharray="6,4"/>
+      <g id="tpg-tvpi-columns-axis" stroke="#5C6670" stroke-width="1.5">
+        <line x1="120" y1="300" x2="120" y2="560"/>
+        <line x1="120" y1="560" x2="760" y2="560"/>
+      </g>
+      <!-- chart-plot-area: object=tpg-tvpi-columns | 120,300,760,560 -->
+      <g font-size="14" fill="#5C6670" text-anchor="end">
+        <text x="110" y="565">0.0×</text>
+        <text x="110" y="500">1.0×</text>
+        <text x="110" y="435">2.0×</text>
+        <text x="110" y="370">3.0×</text>
+        <text x="110" y="305">4.0×</text>
+      </g>
+      <rect x="143" y="330.5" width="60" height="229.5" fill="#003657"/>
+      <rect x="250" y="450.3" width="60" height="109.7" fill="#003657"/>
+      <rect x="357" y="411.6" width="60" height="148.4" fill="#003657"/>
+      <rect x="463" y="476.3" width="60" height="83.7" fill="#003657"/>
+      <rect x="570" y="513.8" width="60" height="46.2" fill="#003657"/>
+      <rect x="677" y="520.9" width="60" height="39.1" fill="#FBF8F2" stroke="#BC9E60" stroke-width="2"/>
+      <g font-size="16" font-weight="bold" fill="#003657" text-anchor="middle">
+        <text x="173" y="322">3.53×</text>
+        <text x="280" y="442">1.69×</text>
+        <text x="387" y="403">2.28×</text>
+        <text x="493" y="468">1.29×</text>
+        <text x="600" y="505">0.71×</text>
+        <text x="707" y="512" fill="#BC9E60">0.60×</text>
+      </g>
+      <g font-size="16" fill="#003657" text-anchor="middle">
+        <text x="173" y="582">Fund I</text>
+        <text x="280" y="582">Fund II</text>
+        <text x="387" y="582">Fund III</text>
+        <text x="493" y="582">Fund IV</text>
+        <text x="600" y="582">Fund V</text>
+        <text x="707" y="582">Fund VI</text>
+      </g>
+      <text x="756" y="489" font-size="14" font-style="italic" fill="#BC9E60" text-anchor="end">1.0× = capital returned</text>
+    </g>
+  </g>
+
+  <g id="caveats" data-pptx-bounds="800 252 416 360">
+    <text x="800" y="274" font-size="16" font-weight="bold" letter-spacing="2" fill="#003657">READING THE EXHIBIT</text>
+    <line x1="800" y1="284" x2="856" y2="284" stroke="#BC9E60" stroke-width="2"/>
+    <text x="800" y="316" font-size="18" fill="#1E1E1E"><tspan font-weight="bold">Case-reported IRRs: </tspan>Fund I 36.3%;<tspan x="800" dy="24">Fund III 24.5%; Fund V −16.7%. Fund VI IRR</tspan><tspan x="800" dy="24">is not meaningful in the exhibit.</tspan></text>
+    <text x="800" y="408" font-size="18" fill="#1E1E1E"><tspan font-weight="bold">About 27% cumulative IRR </tspan>for OPERF's TPG<tspan x="800" dy="24">investments is not a return earned every year</tspan><tspan x="800" dy="24">and not a forecast for Fund VI.</tspan></text>
+    <text x="800" y="500" font-size="18" fill="#1E1E1E"><tspan font-weight="bold">Limits on comparison: </tspan>different fund ages<tspan x="800" dy="24">and unrealised values limit direct comparisons.</tspan><tspan x="800" dy="24">Early VI losses warrant scrutiny without</tspan><tspan x="800" dy="24">determining the return on remaining investments.</tspan></text>
+  </g>
+
+  <g id="chart-footer" data-pptx-bounds="64 622 1152 30">
+    <text x="64" y="640" font-size="14" font-style="italic" fill="#5C6670">TVPI = (distributed + fair value) ÷ contributed. Values from the case exhibit as of the decision date; fund vintages run from 1994 (Fund I) to 2008 (Fund VI).</text>
+  </g>
+
+  <g id="footer" data-pptx-bounds="64 668 1152 36">
+    <text x="64" y="688" font-size="14" fill="#5C6670">Source: Case Exhibit 7 and p. 5; Q6 OPERF decision!A53:H61.</text>
+    <text x="1216" y="697" font-size="14" fill="#5C6670" text-anchor="end">56</text>
+  </g>
+</svg>

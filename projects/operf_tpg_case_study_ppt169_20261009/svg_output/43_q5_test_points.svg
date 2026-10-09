@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" data-pptx-page-role="content" font-family="Calibri, Arial, sans-serif" font-size="22">
+  <rect id="page-background" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FBF8F2"/>
+
+  <g id="kicker" data-pptx-bounds="64 58 700 26">
+    <text x="64" y="72" font-size="16" font-weight="bold" letter-spacing="2" fill="#003657">HURDLE &amp; CARRY · LOCATE THE QUESTION'S TEST POINTS</text>
+    <line x1="64" y1="82" x2="120" y2="82" stroke="#BC9E60" stroke-width="2"/>
+  </g>
+
+  <g id="title" data-pptx-bounds="64 90 1152 48">
+    <text x="64" y="124" font-family="Cambria, Georgia, serif" font-size="40" font-weight="bold" fill="#003657">Model optima and Q5's 8% hurdle and 15% carry</text>
+  </g>
+
+  <g id="lead" data-pptx-bounds="64 186 1152 116">
+    <text x="64" y="206" fill="#003657">The model favors higher hurdles and lower carry. Q5's 8% and 15% are specified terms to evaluate,<tspan x="64" dy="30">not unique optima discovered by the model.</tspan></text>
+    <text x="64" y="270" font-size="18" fill="#5C6670">An LP-value optimum within a chosen range is not the same as a reasonable negotiated term,<tspan x="64" dy="24">which also needs market and contract evidence.</tspan></text>
+  </g>
+
+  <g id="q5-test-points-table" data-pptx-bounds="64 310 1152 200" data-pptx-replace-with="table">
+    <metadata type="application/json">
+      {
+        "schema": "ppt-master.semantic-table.v2",
+        "name": "q5-test-points-table",
+        "x": 64, "y": 310, "width": 1152, "height": 200,
+        "strict_grid": true,
+        "column_widths": [736, 416],
+        "row_heights": [44, 52, 52, 52],
+        "style": {
+          "font_family": "Calibri",
+          "font_size": 20,
+          "header_fill": "#003657",
+          "header_text": "#FBF8F2",
+          "body_text": "#1E1E1E",
+          "band_row": false,
+          "valign": "middle"
+        },
+        "defaults": {
+          "cell": {
+            "padding": {"left": 16, "right": 16, "top": 4, "bottom": 4},
+            "borders": {
+              "left": {"style": "none"}, "right": {"style": "none"},
+              "top": {"style": "solid", "color": "#D6CFC2", "width": 1},
+              "bottom": {"style": "solid", "color": "#D6CFC2", "width": 1}
+            }
+          }
+        },
+        "columns": [
+          {"text": "Q5 test point", "bold": true, "align": "l"},
+          {"text": "Additional OPERF inception NPV", "bold": true, "align": "r"}
+        ],
+        "rows": [
+          [{"text": "8% hurdle with full catch-up, 20% carry"}, {"text": "+$2.73m", "align": "r"}],
+          [{"text": "8% hurdle without catch-up, 20% carry", "bold": true, "color": "#003657", "fill": "#F1ECE2"}, {"text": "+$20.65m", "align": "r", "bold": true, "color": "#003657", "fill": "#F1ECE2"}],
+          [{"text": "Carry cut from 20% to 15%, no hurdle assumed"}, {"text": "+$17.67m", "align": "r"}]
+        ]
+      }
+    </metadata>
+    <rect x="64" y="310" width="1152" height="44" fill="#003657"/>
+    <rect x="64" y="406" width="1152" height="52" fill="#F1ECE2"/>
+    <g stroke="#D6CFC2" stroke-width="1">
+      <line x1="64" y1="406" x2="1216" y2="406"/>
+      <line x1="64" y1="458" x2="1216" y2="458"/>
+      <line x1="64" y1="510" x2="1216" y2="510"/>
+    </g>
+    <g font-size="20" font-weight="bold" fill="#FBF8F2">
+      <text x="80" y="339">Q5 test point</text>
+      <text x="1200" y="339" text-anchor="end">Additional OPERF inception NPV</text>
+    </g>
+    <g font-size="20" fill="#1E1E1E">
+      <text x="80" y="387">8% hurdle with full catch-up, 20% carry</text>
+      <text x="1200" y="387" text-anchor="end">+$2.73m</text>
+      <text x="80" y="439" font-weight="bold" fill="#003657">8% hurdle without catch-up, 20% carry</text>
+      <text x="1200" y="439" text-anchor="end" font-weight="bold" fill="#003657">+$20.65m</text>
+      <text x="80" y="491">Carry cut from 20% to 15%, no hurdle assumed</text>
+      <text x="1200" y="491" text-anchor="end">+$17.67m</text>
+    </g>
+  </g>
+
+  <g id="interpretation" data-pptx-bounds="64 526 1152 60">
+    <text x="64" y="546" font-size="18" fill="#003657">At these inputs, the 8% hurdle without catch-up gives the largest gain of the three. With full catch-up, the 8% hurdle<tspan x="64" dy="26">gives a smaller gain than the isolated carry cut — so the catch-up clause is essential to the evaluation.</tspan></text>
+  </g>
+
+  <g id="table-footer" data-pptx-bounds="64 592 1152 44">
+    <text x="64" y="606" font-size="14" font-style="italic" fill="#5C6670">Inception values. Common model baseline: 1.35% fee, 20% carry, no hurdle. Q5 terms are separate from the growth and discount assumptions.<tspan x="64" dy="17">Scaled to a $750m modeled commitment from unrounded outputs.</tspan></text>
+  </g>
+
+  <g id="footer" data-pptx-bounds="64 668 1152 36">
+    <text x="64" y="680" font-size="14" fill="#5C6670">Source: Q5 Analysis!C10:E10; Summary!C29:F29. Baseline OPERF NPV is $28.24m; the three alternatives give $30.96m, $48.88m and $45.90m — alternative<tspan x="64" dy="17">scenarios, not additive steps. The maximum LP-only gain in the tested ranges is +$70.67m (zero carry, or a hurdle high enough to eliminate carry).</tspan></text>
+    <text x="1216" y="697" font-size="14" fill="#5C6670" text-anchor="end">43</text>
+  </g>
+</svg>
