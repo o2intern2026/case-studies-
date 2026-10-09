@@ -1,0 +1,10 @@
+
+=== 2026-10-09T06:44:07.331Z NOTE id=23545f07d110 ===
+Project initialized: profile=default; canvas=ppt169; path=/home/user/case-studies-/projects/operf_tpg_case_study_ppt169_20261009
+
+=== 2026-10-09T06:44:07.475Z PYTHON run=ad28cdba530f ===
+cwd: /home/user/case-studies-
+argv: ["/usr/bin/python3", "/home/user/case-studies-/skills/ppt-master/scripts/project_manager.py", "import-sources", "/home/user/case-studies-/projects/operf_tpg_case_study_ppt169_20261009", "/tmp/claude-0/-home-user-case-studies-/6819b9c1-39da-5ce9-a116-3c17cc371ceb/scratchpad/operf_sources/OPERF_Part1-3_Li_Plan_Q1-Q2.md", "/tmp/claude-0/-home-user-case-studies-/6819b9c1-39da-5ce9-a116-3c17cc371ceb/scratchpad/operf_sources/OPERF_Part4_Alex_Plan_Q3-Q4.md", "/tmp/claude-0/-home-user-case-studies-/6819b9c1-39da-5ce9-a116-3c17cc371ceb/scratchpad/operf_sources/OPERF_Part5_Jimmy_Plan_Q5-Q6.md", "/tmp/claude-0/-home-user-case-studies-/6819b9c1-39da-5ce9-a116-3c17cc371ceb/scratchpad/operf_sources/OPERF_Slide_Naming_System.md", "/tmp/claude-0/-home-user-case-studies-/6819b9c1-39da-5ce9-a116-3c17cc371ceb/scratchpad/operf_sources/OPERF_Analysis_Jimmy.xlsx", "/tmp/claude-0/-home-user-case-studies-/6819b9c1-39da-5ce9-a116-3c17cc371ceb/scratchpad/operf_sources/OPERF_Analysis_Jimmy.md"]
+stdout:
+  [OK] Imported sources into: /home/user/case-studies-/projects/operf_tpg_case_study_ppt169_20261009
+=== 2026-10-09T06:44:07.967Z END run=ad28cdba530f elapsed_ms=491 output_lines=16 retained=1 omitted=15 ===

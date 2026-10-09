@@ -1,0 +1,40 @@
+{
+  "schema": "ppt-master.source_to_md.profile.v1",
+  "converter": "excel_to_md.py",
+  "conversion_type": "xlsx",
+  "source": {
+    "path": "OPERF_Analysis_Jimmy.xlsx",
+    "name": "OPERF_Analysis_Jimmy.xlsx",
+    "suffix": ".xlsx",
+    "kind": "file",
+    "exists": true,
+    "size_bytes": 563481
+  },
+  "outputs": {
+    "markdown": "OPERF_Analysis_Jimmy.md",
+    "asset_dir": "",
+    "image_manifest": "",
+    "image_count": 0
+  },
+  "markdown": {
+    "line_count": 1250,
+    "char_count": 446851,
+    "heading_count": 17,
+    "table_count": 15,
+    "image_ref_count": 0,
+    "link_count": 0
+  },
+  "warnings": [
+    "Summary: unsupported number formats: '#,##0\" bps\";\\\\(#,##0\" bps)\";\\\\-' (5 cells); '0.00\\\\x' (5 cells); raw values retained.",
+    "Q3 Base case: unsupported number formats: '0.00\\\\x' (1 cells); raw values retained.",
+    "Q3 Analysis: unsupported number formats: '0.00\\\\x' (1 cells); '0.0\\\\x' (6 cells); raw values retained.",
+    "Q4 Fee cut: unsupported number formats: '0.00\\\\x' (1 cells); raw values retained.",
+    "Q4 Analysis: unsupported number formats: '#,##0\" bps\";\\\\(#,##0\" bps)\";\\\\-' (10 cells); '0.00\\\\x' (2 cells); '\\\\+0.00\\\\x;\\\\-0.00\\\\x' (1 cells); raw values retained.",
+    "Q5a Hard hurdle: unsupported number formats: '0.00\\\\x' (1 cells); raw values retained.",
+    "Q5b Soft hurdle: unsupported number formats: '0.00\\\\x' (1 cells); raw values retained.",
+    "Q5c Lower carry: unsupported number formats: '0.00\\\\x' (1 cells); raw values retained.",
+    "Q5 Analysis: unsupported number formats: '#,##0\" bps\";\\\\(#,##0\" bps)\";\\\\-' (12 cells); raw values retained.",
+    "Q6 OPERF decision: unsupported number formats: '0.00\\\\x' (11 cells); raw values retained.",
+    "Engine: unsupported number formats: '0.00\\\\x' (167 cells); raw values retained."
+  ]
+}
