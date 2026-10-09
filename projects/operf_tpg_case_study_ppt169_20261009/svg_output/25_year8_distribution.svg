@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" data-pptx-page-role="content" font-family="Calibri, Arial, sans-serif" font-size="22">
+  <rect id="page-background" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FBF8F2"/>
+
+  <g id="kicker" data-pptx-bounds="64 58 500 26">
+    <text x="64" y="72" font-size="16" font-weight="bold" letter-spacing="2" fill="#003657">FUND ECONOMICS</text>
+    <line x1="64" y1="82" x2="120" y2="82" stroke="#BC9E60" stroke-width="2"/>
+  </g>
+
+  <g id="title" data-pptx-bounds="64 90 1152 48">
+    <text x="64" y="124" font-family="Cambria, Georgia, serif" font-size="40" font-weight="bold" fill="#003657">Capital is returned before profit is shared</text>
+  </g>
+
+  <g id="year8-distribution" data-pptx-bounds="64 180 1152 160" data-pptx-replace-with="chart">
+    <metadata type="application/json">
+      {
+        "name": "year8-distribution",
+        "x": 64, "y": 180, "width": 1152, "height": 160,
+        "type": "bar",
+        "grouping": "stacked",
+        "categories": ["Year 8 gross distribution: $5.639bn"],
+        "series": [
+          {"name": "Returned capital", "values": [1171.101471]},
+          {"name": "LP profit", "values": [3574.30671]},
+          {"name": "GP carry", "values": [893.576678]}
+        ],
+        "gap_width": 40,
+        "plot_area": {"x": 64, "y": 250, "width": 1112, "height": 90},
+        "axes": {
+          "category": {"position": "left", "visible": false},
+          "value": {"position": "bottom", "visible": false, "minimum": 0, "maximum": 5638.984859}
+        },
+        "style": {"colors": ["#8AA1AC", "#003657", "#0055FF"], "font_family": "Calibri", "text_color": "#003657"},
+        "notes": [
+          {"text": "Returned capital", "width": 200},
+          {"text": "$1.171bn", "width": 120},
+          {"text": "LP profit $3.574bn", "width": 240},
+          {"text": "GP carry", "width": 120},
+          {"text": "$0.894bn", "width": 120}
+        ]
+      }
+    </metadata>
+    <text x="64" y="206" font-size="18" font-weight="bold" fill="#003657">Year 8 gross distribution: $5.639bn</text>
+    <g id="year8-distribution-chartArea">
+      <!-- chart-plot-area: object=year8-distribution | 64,250,1176,340 -->
+      <rect x="64" y="260" width="230.95" height="72" fill="#8AA1AC"/>
+      <rect x="294.95" y="260" width="704.86" height="72" fill="#003657"/>
+      <rect x="999.81" y="260" width="176.19" height="72" fill="#0055FF"/>
+      <text x="179" y="290" font-size="18" font-weight="bold" fill="#003657" text-anchor="middle">Returned capital</text>
+      <text x="179" y="312" font-size="18" fill="#003657" text-anchor="middle">$1.171bn</text>
+      <text x="647" y="303" font-weight="bold" fill="#FBF8F2" text-anchor="middle">LP profit $3.574bn</text>
+      <text x="1088" y="290" font-size="18" font-weight="bold" fill="#FBF8F2" text-anchor="middle">GP carry</text>
+      <text x="1088" y="312" font-size="18" fill="#FBF8F2" text-anchor="middle">$0.894bn</text>
+    </g>
+  </g>
+
+  <g id="profit-pool" data-pptx-bounds="290 338 890 66">
+    <g transform="rotate(-90 735.5 350)">
+      <g id="p25-profit-pool-brace" data-pptx-authoring="preset" data-pptx-object="shape" data-pptx-prst="leftBrace" data-pptx-frame="725.5 -90.5 20 881" fill="none" stroke="#003657" stroke-width="1.5">
+<path d="M 745.5 790.5 A 10 1.67 0 0 1 735.5 788.83 L 735.5 351.67 A 10 1.67 0 0 0 725.5 350 A 10 1.67 0 0 0 735.5 348.33 L 735.5 -88.83 A 10 1.67 0 0 1 745.5 -90.5 Z" stroke="none"/>
+<path d="M 745.5 790.5 A 10 1.67 0 0 1 735.5 788.83 L 735.5 351.67 A 10 1.67 0 0 0 725.5 350 A 10 1.67 0 0 0 735.5 348.33 L 735.5 -88.83 A 10 1.67 0 0 1 745.5 -90.5"/>
+</g>
+    </g>
+    <text x="735.5" y="392" font-size="18" font-weight="bold" fill="#003657" text-anchor="middle">Profit pool $4.468bn · 80% LP / 20% GP</text>
+  </g>
+
+  <g id="receipts" data-pptx-bounds="64 420 1152 40">
+    <text x="64" y="448" font-weight="bold" fill="#003657">LP receipts $4.745bn</text>
+    <text x="296" y="448" font-size="18" fill="#5C6670">= returned capital + LP profit</text>
+    <text x="700" y="448" font-weight="bold" fill="#0055FF">GP receipts $0.894bn</text>
+  </g>
+
+  <g id="distribution-facts" data-pptx-bounds="64 490 1152 76">
+    <text x="64" y="516" font-size="18" fill="#1E1E1E">Return remaining capital first ($1,171.10m); split the remaining profit of $4,467.88m 80% to LPs and 20% to the GP.</text>
+    <text x="64" y="544" font-size="18" fill="#5C6670">Year 8 baseline example · no-hurdle model · labels rounded; $0.01m differences are rounding.</text>
+  </g>
+
+  <g id="footer" data-pptx-bounds="64 668 1152 36">
+    <text x="64" y="688" font-size="14" fill="#5C6670">Source: Q3 Base case!J23, J27:J28, J34:J36. The waterfall describes this model only; the 15% discount rate is not a distribution hurdle here.</text>
+    <text x="1216" y="697" font-size="14" fill="#5C6670" text-anchor="end">25</text>
+  </g>
+</svg>

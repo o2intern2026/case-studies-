@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" data-pptx-page-role="content" font-family="Calibri, Arial, sans-serif" font-size="22">
+  <rect id="page-background" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FBF8F2"/>
+
+  <g id="kicker" data-pptx-bounds="64 58 500 26">
+    <text x="64" y="72" font-size="16" font-weight="bold" letter-spacing="2" fill="#003657">FEE REDUCTION IMPACT</text>
+    <line x1="64" y1="82" x2="120" y2="82" stroke="#BC9E60" stroke-width="2"/>
+  </g>
+
+  <g id="title" data-pptx-bounds="64 90 1152 48">
+    <text x="64" y="124" font-family="Cambria, Georgia, serif" font-size="40" font-weight="bold" fill="#003657">The fee cut improves fund-level LP returns</text>
+  </g>
+
+  <g id="fee-cut-fund-table" data-pptx-bounds="64 180 1152 284" data-pptx-replace-with="table">
+    <metadata type="application/json">
+      {
+        "schema": "ppt-master.semantic-table.v2",
+        "name": "fee-cut-fund-table",
+        "x": 64, "y": 180, "width": 1152, "height": 284,
+        "strict_grid": true,
+        "column_widths": [461, 230, 230, 231],
+        "row_heights": [44, 60, 60, 60, 60],
+        "style": {
+          "font_family": "Calibri",
+          "font_size": 20,
+          "header_fill": "#003657",
+          "header_text": "#FBF8F2",
+          "body_text": "#1E1E1E",
+          "band_row": false,
+          "valign": "middle"
+        },
+        "defaults": {
+          "cell": {
+            "padding": {"left": 16, "right": 16, "top": 6, "bottom": 6},
+            "borders": {
+              "left": {"style": "none"}, "right": {"style": "none"},
+              "top": {"style": "solid", "color": "#D6CFC2", "width": 1},
+              "bottom": {"style": "solid", "color": "#D6CFC2", "width": 1}
+            }
+          }
+        },
+        "columns": [
+          {"text": "Metric", "bold": true, "align": "l"},
+          {"text": "Q3 baseline", "bold": true, "align": "r"},
+          {"text": "Q4 fee cut", "bold": true, "align": "r"},
+          {"text": "Change", "bold": true, "align": "r"}
+        ],
+        "rows": [
+          [
+            {"text": "Management fee rate", "color": "#003657"},
+            {"text": "1.50%", "align": "r"},
+            {"text": "1.35%", "align": "r"},
+            {"text": "−15 bps", "align": "r", "bold": true, "color": "#003657"}
+          ],
+          [
+            {"text": "Annual fund fee ($m)", "color": "#003657"},
+            {"text": "300.00", "align": "r"},
+            {"text": "270.00", "align": "r"},
+            {"text": "−30.00", "align": "r", "bold": true, "color": "#003657"}
+          ],
+          [
+            {"text": "LP IRR", "color": "#003657", "borders": {"top": {"style": "solid", "color": "#003657", "width": 2}}},
+            {"text": "15.72%", "align": "r", "borders": {"top": {"style": "solid", "color": "#003657", "width": 2}}},
+            {"text": "15.94%", "align": "r", "borders": {"top": {"style": "solid", "color": "#003657", "width": 2}}},
+            {"text": "+21.36 bps", "align": "r", "bold": true, "color": "#2E7D5B", "borders": {"top": {"style": "solid", "color": "#003657", "width": 2}}}
+          ],
+          [
+            {"text": "Fund LP NPV at 15% ($m)", "color": "#003657"},
+            {"text": "578.22", "align": "r"},
+            {"text": "752.98", "align": "r"},
+            {"text": "+174.76", "align": "r", "bold": true, "color": "#2E7D5B"}
+          ]
+        ]
+      }
+    </metadata>
+    <rect x="64" y="180" width="1152" height="44" fill="#003657"/>
+    <g stroke="#D6CFC2" stroke-width="1">
+      <line x1="64" y1="284" x2="1216" y2="284"/>
+      <line x1="64" y1="404" x2="1216" y2="404"/>
+      <line x1="64" y1="464" x2="1216" y2="464"/>
+    </g>
+    <line x1="64" y1="344" x2="1216" y2="344" stroke="#003657" stroke-width="2"/>
+    <g font-size="20" font-weight="bold" fill="#FBF8F2">
+      <text x="80" y="209">Metric</text>
+      <text x="739" y="209" text-anchor="end">Q3 baseline</text>
+      <text x="969" y="209" text-anchor="end">Q4 fee cut</text>
+      <text x="1200" y="209" text-anchor="end">Change</text>
+    </g>
+    <g font-size="20" fill="#003657">
+      <text x="80" y="261">Management fee rate</text>
+      <text x="80" y="321">Annual fund fee ($m)</text>
+      <text x="80" y="381">LP IRR</text>
+      <text x="80" y="441">Fund LP NPV at 15% ($m)</text>
+    </g>
+    <g font-size="20" fill="#1E1E1E" text-anchor="end">
+      <text x="739" y="261">1.50%</text>
+      <text x="969" y="261">1.35%</text>
+      <text x="739" y="321">300.00</text>
+      <text x="969" y="321">270.00</text>
+      <text x="739" y="381">15.72%</text>
+      <text x="969" y="381">15.94%</text>
+      <text x="739" y="441">578.22</text>
+      <text x="969" y="441">752.98</text>
+    </g>
+    <g font-size="20" font-weight="bold" text-anchor="end">
+      <text x="1200" y="261" fill="#003657">−15 bps</text>
+      <text x="1200" y="321" fill="#003657">−30.00</text>
+      <text x="1200" y="381" fill="#2E7D5B">+21.36 bps</text>
+      <text x="1200" y="441" fill="#2E7D5B">+174.76</text>
+    </g>
+  </g>
+
+  <g id="reading" data-pptx-bounds="64 486 1152 90">
+    <text x="64" y="512" font-size="18" fill="#5C6670">Hypothetical $20bn fund. NPV at model inception; 15% assumed discount rate. Inputs above the rule, outputs below it.</text>
+    <text x="64" y="550" fill="#003657">A 15 bp fee cut saves the fund $30m a year and lifts LP IRR by about 21 bps.</text>
+    <text x="64" y="574" font-size="18" fill="#5C6670">The −15 bps fee rate and the +21.36 bps IRR gain are different measures of one change.</text>
+  </g>
+
+  <g id="footer" data-pptx-bounds="64 668 1152 36">
+    <text x="64" y="688" font-size="14" fill="#5C6670">Source: Inputs!C6, C18:C19; Q4 Analysis!B6:D7. The IRR change uses full precision (21.3581 bps); OPERF's 3.75% model share scales amounts only, never the IRR.</text>
+    <text x="1216" y="697" font-size="14" fill="#5C6670" text-anchor="end">32</text>
+  </g>
+</svg>

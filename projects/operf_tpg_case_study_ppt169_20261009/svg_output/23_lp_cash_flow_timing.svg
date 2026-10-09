@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" data-pptx-page-role="content" font-family="Calibri, Arial, sans-serif" font-size="22">
+  <rect id="page-background" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FBF8F2"/>
+
+  <g id="kicker" data-pptx-bounds="64 58 500 26">
+    <text x="64" y="72" font-size="16" font-weight="bold" letter-spacing="2" fill="#003657">FUND ECONOMICS</text>
+    <line x1="64" y1="82" x2="120" y2="82" stroke="#BC9E60" stroke-width="2"/>
+  </g>
+
+  <g id="title" data-pptx-bounds="64 90 1152 96">
+    <text x="64" y="124" font-family="Cambria, Georgia, serif" font-size="40" font-weight="bold" fill="#003657">42% of modeled LP distributions<tspan x="64" dy="48">arrive in Year 10</tspan></text>
+  </g>
+
+  <g id="lp-net-cash-flow" data-pptx-bounds="64 200 800 440" data-pptx-replace-with="chart">
+    <metadata type="application/json">
+      {
+        "name": "lp-net-cash-flow",
+        "x": 64, "y": 200, "width": 800, "height": 440,
+        "type": "column",
+        "grouping": "clustered",
+        "title": "Net LP cash flow by cash-flow date, $bn",
+        "categories": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"],
+        "series": [{"name": "Net LP cash flow ($bn)", "values": [-4, -4, -4, -4, -4, 6.6081408, 6.271815168, 5.948942561, 4.745408181, 4.273140372, 20.223073784],
+          "point_colors": ["#8AA1AC", "#8AA1AC", "#8AA1AC", "#8AA1AC", "#8AA1AC", "#4B7086", "#4B7086", "#4B7086", "#4B7086", "#4B7086", "#003657"]}],
+        "gap_width": 64,
+        "plot_area": {"x": 120, "y": 236, "width": 720, "height": 300},
+        "axes": {
+          "category": {"position": "bottom", "label_position": "low"},
+          "value": {"position": "left", "minimum": -5, "maximum": 25, "major_unit": 5, "major_gridlines": true, "number_format": "0"}
+        },
+        "axis_titles": {"category": "Cash-flow date t (t = 0 is the start of Year 1)"},
+        "style": {"font_family": "Calibri", "text_color": "#5C6670", "axis_color": "#5C6670", "grid_color": "#E6E0D4"},
+        "notes": [
+          {"text": "Five calls of $4bn", "width": 200},
+          {"text": "First distribution $6.61bn", "width": 220},
+          {"text": "$20.22bn", "width": 120},
+          {"text": "42% of nominal LP distributions", "width": 240}
+        ]
+      }
+    </metadata>
+    <text x="64" y="222" font-size="18" font-weight="bold" fill="#003657">Net LP cash flow by cash-flow date, $bn</text>
+    <g id="lp-net-cash-flow-chartArea">
+      <g id="lp-net-cash-flow-grid" stroke="#E6E0D4" stroke-width="1">
+        <line x1="120" y1="236" x2="840" y2="236"/>
+        <line x1="120" y1="286" x2="840" y2="286"/>
+        <line x1="120" y1="336" x2="840" y2="336"/>
+        <line x1="120" y1="386" x2="840" y2="386"/>
+        <line x1="120" y1="436" x2="840" y2="436"/>
+        <line x1="120" y1="536" x2="840" y2="536"/>
+      </g>
+      <g id="lp-net-cash-flow-axis" stroke="#5C6670" stroke-width="1.5">
+        <line x1="120" y1="236" x2="120" y2="536"/>
+        <line x1="120" y1="486" x2="840" y2="486"/>
+      </g>
+      <!-- chart-plot-area: object=lp-net-cash-flow | 120,236,840,536 -->
+      <g fill="#8AA1AC">
+        <rect x="132.7" y="486" width="40" height="40"/>
+        <rect x="198.2" y="486" width="40" height="40"/>
+        <rect x="263.6" y="486" width="40" height="40"/>
+        <rect x="329.1" y="486" width="40" height="40"/>
+        <rect x="394.5" y="486" width="40" height="40"/>
+      </g>
+      <g fill="#4B7086">
+        <rect x="460" y="419.92" width="40" height="66.08"/>
+        <rect x="525.5" y="423.28" width="40" height="62.72"/>
+        <rect x="590.9" y="426.51" width="40" height="59.49"/>
+        <rect x="656.4" y="438.55" width="40" height="47.45"/>
+        <rect x="721.8" y="443.27" width="40" height="42.73"/>
+      </g>
+      <rect x="787.3" y="283.77" width="40" height="202.23" fill="#003657"/>
+      <g font-size="14" fill="#5C6670" text-anchor="end">
+        <text x="110" y="241">25</text>
+        <text x="110" y="291">20</text>
+        <text x="110" y="341">15</text>
+        <text x="110" y="391">10</text>
+        <text x="110" y="441">5</text>
+        <text x="110" y="491">0</text>
+        <text x="110" y="541">-5</text>
+      </g>
+      <g font-size="14" fill="#5C6670" text-anchor="middle">
+        <text x="152.7" y="556">0</text>
+        <text x="218.2" y="556">1</text>
+        <text x="283.6" y="556">2</text>
+        <text x="349.1" y="556">3</text>
+        <text x="414.5" y="556">4</text>
+        <text x="480" y="556">5</text>
+        <text x="545.5" y="556">6</text>
+        <text x="610.9" y="556">7</text>
+        <text x="676.4" y="556">8</text>
+        <text x="741.8" y="556">9</text>
+        <text x="807.3" y="556">10</text>
+      </g>
+      <g transform="rotate(-90 314 574)">
+        <g id="p23-calls-bracket" data-pptx-authoring="preset" data-pptx-object="shape" data-pptx-prst="leftBracket" data-pptx-frame="308 392 12 364" fill="none" stroke="#5C6670" stroke-width="1.5">
+<path d="M 320 756 A 12 1 0 0 1 308 755 L 308 393 A 12 1 0 0 1 320 392 Z" stroke="none"/>
+<path d="M 320 756 A 12 1 0 0 1 308 755 L 308 393 A 12 1 0 0 1 320 392"/>
+</g>
+      </g>
+      <text x="314" y="600" font-size="14" font-style="italic" fill="#5C6670" text-anchor="middle">Five calls of $4bn</text>
+      <text x="480" y="408" font-size="14" font-style="italic" fill="#5C6670" text-anchor="middle">First distribution $6.61bn</text>
+      <text x="850" y="250" font-size="14" fill="#5C6670" text-anchor="end">42% of nominal LP distributions</text>
+      <text x="850" y="272" font-size="18" font-weight="bold" fill="#003657" text-anchor="end">$20.22bn</text>
+      <text x="480" y="630" font-size="14" fill="#5C6670" text-anchor="middle">Cash-flow date t (t = 0 is the start of Year 1)</text>
+    </g>
+  </g>
+
+  <g id="timing-facts" data-pptx-bounds="900 200 316 300">
+    <line x1="900" y1="212" x2="940" y2="212" stroke="#BC9E60" stroke-width="2"/>
+    <text x="900" y="244" fill="#003657">Calls occur at t = 0–4;<tspan x="900" dy="30">distributions begin at t = 5.</tspan></text>
+    <line x1="900" y1="302" x2="940" y2="302" stroke="#BC9E60" stroke-width="2"/>
+    <text x="900" y="334" fill="#003657">Year 10 LP distribution:<tspan x="900" dy="30" font-weight="bold">$20.22bn</tspan></text>
+    <line x1="900" y1="392" x2="940" y2="392" stroke="#BC9E60" stroke-width="2"/>
+    <text x="900" y="424" fill="#003657">Year 10 share of total nominal<tspan x="900" dy="30">LP distributions: <tspan font-weight="bold">42.07%</tspan></tspan></text>
+  </g>
+
+  <g id="footer" data-pptx-bounds="64 668 1152 36">
+    <text x="64" y="680" font-size="14" fill="#5C6670">Source: Q3 Base case!B41:L43, L35, C53; 20,223.07 ÷ 48,070.52 = 42.07%. LP distributions are after carry; fees are already reflected through smaller<tspan x="64" dy="17">invested assets, so nothing is deducted twice. 42.07% is a share of nominal, not present-value, distributions.</tspan></text>
+    <text x="1216" y="697" font-size="14" fill="#5C6670" text-anchor="end">23</text>
+  </g>
+</svg>

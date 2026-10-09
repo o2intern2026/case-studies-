@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" data-pptx-page-role="content" font-family="Calibri, Arial, sans-serif" font-size="22">
+  <rect id="page-background" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FBF8F2"/>
+
+  <g id="kicker" data-pptx-bounds="64 58 500 26">
+    <text x="64" y="72" font-size="16" font-weight="bold" letter-spacing="2" fill="#003657">OPERF'S POSITION</text>
+    <line x1="64" y1="82" x2="120" y2="82" stroke="#BC9E60" stroke-width="2"/>
+  </g>
+
+  <g id="title" data-pptx-bounds="64 90 1152 96">
+    <text x="64" y="124" font-family="Cambria, Georgia, serif" font-size="40" font-weight="bold" fill="#003657">OPERF's TPG VI investment has reported TVPI<tspan x="64" dy="48">of about 0.60×</tspan></text>
+  </g>
+
+  <g id="tvpi-bars" data-pptx-bounds="64 200 776 320" data-pptx-replace-with="chart">
+    <metadata type="application/json">
+      {
+        "name": "tvpi-bars",
+        "x": 64, "y": 200, "width": 776, "height": 320,
+        "type": "bar",
+        "grouping": "stacked",
+        "title": "Exhibit 7 snapshot, $m",
+        "categories": ["Contributed capital", "Total value"],
+        "series": [
+          {"name": "Contributed capital", "values": [79.9, null]},
+          {"name": "Distributions", "values": [null, 0.6]},
+          {"name": "Remaining FMV", "values": [null, 47.5]}
+        ],
+        "gap_width": 75,
+        "plot_area": {"x": 290, "y": 262, "width": 540, "height": 168},
+        "axes": {
+          "category": {"position": "left"},
+          "value": {"position": "bottom", "minimum": 0, "maximum": 90, "major_unit": 30, "number_format": "0"}
+        },
+        "style": {"colors": ["#003657", "#003657", "#8AA1AC"], "font_family": "Calibri", "text_color": "#003657", "axis_color": "#5C6670"},
+        "notes": [
+          {"text": "79.9", "width": 80},
+          {"text": "48.1", "width": 80},
+          {"text": "Distributions 0.6", "width": 160},
+          {"text": "Remaining FMV 47.5", "width": 200}
+        ]
+      }
+    </metadata>
+    <text x="64" y="222" font-size="18" font-weight="bold" fill="#003657">Exhibit 7 snapshot, $m</text>
+    <g id="tvpi-bars-chartArea">
+      <g id="tvpi-bars-axis" stroke="#5C6670" stroke-width="1.5">
+        <line x1="290" y1="262" x2="290" y2="430"/>
+        <line x1="290" y1="430" x2="830" y2="430"/>
+      </g>
+      <!-- chart-plot-area: object=tvpi-bars | 290,262,830,430 -->
+      <rect x="290" y="262" width="479.4" height="48" fill="#003657"/>
+      <rect x="290" y="346" width="3.6" height="48" fill="#003657"/>
+      <rect x="293.6" y="346" width="285" height="48" fill="#8AA1AC"/>
+      <g font-size="18" fill="#003657" text-anchor="end">
+        <text x="278" y="292">Contributed capital</text>
+        <text x="278" y="376">Total value</text>
+      </g>
+      <g font-size="18" font-weight="bold" fill="#003657">
+        <text x="777" y="292">79.9</text>
+        <text x="586" y="376">48.1</text>
+      </g>
+      <line x1="292" y1="344" x2="318" y2="320" stroke="#003657" stroke-width="1"/>
+      <text x="324" y="316" font-size="14" font-style="italic" fill="#5C6670">Distributions 0.6</text>
+      <text x="436" y="376" font-size="18" fill="#003657" text-anchor="middle">Remaining FMV 47.5</text>
+      <g font-size="14" fill="#5C6670" text-anchor="middle">
+        <text x="290" y="452">0</text>
+        <text x="470" y="452">30</text>
+        <text x="650" y="452">60</text>
+        <text x="830" y="452">90</text>
+      </g>
+    </g>
+  </g>
+
+  <g id="hero-tvpi" data-pptx-bounds="850 200 366 320">
+    <line x1="856" y1="200" x2="856" y2="520" stroke="#D6CFC2" stroke-width="1"/>
+    <text x="888" y="330" font-family="Cambria, Georgia, serif" font-size="72" font-weight="bold" fill="#003657">0.60×</text>
+    <text x="888" y="372" fill="#003657">Reported TVPI</text>
+    <text x="888" y="404" font-size="18" fill="#5C6670">(0.6 + 47.5) ÷ 79.9</text>
+    <text x="888" y="456" fill="#003657">Reported IRR: NM</text>
+    <text x="888" y="484" font-size="18" fill="#5C6670">(not meaningful)</text>
+  </g>
+
+  <g id="snapshot-note" data-pptx-bounds="64 556 1152 36">
+    <text x="64" y="580" font-size="18" fill="#5C6670">Exhibit 7 snapshot — not comparable with the ten-year model IRR on the following slides, and not annualised.</text>
+  </g>
+
+  <g id="footer" data-pptx-bounds="64 668 1152 36">
+    <text x="64" y="688" font-size="14" fill="#5C6670">Source: Case p. 13, Exhibit 7; Inputs!C28:C30; (0.6 + 47.5) ÷ 79.9 = 0.602. Not described as a "realised 40% loss".</text>
+    <text x="1216" y="697" font-size="14" fill="#5C6670" text-anchor="end">21</text>
+  </g>
+</svg>

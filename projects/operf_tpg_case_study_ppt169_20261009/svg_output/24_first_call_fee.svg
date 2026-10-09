@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" data-pptx-page-role="content" font-family="Calibri, Arial, sans-serif" font-size="22">
+  <rect id="page-background" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FBF8F2"/>
+
+  <g id="kicker" data-pptx-bounds="64 58 500 26">
+    <text x="64" y="72" font-size="16" font-weight="bold" letter-spacing="2" fill="#003657">FUND ECONOMICS</text>
+    <line x1="64" y1="82" x2="120" y2="82" stroke="#BC9E60" stroke-width="2"/>
+  </g>
+
+  <g id="title" data-pptx-bounds="64 90 1152 96">
+    <text x="64" y="124" font-family="Cambria, Georgia, serif" font-size="40" font-weight="bold" fill="#003657">Management fees reduce the capital<tspan x="64" dy="48">available to invest</tspan></text>
+  </g>
+
+  <g id="first-call-use" data-pptx-bounds="64 236 1152 200" data-pptx-replace-with="chart">
+    <metadata type="application/json">
+      {
+        "name": "first-call-use",
+        "x": 64, "y": 236, "width": 1152, "height": 200,
+        "type": "bar",
+        "grouping": "stacked",
+        "categories": ["First capital call: $4,000m"],
+        "series": [
+          {"name": "Capital invested", "values": [3700]},
+          {"name": "Management fee", "values": [300]}
+        ],
+        "gap_width": 40,
+        "plot_area": {"x": 64, "y": 290, "width": 1112, "height": 92},
+        "axes": {
+          "category": {"position": "left", "visible": false},
+          "value": {"position": "bottom", "visible": false, "minimum": 0, "maximum": 4000}
+        },
+        "style": {"colors": ["#003657", "#BC9E60"], "font_family": "Calibri", "text_color": "#003657"},
+        "notes": [
+          {"text": "Capital invested $3,700m", "width": 300},
+          {"text": "Management fee $300m", "width": 260}
+        ]
+      }
+    </metadata>
+    <text x="64" y="262" font-size="18" font-weight="bold" fill="#003657">First capital call: $4,000m</text>
+    <g id="first-call-use-chartArea">
+      <!-- chart-plot-area: object=first-call-use | 64,290,1176,382 -->
+      <rect x="64" y="300" width="1028.6" height="72" fill="#003657"/>
+      <rect x="1092.6" y="300" width="83.4" height="72" fill="#BC9E60"/>
+      <text x="578" y="343" font-weight="bold" fill="#FBF8F2" text-anchor="middle">Capital invested $3,700m</text>
+      <text x="1176" y="400" font-size="18" font-weight="bold" fill="#BC9E60" text-anchor="end">Management fee $300m</text>
+    </g>
+  </g>
+
+  <g id="call-facts" data-pptx-bounds="64 500 1152 100">
+    <text x="64" y="526" fill="#1E1E1E">Annual fee: <tspan font-weight="bold" fill="#003657">$20bn × 1.50% = $300m</tspan></text>
+    <text x="64" y="556" fill="#1E1E1E">First call: <tspan font-weight="bold" fill="#003657">$4,000m − $300m = $3,700m invested</tspan></text>
+    <text x="64" y="586" fill="#1E1E1E">The fee base includes uncalled commitments.</text>
+  </g>
+
+  <g id="takeaway" data-pptx-bounds="64 606 1152 40">
+    <text x="64" y="634" font-size="26" fill="#003657">Less capital remains invested.</text>
+  </g>
+
+  <g id="footer" data-pptx-bounds="64 668 1152 36">
+    <text x="64" y="688" font-size="14" fill="#5C6670">Source: Inputs!C6, C18; Q3 Base case!C15:C17, C20:C21. 7.5% is the share of the first call used for the fee, not the fee rate; the contractual model rate is 1.50%.</text>
+    <text x="1216" y="697" font-size="14" fill="#5C6670" text-anchor="end">24</text>
+  </g>
+</svg>

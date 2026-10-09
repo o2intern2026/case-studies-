@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" data-pptx-page-role="content" font-family="Calibri, Arial, sans-serif" font-size="22">
+  <rect id="page-background" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FBF8F2"/>
+
+  <g id="kicker" data-pptx-bounds="64 58 500 26">
+    <text x="64" y="72" font-size="16" font-weight="bold" letter-spacing="2" fill="#003657">RETURN ATTRIBUTION</text>
+    <line x1="64" y1="82" x2="120" y2="82" stroke="#BC9E60" stroke-width="2"/>
+  </g>
+
+  <g id="title" data-pptx-bounds="64 90 1152 48">
+    <text x="64" y="124" font-family="Cambria, Georgia, serif" font-size="40" font-weight="bold" fill="#003657">LP and GP cash flows carry different risks</text>
+  </g>
+
+  <g id="lp-gp-risk-table" data-pptx-bounds="64 180 1152 272" data-pptx-replace-with="table">
+    <metadata type="application/json">
+      {
+        "schema": "ppt-master.semantic-table.v2",
+        "name": "lp-gp-risk-table",
+        "x": 64, "y": 180, "width": 1152, "height": 272,
+        "strict_grid": true,
+        "column_widths": [276, 438, 438],
+        "row_heights": [44, 76, 76, 76],
+        "style": {
+          "font_family": "Calibri",
+          "font_size": 20,
+          "header_fill": "#003657",
+          "header_text": "#FBF8F2",
+          "body_text": "#1E1E1E",
+          "band_row": false,
+          "valign": "middle"
+        },
+        "defaults": {
+          "cell": {
+            "padding": {"left": 16, "right": 16, "top": 6, "bottom": 6},
+            "borders": {
+              "left": {"style": "none"}, "right": {"style": "none"},
+              "top": {"style": "solid", "color": "#D6CFC2", "width": 1},
+              "bottom": {"style": "solid", "color": "#D6CFC2", "width": 1}
+            }
+          }
+        },
+        "columns": [
+          {"text": "", "align": "l"},
+          {"text": "LP", "bold": true, "align": "l"},
+          {"text": "GP", "bold": true, "align": "l", "fill": "#0055FF"}
+        ],
+        "rows": [
+          [
+            {"text": "Modeled receipts", "bold": true, "color": "#003657"},
+            {"text": "Investment distributions"},
+            {"text": "Management fees and carry"}
+          ],
+          [
+            {"text": "Performance exposure", "bold": true, "color": "#003657", "fill": "#F1ECE2"},
+            {"text": "IRR and NPV change with growth and timing", "fill": "#F1ECE2"},
+            {"text": "Carry changes with fund performance", "fill": "#F1ECE2"}
+          ],
+          [
+            {"text": "Additional context", "bold": true, "color": "#003657"},
+            {"text": "Capital committed before returns are realised"},
+            {"text": "About $500m own-capital commitment; operating costs"}
+          ]
+        ]
+      }
+    </metadata>
+    <rect x="64" y="180" width="1152" height="44" fill="#003657"/>
+    <rect x="778" y="180" width="438" height="44" fill="#0055FF"/>
+    <rect x="64" y="300" width="1152" height="76" fill="#F1ECE2"/>
+    <g stroke="#D6CFC2" stroke-width="1">
+      <line x1="64" y1="300" x2="1216" y2="300"/>
+      <line x1="64" y1="376" x2="1216" y2="376"/>
+      <line x1="64" y1="452" x2="1216" y2="452"/>
+    </g>
+    <g font-size="20" font-weight="bold" fill="#FBF8F2">
+      <text x="356" y="209">LP</text>
+      <text x="794" y="209">GP</text>
+    </g>
+    <g font-size="20" font-weight="bold" fill="#003657">
+      <text x="80" y="269">Modeled receipts</text>
+      <text x="80" y="345">Performance exposure</text>
+      <text x="80" y="421">Additional context</text>
+    </g>
+    <g font-size="20" fill="#1E1E1E">
+      <text x="356" y="269">Investment distributions</text>
+      <text x="794" y="269">Management fees and carry</text>
+      <text x="356" y="332">IRR and NPV change with <tspan x="356" dy="26">growth and timing</tspan></text>
+      <text x="794" y="345">Carry changes with fund performance</text>
+      <text x="356" y="408">Capital committed before <tspan x="356" dy="26">returns are realised</tspan></text>
+      <text x="794" y="408">About $500m own-capital <tspan x="794" dy="26">commitment; operating costs</tspan></text>
+    </g>
+  </g>
+
+  <g id="conclusion" data-pptx-bounds="64 476 1152 80">
+    <text x="64" y="504" font-size="26" fill="#003657">Fixed fees support part of GP income; they do not eliminate GP risk.</text>
+    <text x="64" y="540" font-size="18" fill="#5C6670">Q3 in one line: the LP's return depends on growth and timing; the GP has a fixed fee plus performance-linked carry, its own capital at risk and costs to cover.</text>
+  </g>
+
+  <g id="footer" data-pptx-bounds="64 668 1152 36">
+    <text x="64" y="688" font-size="14" fill="#5C6670">Source: Q3 Analysis!A34:G40; Q3 Base case!B41:L46; Case pp. 4–5. TPG's co-investment return is not modelled separately; no risk probabilities are estimated.</text>
+    <text x="1216" y="697" font-size="14" fill="#5C6670" text-anchor="end">31</text>
+  </g>
+</svg>
