@@ -8,3 +8,6 @@ argv: ["/usr/bin/python3", "/home/user/case-studies-/skills/ppt-master/scripts/p
 stdout:
   [OK] Imported sources into: /home/user/case-studies-/projects/operf_tpg_case_study_ppt169_20261009
 === 2026-10-09T06:44:07.967Z END run=ad28cdba530f elapsed_ms=491 output_lines=16 retained=1 omitted=15 ===
+
+=== 2026-10-09T06:51:48.623Z NOTE id=4ce14d6d24f2 ===
+Stage 1 confirmed in chat (cloud session; Confirm UI page not reachable): communication contract as recommended, en-US, ppt169, free_design, title page + table of contents added by user.
